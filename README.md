@@ -1,8 +1,19 @@
 # Title of Design
 
+todo: pick a title for the project
+
+VizTeam 31
+
+-|:-:|:-:|-:
+Furong Guo | Yaping Ren | Giguru Scheuer | Yizhen Zhao 
+
 # Type of project
 
+ todo: Main focus of this project, information visualization or information analytics
+ 
 # Description
+
+ todo: Add short description to the project.
 
 # Meeting minutes
 
@@ -31,6 +42,14 @@
     - Recommended area light up according to user preference. (e.g. park and public transportation)
     
     - Need cool design features
+    
+- Project idea 3
+
+  **Art analysis assistant - theme linked to objects changing over time**
+  
+  - Annotations might be useful: genre, style, century. Concepts and objects
+  
+  [reference: how to analyze an artwork](https://www.studentartguide.com/articles/how-to-analyze-an-artwork)
   
  ### Issue 
  
