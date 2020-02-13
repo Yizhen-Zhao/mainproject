@@ -4,8 +4,7 @@ todo: pick a title for the project
 
 VizTeam 31
 
--|:-:|:-:|-:
-Furong Guo | Yaping Ren | Giguru Scheuer | Yizhen Zhao 
+Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao 
 
 # Type of project
 
