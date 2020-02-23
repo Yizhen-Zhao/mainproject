@@ -58,3 +58,25 @@ Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao
  
   - By 18th Feb., build sketch of each project ideas.
   - Determine key features needs to be visualized. 
+  
+  
+# Meeting minutes
+
+## 20th Feb 
+
+##### project theme:
+	portrait filter
+ feature example: facial expression / gender / position
+	
+##### Task for this week
+	extract feature from portraits (around 15k items) by 23rd Feb.
+	create prototype of the filters by 25th Feb.
+	basic visualization design of the site by 25th Feb.
+
+##### Reference:
+	Omnieyes
+	Omniart eyes 
+
+##### Tool:	
+	Pytorch
+	Opencv
