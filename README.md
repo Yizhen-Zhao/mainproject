@@ -18,46 +18,46 @@ Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao
 
 ## 13th Feb 
 
-### Key points discussed - Brief discussion on project ideas
+##### Key points discussed - Brief discussion on project ideas
 
-- Project idea 1
+	- Project idea 1
 
-  **Art work recommendation system**
+ 	 **Art work recommendation system**
   
-    - Based on personal preference
+   	 - Based on personal preference
     
-    - Recommendation based on art work metadata and annotated data
+  	  - Recommendation based on art work metadata and annotated data
     
-    - Interactive system
+   	 - Interactive system
     
-    - Collaborative filtering 
+  	  - Collaborative filtering 
     
-- Project idea 2
+	- Project idea 2
 
-  **Amsterdam living area recommendation for family with children**
-  
-    - Query response app
-    
-    - Recommended area light up according to user preference. (e.g. park and public transportation)
-    
-    - Need cool design features
-    
-- Project idea 3
+	  **Amsterdam living area recommendation for family with children**
 
-  **Art analysis assistant - theme linked to objects changing over time**
+	    - Query response app
+    
+  	  - Recommended area light up according to user preference. (e.g. park and public transportation)
+    
+   	 - Need cool design features
+    
+	- Project idea 3
+
+	  **Art analysis assistant - theme linked to objects changing over time**
   
-  - Annotations might be useful: genre, style, century. Concepts and objects
+	  - Annotations might be useful: genre, style, century. Concepts and objects
   
-  [reference: how to analyze an artwork](https://www.studentartguide.com/articles/how-to-analyze-an-artwork)
+  	[reference: how to analyze an artwork](https://www.studentartguide.com/articles/how-to-analyze-an-artwork)
   
- ### Issue 
+ ##### Issue 
  
-  - Identify differences of information visualization and Information analytics 
+ 	 - Identify differences of information visualization and Information analytics 
  
- ### Working plan
+ ##### Working plan
  
-  - By 18th Feb., build sketch of each project ideas.
-  - Determine key features needs to be visualized. 
+  	- By 18th Feb., build sketch of each project ideas.
+ 	 - Determine key features needs to be visualized. 
   
   
 # Meeting minutes
@@ -66,7 +66,7 @@ Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao
 
 ##### project theme:
 	portrait filter
- feature example: facial expression / gender / position
+ 	feature example: facial expression / gender / position
 	
 ##### Task for this week
 	extract feature from portraits (around 15k items) by 23rd Feb.
