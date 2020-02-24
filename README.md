@@ -88,19 +88,18 @@ Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao
 	reference link: http://saifmohammad.com/WebPages/wikiartemotions.html
 	
 	selected variables
-		Location of artist
-			country
+		General feature of painting
 			category
 			Year
-		Painting feature
+			artist nationality (to be extracted from external links)
+			
+		Portrait feature
 			Face or Body
 			Sentiment
 				positive
 				negative
 				mixed
-	
-	Features to be extracted from painting
-		Mouth
-			open / closed / can't decide
-		Pose
-			turn left / turn right
+			Mouth (to be extracted from painting)
+				open / closed / can't decide
+			Pose  (to be extracted from painting)
+				turn left / turn right
