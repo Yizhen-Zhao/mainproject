@@ -80,3 +80,27 @@ Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao
 ##### Tool:	
 	Pytorch
 	Opencv
+
+## 23rd Feb
+
+##### dataset change
+	use wikiart emotion dataset
+	reference link: http://saifmohammad.com/WebPages/wikiartemotions.html
+	
+	selected variables
+		Location of artist
+			country
+			category
+			Year
+		Painting feature
+			Face or Body
+			Sentiment
+				positive
+				negative
+				mixed
+	
+	Features to be extracted from painting
+		Mouth
+			open / closed / can't decide
+		Pose
+			turn left / turn right
