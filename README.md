@@ -81,7 +81,7 @@ Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao
 	Pytorch
 	Opencv
 
-## 23rd Feb
+## Group discussion 23rd Feb
 
 ##### dataset change
 	use wikiart emotion dataset
