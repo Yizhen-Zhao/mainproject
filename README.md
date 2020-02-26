@@ -112,3 +112,7 @@ Furong Guo || Yaping Ren || Yizhen Zhao
 
 	1. Extract features on faces of artworks.
 	2. Make a functionality visualization prototype of our project before 4,Mar.
+	
+#### Reference 
+	Facial landmark detection:
+	https://github.com/timesler/facenet-pytorch
