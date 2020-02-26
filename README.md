@@ -4,7 +4,7 @@ todo: pick a title for the project
 
 VizTeam 31
 
-Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao 
+Furong Guo || Yaping Ren || Yizhen Zhao 
 
 # Type of project
 
@@ -103,3 +103,12 @@ Furong Guo || Yaping Ren || Giguru Scheuer || Yizhen Zhao
 				open / closed / can't decide
 			Pose  (to be extracted from painting)
 				turn left / turn right
+
+# Meeting minutes
+
+## 26th Feb 
+
+##### Task for this week
+
+	1. Extract features on faces of artworks.
+	2. Make a functionality visualization prototype of our project before 4,Mar.
