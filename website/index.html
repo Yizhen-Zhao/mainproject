@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="asset/css/main.css">
+        <title>PortraitExplorator</title>
+    </head>
+    <body>
+        <!-- header -->
+        <div id="header" class="">
+            <div class="container" style = "padding-top: 15px;">
+                <h2>PortraitExplorator</h2>
+                <!--<button type="button" class="btn btn-outline-light btn-sm" style="float:right;" onClick="reset(this.id)">Reset</button>-->
+                
+            </div>
+        </div>
+            
+        <div class="container whole"> 
+            
+            <div class="container filters">
+                <div class = 'row'>
+                    <!-- general box -->
+                    <div class = "col general">
+                        <h3>General</h3>
+                        <div class = "container">
+                            <!--Area module-->
+                            <div class = 'row area'>
+                                <h4 class="left dimension">Areas</h4>
+                                <div class = "container Europe">
+                                    <div class = 'areaCircle', id = "Europe" onClick="reply_click_area(this.id)"></div>
+                                </div>
+                                
+                                <div class="container North">
+                                    <div class = 'areaCircle', id = "North" onClick="reply_click_area(this.id)"></div>
+                                </div>
+                                <div class = "container South">
+                                    <div class = 'areaCircle', id = "South" onClick="reply_click_area(this.id)"></div>
+                                </div>
+                                
+                            </div>
+    
+                            <div class = 'row gender'>
+                                <h4 class="left dimension">Gender</h4>
+                                <div class = "container Female">
+                                    <div class = 'genderCircle' id = "Female" onClick="reply_click_gender(this.id)">
+                                        <span class="text Female">Female</span>
+                                    </div>
+                                </div>
+                                <div class = "container Male">
+                                    <div class = 'genderCircle' id = "Male" onClick="reply_click_gender(this.id)">
+                                        <span class="text Male">Male</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class = 'row age'>
+                                <h4 class="left dimension">Age</h4>
+                                <svg id = 'ageSvg' width="180" height="120">
+                                    <path id = "agePath">
+                                    </path> 
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col pose">
+                        <h3 class="left dimension" style = "height: 33px">Pose</h3>
+                        <div class = "container">
+                            <!--yaw module-->
+                            <div class = 'row yaw'>
+                                <h4 class="left dimension">Yaw</h4>
+                                <svg id = 'yawSvg' width="180" height="140">
+                                    <path id = "yawPath"></path>
+                                </svg>
+                            </div>
+                            <div class = 'row pitch'>
+                                <h4 class="left dimension">Pitch</h4>
+                                <svg id = 'pitchSvg' width="180" height="140">
+                                    <path id = "pitchPath">
+                                    </path> 
+                                </svg>
+                            </div>
+                            <div class = 'row roll'>
+                                <h4 class="left dimension">Roll</h4>
+                                <svg id = 'rollSvg' width="180" height="140">
+                                    <path id = "rollPath"></path>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class = 'col features'>
+                        <h3 class="left dimension" style = "height: 33px">Features</h3>
+                        <div class = "container">
+                            <!--eye module-->
+                            <div class = 'row eyes'>
+                                <h4 class="left dimension">Eyes</h4>
+                                <div class = "container open">
+                                    <div class = 'eyesCircle' id = "open" onClick="reply_click_eyes(this.id)">
+                                        <span class="text open">Open</span>
+                                    </div>
+                                </div>
+                                <div class = "container closed">
+                                    <div class = 'eyesCircle' id = "closed" onClick="reply_click_eyes(this.id)">
+                                        <span class="text closed">Closed</span>
+                                    </div>
+                                </div>
+            
+                            </div>
+                            <div class = 'row mouth'>
+                                <h4 class="left dimension">Mouth</h4>
+                                <div class = "container openm">
+                                    <div class = 'mouthCircle' id = "openm" onClick="reply_click_mouth(this.id)">
+                                        <span class="text openm">Open</span>
+                                    </div>
+                                </div>
+                                <div class = "container closedm">
+                                    <div class = 'mouthCircle' id = "closedm" onClick="reply_click_mouth(this.id)">
+                                        <span class="text closedm">Closed</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = 'row smile'>
+                                <h4 class="left dimension">Smile</h4>
+                                <div class = "container yes">
+                                    <div class = 'smileCircle' id = "yes" onClick="reply_click_smile(this.id)">
+                                        <span class="text yes">Yes</span>
+                                    </div>
+                                </div>
+                                <div class = "container no">
+                                    <div class = 'smileCircle' id = "no" onClick="reply_click_smile(this.id)">
+                                        <span class="text no">No</span>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class = 'col mood'>
+                        <h3 class="left dimension" style = "height: 33px">Mood</h3>
+                        <div class = "container">
+                            <div class = 'row happy'>
+                                <h4 class="left dimension">Happy</h4>
+                                <svg id = 'happySvg' width="180" height="140">
+                                    <path id = "happyPath"></path>
+                                </svg>
+                            </div>
+                            <div class = 'row neutral'>
+                                <h4 class="left dimension">Neutral</h4>
+                                <svg id = 'neutralSvg' width="180" height="140">
+                                    <path id = "neutralPath">
+                                    </path> 
+                                </svg>
+                            </div>
+                            <div class = 'row sadness'>
+                                <h4 class="left dimension">Sadness</h4>
+                                <svg id = 'sadnessSvg' width="180" height="140">
+                                    <path id = "sadnessPath"></path>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                 
+            </div>
+            <!-- image grid -->
+            <div id = "paintingNumber">
+                <span id="selectedPaintings"></span> of <span id="totalPaintings"></span> paintings.
+            </div>
+            <div class = 'container scroll'>
+                <div class="row" id="showArea">
+                </div>
+            </div>
+                
+        </div>
+
+
+
+
+
+
+        
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script type="module" src = "asset/js/data/data.js"></script>
+        <script type="text/javascript" src="asset/js/first.js"></script>
+        <script type="text/javascript" src="asset/js/main.js"></script>
+     </body>
+   
+</html>
+
