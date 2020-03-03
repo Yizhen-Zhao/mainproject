@@ -1,6 +1,6 @@
 # Title of Design
 
-todo: pick a title for the project
+Exploring head pose and facial features in Renaissance paintings
 
 VizTeam 31
 
@@ -8,7 +8,14 @@ Furong Guo || Yaping Ren || Yizhen Zhao
 
 # Type of project
 
- todo: Main focus of this project, information visualization or information analytics
+Information visualization
+
+### Planned contributes 
+
+1. Head pose and facial expression choice based on character’s age or gender.
+2. Characteristic head pose and facial features in Renaissance paintings.
+3. Preferences of head pose and facial features under certain sentiment.
+
  
 # Description
 
