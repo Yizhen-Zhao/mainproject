@@ -15,6 +15,11 @@ Furong Guo || Yaping Ren || Yizhen Zhao
  todo: Add short description to the project.
 
 # Meeting minutes
+[Feb.13th](#13th-feb)
+[Feb.20th](#20th-feb)
+[Feb.23rd](#group-discussion-23rd-feb)
+[Feb.26th](#26th-feb)
+
 
 ## 13th Feb 
 
