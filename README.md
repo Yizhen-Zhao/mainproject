@@ -15,9 +15,13 @@ Furong Guo || Yaping Ren || Yizhen Zhao
  todo: Add short description to the project.
 
 # Meeting minutes
+
 [Feb.13th](#13th-feb)
+
 [Feb.20th](#20th-feb)
+
 [Feb.23rd](#group-discussion-23rd-feb)
+
 [Feb.26th](#26th-feb)
 
 
@@ -64,8 +68,6 @@ Furong Guo || Yaping Ren || Yizhen Zhao
   	- By 18th Feb., build sketch of each project ideas.
  	 - Determine key features needs to be visualized. 
   
-  
-# Meeting minutes
 
 ## 20th Feb 
 
@@ -108,8 +110,6 @@ Furong Guo || Yaping Ren || Yizhen Zhao
 				open / closed / can't decide
 			Pose  (to be extracted from painting)
 				turn left / turn right
-
-# Meeting minutes
 
 ## 26th Feb 
 
