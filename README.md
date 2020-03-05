@@ -20,6 +20,10 @@ Information visualization
 # Description
 
  todo: Add short description to the project.
+ 
+## Demo
+
+[first demo](https://www.youtube.com/watch?v=y0fEL4ZZ-QE)
 
 # Meeting minutes
 
