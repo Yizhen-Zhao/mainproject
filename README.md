@@ -32,7 +32,7 @@ Information visualization
 [Feb.26th](#26th-feb)
 
 
-## 13th Feb 
+### 13th Feb 
 
 ##### Key points discussed - Brief discussion on project ideas
 
@@ -76,7 +76,7 @@ Information visualization
  	 - Determine key features needs to be visualized. 
   
 
-## 20th Feb 
+### 20th Feb 
 
 ##### project theme:
 	portrait filter
@@ -95,7 +95,7 @@ Information visualization
 	Pytorch
 	Opencv
 
-## Group discussion 23rd Feb
+### Group discussion 23rd Feb
 
 ##### dataset change
 	use wikiart emotion dataset
@@ -118,7 +118,7 @@ Information visualization
 			Pose  (to be extracted from painting)
 				turn left / turn right
 
-## 26th Feb 
+### 26th Feb 
 
 ##### Task for this week
 
@@ -128,3 +128,8 @@ Information visualization
 #### Reference 
 	Facial landmark detection:
 	https://github.com/timesler/facenet-pytorch
+
+### 5th Mar
+[demo](./demo1.mov)
+
+##### Task for this week
