@@ -134,4 +134,13 @@ Information visualization
 
 ### 5th Mar
 
+##### Key points discussed
+
+	1. Midterm presentation of our project.
+	2. Suggestions and advice for our project.
+
 ##### Task for this week
+
+	1. Design unique features of our viszualization.
+	2. Optimize our viszualization.
+
