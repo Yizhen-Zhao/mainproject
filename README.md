@@ -130,6 +130,6 @@ Information visualization
 	https://github.com/timesler/facenet-pytorch
 
 ### 5th Mar
-[demo](./demo1.mov)
+![demo](./demo1.mov)
 
 ##### Task for this week
