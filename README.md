@@ -9,17 +9,16 @@ Furong Guo || Yaping Ren || Yizhen Zhao
 # Type of project
 
 Information visualization
+ 
+# Description
 
+ todo: Add short description to the project.
+ 
 ### Planned contributes 
 
 1. Head pose and facial expression choice based on character’s age or gender.
 2. Characteristic head pose and facial features in Renaissance paintings.
 3. Preferences of head pose and facial features under certain sentiment.
-
- 
-# Description
-
- todo: Add short description to the project.
  
 ## Demo
 
