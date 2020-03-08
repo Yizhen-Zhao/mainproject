@@ -1,0 +1,10 @@
+<img 
+ng-class="{'blur': isRestricted(artwork.flags)}" 
+src="https://uploads5.wikiart.org/00244/images/ancient-egyptian-painting/stela-of-intef-and-his-wife-dedetamun-ca-1981-1802-b-c.jpg!PinterestSmall.jpg" 
+class="ng-isolate-scope" 
+ng-click="onSlideClick(artwork, $index, options)" 
+lazy-load="" 
+img-source="imageUrl(artwork, options.imageFormat)" 
+ng-style="{'width' : options.columnWidth + 'px', 'height' : artwork.height * (options.columnWidth / artwork.width) + 'px', 'cursor': 'pointer'}" 
+title="Stela of Intef and His Wife, Dedetamun - Ancient Egypt" alt="Stela of Intef and His Wife, Dedetamun - Ancient Egypt" 
+style="width: 210px; height: 140px; cursor: pointer;">

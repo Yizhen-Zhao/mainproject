@@ -73,9 +73,11 @@ chooseSmileButton();
 //function to show one painting
 function showOne(data){
     var newDiv = document.createElement("div");
-    newDiv.className = 'col-md-2 col-sm-3 paintingdiv';
+    newDiv.className = 'paintingdiv';
     newDiv.id = data['Artist']+' '+data['Title'];
+    newDiv.style.width = '200px';
     var img = document.createElement("img");
+    img.style.width = '180px';
     img.src = data['url'];
     img.className = 'painting';
     img.id = data['Title'];
@@ -83,6 +85,9 @@ function showOne(data){
     newDiv.appendChild(img);
     document.getElementById('showArea').appendChild(newDiv);
 }
+// Click on img to get original pic
+$("img").click(function(){ location.href = $(this).attr('src');});
+
 //function to show selected paintings
 function showSelected(selectedDict){
     const myNode = document.getElementById("showArea");
@@ -1053,6 +1058,7 @@ function getSadnessPoints(){
     }
     return points;
 }
+
 /*
 
 function checkarea(data){
