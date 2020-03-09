@@ -171,32 +171,51 @@ function chooseAreaButton(){
             for(var i = 0; i < areaCircle.length; i++){
                 areaCircle[i].classList.remove("selected");
             }
+            alert(this.id);
             this.classList.add("selected");          
         });
     }
 }
 //function to choose gender
+var flag_g ='';
 function chooseGenderButton(){
     for(var i = 0; i < genderCircle.length; i++){
         genderCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < genderCircle.length; i++){
+            if (this.id != flag_g) {
+                for(var i = 0; i < genderCircle.length; i++){
                 genderCircle[i].classList.remove("selected");
+                }            
+                //console.log(this);
+                flag_g = this.id;
+                this.classList.add("selected");    
+            } 
+            else {
+                this.classList.remove("selected");
+                flag_g = '';
             }
-            //console.log(this);
-            this.classList.add("selected");          
+      
         });
     }
 }
 
 //function to choose eyes
+var flag_e = '';
 function chooseEyesButton(){
     for(var i = 0; i < eyesCircle.length; i++){
         eyesCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < eyesCircle.length; i++){
+            if (this.id != flag_e) {
+                for(var i = 0; i < eyesCircle.length; i++){
                 eyesCircle[i].classList.remove("selected");
+                }            
+                //console.log(this);
+                flag_e = this.id;
+                this.classList.add("selected");    
+            } 
+            else {
+                this.classList.remove("selected");
+                flag_e = '';
             }
-            //console.log(this);
-            this.classList.add("selected");          
+
         });
     }
 }
@@ -206,7 +225,6 @@ function chooseMouthButton(){
     for(var i = 0 ; i < mouthCircle.length; i++){
         mouthCircle[i].addEventListener("click", function(){
             if (this.id != flag_m) {
-                alert('different selection');
                 for(var i = 0; i < mouthCircle.length; i++){
                     mouthCircle[i].classList.remove("selected");
                 }
@@ -215,7 +233,6 @@ function chooseMouthButton(){
                 this.classList.add("selected");
                 }
             else{
-                alert('same selection');
                 this.classList.remove("selected");
                 flag_m = '';
             }
@@ -223,14 +240,22 @@ function chooseMouthButton(){
     }
 }
 //function to choose smile
+var flag_s = '';
 function chooseSmileButton(){
-    for(var i = 0; i < smileCircle.length; i++){
+    for(var i = 0 ; i < smileCircle.length; i++){
         smileCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < smileCircle.length; i++){
-                smileCircle[i].classList.remove("selected");
+            if (this.id != flag_s) {
+                for(var i = 0; i < smileCircle.length; i++){
+                    smileCircle[i].classList.remove("selected");
+                }
+                //console.log(this);
+                flag_s = this.id;
+                this.classList.add("selected");
+                }
+            else{
+                this.classList.remove("selected");
+                flag_s = '';
             }
-            //console.log(this);
-            this.classList.add("selected");          
         });
     }
 }
@@ -252,6 +277,7 @@ function reply_click_area(
         }
     }
     */
+   alert('ha?');
     selectedDict['areas'] = [clicked_id];
     showSelected(selectedDict);
     drawPitchLine();
@@ -264,7 +290,13 @@ function reply_click_area(
 }
 //function to click gender button and reply
 function reply_click_gender(clicked_id){
-    selectedDict['gender'] = [clicked_id];
+    if (flag_g =='') {
+        selectedDict['gender'] = [clicked_id];
+        showSelected(selectedDict);
+    } else {
+        selectedDict['gender'] = ["Female", "Male"];
+        showSelected(selectedDict);
+    }
     showSelected(selectedDict);
     drawPitchLine();
     drawYawLine();
@@ -276,7 +308,13 @@ function reply_click_gender(clicked_id){
 }
 //function to click eyes button and reply
 function reply_click_eyes(clicked_id){
-    selectedDict['eyes'] = [clicked_id];
+    if (flag_e =='') {
+        selectedDict['eyes'] = [clicked_id];
+        showSelected(selectedDict);
+    } else {
+        selectedDict['eyes'] = ["open", "closed"];
+        showSelected(selectedDict);
+    }
     //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
@@ -310,7 +348,14 @@ function reply_click_mouth(clicked_id){
 
 //function to click smile button and reply
 function reply_click_smile(clicked_id){
-    selectedDict['smile'] = [clicked_id];
+    if (flag_s=='') {
+        selectedDict['smile'] = [clicked_id];
+        showSelected(selectedDict);
+}
+else{
+    selectedDict['smile'] = ["yes", "no"];
+    showSelected(selectedDict);
+}
     //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
