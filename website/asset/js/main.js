@@ -201,14 +201,24 @@ function chooseEyesButton(){
     }
 }
 //function to choose mouth
+var flag_m = '';
 function chooseMouthButton(){
-    for(var i = 0; i < mouthCircle.length; i++){
+    for(var i = 0 ; i < mouthCircle.length; i++){
         mouthCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < mouthCircle.length; i++){
-                mouthCircle[i].classList.remove("selected");
+            if (this.id != flag_m) {
+                alert('different selection');
+                for(var i = 0; i < mouthCircle.length; i++){
+                    mouthCircle[i].classList.remove("selected");
+                }
+                //console.log(this);
+                flag_m = this.id;
+                this.classList.add("selected");
+                }
+            else{
+                alert('same selection');
+                this.classList.remove("selected");
+                flag_m = '';
             }
-            //console.log(this);
-            this.classList.add("selected");          
         });
     }
 }
@@ -226,7 +236,9 @@ function chooseSmileButton(){
 }
 
 //function to click area button and reply
-function reply_click_area(clicked_id){
+function reply_click_area(
+    
+){
     /*
     for(var i = 0; i < data.length; i++){
         
@@ -277,7 +289,14 @@ function reply_click_eyes(clicked_id){
 }
 //function to click mouth button and reply
 function reply_click_mouth(clicked_id){
-    selectedDict['mouth'] = [clicked_id];
+    if (flag_m=='') {
+            selectedDict['mouth'] = [clicked_id];
+            showSelected(selectedDict);
+    }
+    else{
+        selectedDict['mouth'] = ["openm", "closedm"];
+        showSelected(selectedDict);
+    }
     //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
@@ -288,6 +307,7 @@ function reply_click_mouth(clicked_id){
     drawNeutralLine();
     drawSadnessLine();
 }
+
 //function to click smile button and reply
 function reply_click_smile(clicked_id){
     selectedDict['smile'] = [clicked_id];
