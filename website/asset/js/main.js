@@ -73,9 +73,11 @@ chooseSmileButton();
 //function to show one painting
 function showOne(data){
     var newDiv = document.createElement("div");
-    newDiv.className = 'col-md-2 col-sm-3 paintingdiv';
+    newDiv.className = 'paintingdiv';
     newDiv.id = data['Artist']+' '+data['Title'];
+    newDiv.style.width = '200px';
     var img = document.createElement("img");
+    img.style.width = '180px';
     img.src = data['url'];
     img.className = 'painting';
     img.id = data['Title'];
@@ -83,6 +85,9 @@ function showOne(data){
     newDiv.appendChild(img);
     document.getElementById('showArea').appendChild(newDiv);
 }
+// Click on img to get original pic
+$("img").click(function(){location.href = $(this).attr('src');});
+
 //function to show selected paintings
 function showSelected(selectedDict){
     const myNode = document.getElementById("showArea");
@@ -166,62 +171,99 @@ function chooseAreaButton(){
             for(var i = 0; i < areaCircle.length; i++){
                 areaCircle[i].classList.remove("selected");
             }
+            alert(this.id);
             this.classList.add("selected");          
         });
     }
 }
 //function to choose gender
+var flag_g ='';
 function chooseGenderButton(){
     for(var i = 0; i < genderCircle.length; i++){
         genderCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < genderCircle.length; i++){
+            if (this.id != flag_g) {
+                for(var i = 0; i < genderCircle.length; i++){
                 genderCircle[i].classList.remove("selected");
+                }            
+                //console.log(this);
+                flag_g = this.id;
+                this.classList.add("selected");    
+            } 
+            else {
+                this.classList.remove("selected");
+                flag_g = '';
             }
-            //console.log(this);
-            this.classList.add("selected");          
+      
         });
     }
 }
 
 //function to choose eyes
+var flag_e = '';
 function chooseEyesButton(){
     for(var i = 0; i < eyesCircle.length; i++){
         eyesCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < eyesCircle.length; i++){
+            if (this.id != flag_e) {
+                for(var i = 0; i < eyesCircle.length; i++){
                 eyesCircle[i].classList.remove("selected");
+                }            
+                //console.log(this);
+                flag_e = this.id;
+                this.classList.add("selected");    
+            } 
+            else {
+                this.classList.remove("selected");
+                flag_e = '';
             }
-            //console.log(this);
-            this.classList.add("selected");          
+
         });
     }
 }
 //function to choose mouth
+var flag_m = '';
 function chooseMouthButton(){
-    for(var i = 0; i < mouthCircle.length; i++){
+    for(var i = 0 ; i < mouthCircle.length; i++){
         mouthCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < mouthCircle.length; i++){
-                mouthCircle[i].classList.remove("selected");
+            if (this.id != flag_m) {
+                for(var i = 0; i < mouthCircle.length; i++){
+                    mouthCircle[i].classList.remove("selected");
+                }
+                //console.log(this);
+                flag_m = this.id;
+                this.classList.add("selected");
+                }
+            else{
+                this.classList.remove("selected");
+                flag_m = '';
             }
-            //console.log(this);
-            this.classList.add("selected");          
         });
     }
 }
 //function to choose smile
+var flag_s = '';
 function chooseSmileButton(){
-    for(var i = 0; i < smileCircle.length; i++){
+    for(var i = 0 ; i < smileCircle.length; i++){
         smileCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < smileCircle.length; i++){
-                smileCircle[i].classList.remove("selected");
+            if (this.id != flag_s) {
+                for(var i = 0; i < smileCircle.length; i++){
+                    smileCircle[i].classList.remove("selected");
+                }
+                //console.log(this);
+                flag_s = this.id;
+                this.classList.add("selected");
+                }
+            else{
+                this.classList.remove("selected");
+                flag_s = '';
             }
-            //console.log(this);
-            this.classList.add("selected");          
         });
     }
 }
 
 //function to click area button and reply
-function reply_click_area(clicked_id){
+function reply_click_area(
+    
+){
     /*
     for(var i = 0; i < data.length; i++){
         
@@ -235,6 +277,7 @@ function reply_click_area(clicked_id){
         }
     }
     */
+   alert('ha?');
     selectedDict['areas'] = [clicked_id];
     showSelected(selectedDict);
     drawPitchLine();
@@ -247,8 +290,13 @@ function reply_click_area(clicked_id){
 }
 //function to click gender button and reply
 function reply_click_gender(clicked_id){
-    selectedDict['gender'] = [clicked_id];
-    //console.log(selectedDict);
+    if (flag_g =='') {
+        selectedDict['gender'] = [clicked_id];
+        showSelected(selectedDict);
+    } else {
+        selectedDict['gender'] = ["Female", "Male"];
+        showSelected(selectedDict);
+    }
     showSelected(selectedDict);
     drawPitchLine();
     drawYawLine();
@@ -260,7 +308,13 @@ function reply_click_gender(clicked_id){
 }
 //function to click eyes button and reply
 function reply_click_eyes(clicked_id){
-    selectedDict['eyes'] = [clicked_id];
+    if (flag_e =='') {
+        selectedDict['eyes'] = [clicked_id];
+        showSelected(selectedDict);
+    } else {
+        selectedDict['eyes'] = ["open", "closed"];
+        showSelected(selectedDict);
+    }
     //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
@@ -273,7 +327,14 @@ function reply_click_eyes(clicked_id){
 }
 //function to click mouth button and reply
 function reply_click_mouth(clicked_id){
-    selectedDict['mouth'] = [clicked_id];
+    if (flag_m=='') {
+            selectedDict['mouth'] = [clicked_id];
+            showSelected(selectedDict);
+    }
+    else{
+        selectedDict['mouth'] = ["openm", "closedm"];
+        showSelected(selectedDict);
+    }
     //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
@@ -284,9 +345,17 @@ function reply_click_mouth(clicked_id){
     drawNeutralLine();
     drawSadnessLine();
 }
+
 //function to click smile button and reply
 function reply_click_smile(clicked_id){
-    selectedDict['smile'] = [clicked_id];
+    if (flag_s=='') {
+        selectedDict['smile'] = [clicked_id];
+        showSelected(selectedDict);
+}
+else{
+    selectedDict['smile'] = ["yes", "no"];
+    showSelected(selectedDict);
+}
     //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
@@ -424,9 +493,9 @@ for(var i = 0; i < 15; i++){
         .attr('id', i * 10 - 50)
         .attr('class', 'yawrect')
         .attr("x", i * 15)
-        .attr("y", 13)
+        .attr("y", 20)
         .attr("width", 10)
-        .attr("height", 10)
+        .attr("height", 40)
         .attr('fill', '#336774')
         .attr('onclick','reply_click_yaw(this.id)');
     svgContainer.append("text")
@@ -447,7 +516,7 @@ chooseYawRect(yawRect);
 //function to click yaw button and reply
 function reply_click_yaw(clicked_id){
     selectedDict['yaw'] = [clicked_id];
-    document.getElementById('yawPath').style.visibility = "hidden";
+    //document.getElementById('yawPath').style.visibility = "hidden";
     showSelected(selectedDict);
     drawPitchLine();
     drawRollLine();
@@ -917,7 +986,7 @@ function drawNeutralLine(){
 //function to get points in neutral area after any button clicked
 function getNeutralPoints(){
     if(selectedDict['neutral'].length == 1){
-        console.log(selectedDict['neutral'].length);
+        //console.log(selectedDict['neutral'].length);
         return [];
     }
     var points = [[0, 0],[15, 0], [30, 0], [45, 0], [60, 0], [75, 0], [90, 0],
@@ -1053,6 +1122,8 @@ function getSadnessPoints(){
     }
     return points;
 }
+
+
 /*
 
 function checkarea(data){
