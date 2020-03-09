@@ -1,24 +1,26 @@
 body {
-	background-color: #336774;
+	background-color: #faf1e0;
     /*font-family: "Montserrat", "Avenir";*/
     
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(http://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DQk6YvNkeg.woff2) format('woff2');
+    letter-spacing: 0.05em;
+    /*src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(http://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DQk6YvNkeg.woff2) format('woff2');
+    */
     unicode-range: U+0370-03FF;
 }
 h1{
-    color:white;
+    color:#444444;
 }
 h2{
-    color:white;
+    color:#444444;
 }
 h3{
-    color:white;
+    color:#444444;
 }
 h4{
-    color:white;
+    color:#444444;
     font-size: 20px;
 }
 h5{
@@ -39,8 +41,8 @@ h5{
     width: 25px;
     background: repeating-linear-gradient(
         45deg,
-        #2E5C6E,
-        white 10%
+        #faf1e0,
+        #444444 10%
     );
     border-radius: 50%;
     display: inline-block;
@@ -57,7 +59,7 @@ h5{
 }
 
 .areaCircle.selected {
-	background: white;
+	background: #444444;
 }
 
 .dimension{
@@ -99,8 +101,8 @@ h5{
     background: repeating-linear-gradient(
         45deg,
    
-        #2E5C6E 1px,
-        white 2px
+        #faf1e0 1px,
+        #444444 2px
     );
     border-radius: 50%;
     display: inline-block;
@@ -130,7 +132,7 @@ h5{
     margin-left: 0;
 }
 span.Female{
-    color:white;
+    color:#444444;
     font-weight: 800;
     font-size: 12px;
     text-align: center;
@@ -147,7 +149,7 @@ span.Female{
     margin-left: 0;
 }
 span.Male{
-    color:white;
+    color:#444444;
     font-weight: 800;
     font-size: 12px;
     text-align: center;
@@ -168,43 +170,39 @@ span.Male{
 }
 
 text{
-    fill:white;
+    fill:#444444;
 }
 .agerect:hover{cursor: pointer;}
 .agerect.selected{
     margin-bottom: 50px;
-    fill: white;
+    fill: #444444;
 }
 .yawrect:hover{cursor: pointer;}
-.yawrect.selected{
-    z-index: -1;
-    fill:rgba(255, 255, 255, 0.3);
-}
 
 .pitchrect:hover{cursor: pointer;}
 .pitchrect.selected{
-    fill:white;
+    fill:#444444;
 }
 .rollrect:hover{cursor: pointer;}
 .rollrect.selected{
-    fill:white;
+    fill:#444444;
 }
 .happyrect:hover{cursor: pointer;}
 .happyrect.selected{
-    fill: white;
+    fill: #444444;
 }
 .neutralrect:hover{cursor: pointer;}
 .neutralrect.selected{
-    fill:white;
+    fill:#444444;
 }
 .sadnessrect:hover{cursor: pointer;}
 .sadnessrect.selected{
-    fill:white;
+    fill:#444444;
 }
 path {
     z-index: 100;
     fill: none;
-    stroke: white;
+    stroke: #444444;
     margin-bottom: 5px;
 }
 
@@ -218,8 +216,8 @@ path {
 
     background: repeating-linear-gradient(
         45deg,
-        #2E5C6E,
-        white 10%
+        #faf1e0,
+        #444444 10%
     );
     border-radius: 50%;
     display: inline-block;
@@ -227,7 +225,7 @@ path {
 	transition: background 0.6s;
 }
 .eyesCircle.selected {
-	background: white;
+	background: #444444;
 }
 .eyesCircle:hover{
     cursor: pointer;
@@ -244,7 +242,7 @@ path {
     margin-left: 0;
 }
 span.open{
-    color:white;
+    color:#444444;
     font-weight: 800;
     font-size: 12px;
     text-align: center;
@@ -260,7 +258,7 @@ span.open{
     margin-left: 0;
 }
 span.closed{
-    color:white;
+    color:#444444;
     font-weight: 800;
     font-size: 12px;
     text-align: center;
@@ -275,8 +273,8 @@ span.closed{
     width: 40px;
     background: repeating-linear-gradient(
         45deg,
-        #2E5C6E,
-        white 10%
+        #faf1e0,
+        #444444 10%
     );
     border-radius: 50%;
     display: inline-block;
@@ -284,7 +282,7 @@ span.closed{
 	transition: background 0.6s;
 }
 .smileCircle.selected {
-	background: white;
+	background: #444444;
 }
 .smileCircle:hover{
     cursor: pointer;
@@ -299,7 +297,7 @@ span.closed{
     left: 56px;
 }
 span.yes{
-    color:white;
+    color:#444444;
     font-weight: 800;
     font-size: 12px;
     text-align: center;
@@ -313,7 +311,7 @@ span.yes{
     left: 158px;
 }
 span.no{
-    color:white;
+    color:#444444;
     font-weight: 800;
     font-size: 12px;
     text-align: center;
@@ -329,8 +327,8 @@ span.no{
     width: 40px;
     background: repeating-linear-gradient(
         45deg,
-        #2E5C6E,
-        white 10%
+        #faf1e0,
+        #444444 10%
     );
     border-radius: 50%;
     display: inline-block;
@@ -338,7 +336,7 @@ span.no{
 	transition: background 0.6s;
 }
 .mouthCircle.selected {
-	background: white;
+	background: #444444;
 }
 .mouthCircle:hover{
     cursor: pointer;
@@ -353,7 +351,7 @@ span.no{
     left: 55px;
 }
 span.openm{
-    color:white;
+    color:#444444;
     font-weight: 800;
     font-size: 12px;
     text-align: center;
@@ -367,7 +365,7 @@ span.openm{
     left: 157px;
 }
 span.closedm{
-    color:white;
+    color:#444444;
     font-weight: 800;
     font-size: 12px;
     text-align: center;
@@ -383,7 +381,7 @@ span.closedm{
 
 }
 #paintingNumber{
-    color:white;
+    color:#444444;
 }
 div.scroll{
     width: 800px;

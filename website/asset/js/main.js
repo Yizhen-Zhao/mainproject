@@ -171,7 +171,6 @@ function chooseAreaButton(){
             for(var i = 0; i < areaCircle.length; i++){
                 areaCircle[i].classList.remove("selected");
             }
-            alert(this.id);
             this.classList.add("selected");          
         });
     }
@@ -261,9 +260,7 @@ function chooseSmileButton(){
 }
 
 //function to click area button and reply
-function reply_click_area(
-    
-){
+function reply_click_area(clicked_id){
     /*
     for(var i = 0; i < data.length; i++){
         
@@ -277,8 +274,8 @@ function reply_click_area(
         }
     }
     */
-   alert('ha?');
     selectedDict['areas'] = [clicked_id];
+    //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
     drawYawLine();
@@ -495,7 +492,8 @@ for(var i = 0; i < 15; i++){
         .attr("x", i * 15)
         .attr("y", 20)
         .attr("width", 10)
-        .attr("height", 40)
+        .attr("height", 80)
+        .attr('fill-opacity','0%')
         .attr('fill', '#336774')
         .attr('onclick','reply_click_yaw(this.id)');
     svgContainer.append("text")
@@ -515,6 +513,18 @@ var yawRect = document.querySelectorAll('.yawrect');
 chooseYawRect(yawRect);
 //function to click yaw button and reply
 function reply_click_yaw(clicked_id){
+    //console.log(clicked_id);
+    var yaw_rects = document.getElementsByClassName('yawrect');
+    for (var i =0; i<yaw_rects.length;i++)
+    {
+        var id = yaw_rects[i].getAttribute('id');
+        if(id == clicked_id)
+        {yaw_rects[i].setAttribute('fill-opacity','50%')}
+        else{yaw_rects[i].setAttribute('fill-opacity','0');}
+        
+    }
+    //document.querySelector('.yawrect#'+clicked_id).setAttribute('fill-opacity','50%');
+
     selectedDict['yaw'] = [clicked_id];
     //document.getElementById('yawPath').style.visibility = "hidden";
     showSelected(selectedDict);
