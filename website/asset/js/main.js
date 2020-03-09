@@ -86,7 +86,7 @@ function showOne(data){
     document.getElementById('showArea').appendChild(newDiv);
 }
 // Click on img to get original pic
-$("img").click(function(){ location.href = $(this).attr('src');});
+$("img").click(function(){location.href = $(this).attr('src');});
 
 //function to show selected paintings
 function showSelected(selectedDict){
@@ -253,7 +253,6 @@ function reply_click_area(clicked_id){
 //function to click gender button and reply
 function reply_click_gender(clicked_id){
     selectedDict['gender'] = [clicked_id];
-    //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
     drawYawLine();
@@ -429,9 +428,9 @@ for(var i = 0; i < 15; i++){
         .attr('id', i * 10 - 50)
         .attr('class', 'yawrect')
         .attr("x", i * 15)
-        .attr("y", 13)
+        .attr("y", 20)
         .attr("width", 10)
-        .attr("height", 10)
+        .attr("height", 40)
         .attr('fill', '#336774')
         .attr('onclick','reply_click_yaw(this.id)');
     svgContainer.append("text")
@@ -452,7 +451,7 @@ chooseYawRect(yawRect);
 //function to click yaw button and reply
 function reply_click_yaw(clicked_id){
     selectedDict['yaw'] = [clicked_id];
-    document.getElementById('yawPath').style.visibility = "hidden";
+    //document.getElementById('yawPath').style.visibility = "hidden";
     showSelected(selectedDict);
     drawPitchLine();
     drawRollLine();
@@ -922,7 +921,7 @@ function drawNeutralLine(){
 //function to get points in neutral area after any button clicked
 function getNeutralPoints(){
     if(selectedDict['neutral'].length == 1){
-        console.log(selectedDict['neutral'].length);
+        //console.log(selectedDict['neutral'].length);
         return [];
     }
     var points = [[0, 0],[15, 0], [30, 0], [45, 0], [60, 0], [75, 0], [90, 0],
@@ -1058,6 +1057,7 @@ function getSadnessPoints(){
     }
     return points;
 }
+
 
 /*
 

@@ -31,10 +31,12 @@ h5{
     padding: 0;
     
 }
-
+#Europe{    height: 25px;width: 25px;}
+#North {    height: 16px;width: 16px;}
+#South {    height: 10px;width: 10px;}
 .areaCircle {
-    height: 18px;
-    width: 18px;
+    height: 25px;
+    width: 25px;
     background: repeating-linear-gradient(
         45deg,
         #2E5C6E,
@@ -45,6 +47,15 @@ h5{
 	margin: 1.66%;
 	transition: background 0.6s;
 }
+
+.areaCircle:hover{
+    cursor: pointer;
+    border-width: 3px;
+    border-color: transparent;
+    border-style: groove;
+    transition: transform .3s ease-in-out,cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
 .areaCircle.selected {
 	background: white;
 }
@@ -64,7 +75,7 @@ h5{
     top: 80px;
     left: 135px;
 }
-.container.Norh{
+.container.North{
     padding-top:0;
 }
 .container.South{
@@ -77,21 +88,38 @@ h5{
     height: 100px;
     
 }
+
+#Female { height: 45px;width: 45px;}
+#Male   { height: 30px;width: 30px;
+        margin-top: 10px;margin-left: 20px;}
+
 .genderCircle{
     height: 40px;
     width: 40px;
     background: repeating-linear-gradient(
         45deg,
-        #2E5C6E,
-        white 10%
+   
+        #2E5C6E 1px,
+        white 2px
     );
     border-radius: 50%;
     display: inline-block;
 	margin: 1.66%;
 	transition: background 0.6s;
 }
+
+.genderCircle:hover{
+    cursor: pointer;
+    border-width: 3px;
+    border-color: transparent;
+    border-style: groove;
+    transition: transform .3s ease-in-out,cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
 .genderCircle.selected {
-	background: white;
+    transition: transform .3s ease-in-out,cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    background: rgba(173, 216, 230, 0.557);
+
 }
 .container.Female{
     width: 40px;
@@ -142,28 +170,39 @@ span.Male{
 text{
     fill:white;
 }
+.agerect:hover{cursor: pointer;}
 .agerect.selected{
+    margin-bottom: 50px;
     fill: white;
 }
+.yawrect:hover{cursor: pointer;}
 .yawrect.selected{
-    fill: white;
+    z-index: -1;
+    fill:rgba(255, 255, 255, 0.3);
 }
+
+.pitchrect:hover{cursor: pointer;}
 .pitchrect.selected{
     fill:white;
 }
+.rollrect:hover{cursor: pointer;}
 .rollrect.selected{
     fill:white;
 }
+.happyrect:hover{cursor: pointer;}
 .happyrect.selected{
     fill: white;
 }
+.neutralrect:hover{cursor: pointer;}
 .neutralrect.selected{
     fill:white;
 }
+.sadnessrect:hover{cursor: pointer;}
 .sadnessrect.selected{
     fill:white;
 }
 path {
+    z-index: 100;
     fill: none;
     stroke: white;
     margin-bottom: 5px;
@@ -172,9 +211,11 @@ path {
 .eye, .smile, .mouth{
     height: 140px;
 }
+#open{height: 50px;width: 50px;}
+#closed{height: 15px;width: 15px;
+        margin-top: 20px;margin-left: 100%;}
 .eyesCircle{
-    height: 40px;
-    width: 40px;
+
     background: repeating-linear-gradient(
         45deg,
         #2E5C6E,
@@ -187,6 +228,13 @@ path {
 }
 .eyesCircle.selected {
 	background: white;
+}
+.eyesCircle:hover{
+    cursor: pointer;
+    border-width: 3px;
+    border-color: transparent;
+    border-style: groove;
+    transition: transform .3s ease-in-out,cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .container.open{
     padding-top:60px;
@@ -220,6 +268,8 @@ span.closed{
     top:81px;
     left: 173px;
   }
+#yes{height: 15px;width: 15px;margin-left: 10px;margin-top: 20px;}
+#no{height: 50px;width: 50px;}
 .smileCircle{
     height: 40px;
     width: 40px;
@@ -235,6 +285,13 @@ span.closed{
 }
 .smileCircle.selected {
 	background: white;
+}
+.smileCircle:hover{
+    cursor: pointer;
+    border-width: 3px;
+    border-color: transparent;
+    border-style: groove;
+    transition: transform .3s ease-in-out,cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .container.yes{
     position: absolute;
@@ -265,6 +322,8 @@ span.no{
     left: 30px;
   }
 
+#openm{height: 15px;width: 15px;margin-left: 10px;margin-top: 20px;}
+#closedm{height: 45px;width: 45px;}
 .mouthCircle{
     height: 40px;
     width: 40px;
@@ -280,6 +339,13 @@ span.no{
 }
 .mouthCircle.selected {
 	background: white;
+}
+.mouthCircle:hover{
+    cursor: pointer;
+    border-width: 3px;
+    border-color: transparent;
+    border-style: groove;
+    transition: transform .3s ease-in-out,cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .container.openm{
     position: absolute;
@@ -333,6 +399,8 @@ div.scroll{
     cursor: pointer;
     float: inline-start;
     padding-left: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
     padding-right: 5px;
 
 }
@@ -341,7 +409,14 @@ div.scroll{
     height:100px;
     */
     padding-bottom: 20px;
-    padding-right: 5px;
-    padding-left: 0px;
+    padding-right: 3px;
     float: clear;
+}
+
+.paintingdiv:hover{
+    box-shadow: 0 10px 50px rgba(51, 51, 51, .25);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+
 }
