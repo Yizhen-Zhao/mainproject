@@ -78,7 +78,7 @@ $("img").click(function(){location.href = $(this).attr('src');});
 function showSelected(selectedDict){
     //const myNode = document.getElementById("showArea");
     //myNode.innerHTML = '';
-    console.log(selectedDict);
+    //console.log(selectedDict);
     var number = 0;
     var selectedPics = [];
     for(var i = 0; i < data.length; i ++){
@@ -106,9 +106,7 @@ function showSelected(selectedDict){
             //showOne(data[i]);
             number = number + 1;
             }
-            else{console.log({
-                "smile":data[i].ID,
-                "tmparea": tmparea, "tmpgender": tmpgender, "tmpage": tmpage, "tmpyaw": tmpyaw, "tmppitch": tmppitch, "tmproll": tmproll, "tmpeyes": tmpeyes, "tmpmouth": tmpmouth, "tmpsmile": tmpsmile, "tmphappy": tmphappy, "tmpneutral": tmpneutral, "tmpsadnes": tmpsadness});}
+           // else{ console.log({"smile":data[i].ID,"tmparea": tmparea, "tmpgender": tmpgender, "tmpage": tmpage, "tmpyaw": tmpyaw, "tmppitch": tmppitch, "tmproll": tmproll, "tmpeyes": tmpeyes, "tmpmouth": tmpmouth, "tmpsmile": tmpsmile, "tmphappy": tmphappy, "tmpneutral": tmpneutral, "tmpsadnes": tmpsadness});}
                
     }
     updateDiagram(selectedPics);
@@ -128,7 +126,12 @@ function showAll(){
 }
 
 function updateDiagram(diagramData){
-    //console.log(diagramData);
+    var dictExistSvgCircle = {};
+    showArea.selectAll('.svgCircle').each(function(d,i) { 
+        dictExistSvgCircle[this.getAttribute("id")] = {'flag_remove': true,'props': null};
+     });
+//console.log(dictExistSvgCircle);
+
     var xIndex = document.getElementById('xAxis').selectedIndex;
     var xValue = document.getElementById('xAxis').options[xIndex].value;
     var yIndex = document.getElementById('yAxis').selectedIndex;
@@ -148,73 +151,57 @@ function updateDiagram(diagramData){
             {yMin = 1.0*diagramData[i][yValue];}
         if(1.0*diagramData[i][yValue]>yMax)
             {yMax = 1.0*diagramData[i][yValue];}       
+    dictExistSvgCircle['painting-circle-'+diagramData[i].ID] = {'flag_remove': false,'props': diagramData[i]};
+
     }
     var xAxisLength = xMax-xMin+20;
     var yAxisLength = yMax-yMin+20;
 
-    showArea.selectAll('.svgCircle').remove();
-    for(var i = 0; i<diagramData.length;i++)
-    {
-        if(document.getElementById('painting-'+diagramData[i].ID) ==null){
-        showArea.append('pattern')
-        .attr('class','svgPics')
-        .attr("id", 'painting-'+diagramData[i].ID)
-        .attr("width", 1)
-        .attr("height", 1)
-        .append("svg:image")
-        .attr("xlink:href",'asset/imgs/'+diagramData[i].ID+'.jpg')
-        .attr("width", 100)
-        .attr("height", 100)
-        .attr("y", -20)
-        .attr("x", -20);
-        
+    for(var circleId in dictExistSvgCircle){
+
+        if(!dictExistSvgCircle[circleId].flag_remove){
+            var painting = dictExistSvgCircle[circleId].props;
+            if(document.getElementById('painting-'+painting.ID) ==null){
+                showArea.append('pattern')
+                .attr('class','svgPics')
+                .attr("id", 'painting-'+painting.ID)
+                .attr("width", 1)
+                .attr("height", 1)
+                .append("svg:image")
+                .attr("xlink:href",'asset/imgs/'+painting.ID+'.jpg')
+                .attr("width", 100)
+                .attr("height", 100)
+                .attr("y", -20)
+                .attr("x", -20);
+                
+                showArea.append('circle')
+                .attr('class','svgPics svgCircle')
+                .attr("r", 20)
+                .attr("id", 'painting-circle-'+painting.ID)
+                .attr("stroke", "transparent")
+                .attr("stroke-width", "2px")
+                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
+                .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*(showArea.node().getBoundingClientRect().height)+20)
+                .attr("fill", function(d,j){
+                return 'url(#painting-'+painting.ID+')'
+                });
+            }
+            else{
+                showArea.select('#'+circleId)
+                .attr('r',20)
+                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
+                .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*(showArea.node().getBoundingClientRect().height)+20);
+            }
         }
-        showArea.append('circle')
-        .attr('class','svgPics svgCircle')
-        .attr("r", 20)
-        .attr("id", 'painting-circle-'+diagramData[i].ID)
-        .attr("stroke", "transparent")
-        .attr("stroke-width", "2px")
-        .attr('cx',(((1.0*diagramData[i][xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
-        .attr('cy',(((1.0*diagramData[i][yValue])-yMin)/yAxisLength)*(showArea.node().getBoundingClientRect().height)+20)
-        .attr("fill", function(d,j){
-        return 'url(#painting-'+diagramData[i].ID+')'
-        });
+        else{
+            showArea.select('#'+circleId)
+            .attr('r',0);
+        }
 
     }
 
-
-
 }
 
-/*
-function reset(clicked_id){
-    selectedDict = {"areas": ["North", "South", "Europe"], 
-                    "gender": ["Female", "Male"],
-                    "age":['0', '10', '20', '30', '40','50', '60','70','80','90'],
-                    "yaw": ['-50','-40','-30','-20','-10','0','10','20','30','40', '50', '60','70','80','90'],
-                    "pitch":['-30', '-20', '-10', '0', '10','20'],
-                    "roll": ['-50','-40','-30','-20','-10','0','10','20','30','40'],
-                    "eyes":["open", "closed"],
-                    "mouth":["openm", "closedm"],
-                    "smile":["yes", "no"],
-                    "happy": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90'],
-                    "neutral": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90'],
-                    "sadness": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90']};
-    
-    areaCircle.reset();
-    genderCircle.reset();
-    eyesCircle.reset();
-    mouthCircle.reset();
-    smileCircle.reset();
-    document.getElementById('happyPath').reset();
-    document.getElementById('neutralPath').reset();
-    document.getElementById('sadnessPath').reset();
-    document.getElementById('totalPaintings').textContent = data.length;
-    document.getElementById('selectedPaintings').textContent = data.length;
-    showAll();
-}
-*/
 //function to choose area
 function chooseAreaButton(){
     for(var i = 0; i < areaCircle.length; i++){
@@ -1313,5 +1300,34 @@ function showOne(data){
     img.style.display = 'inline';
     newDiv.appendChild(img);
     document.getElementById('showArea').appendChild(newDiv);
+}
+*/
+
+/*
+function reset(clicked_id){
+    selectedDict = {"areas": ["North", "South", "Europe"], 
+                    "gender": ["Female", "Male"],
+                    "age":['0', '10', '20', '30', '40','50', '60','70','80','90'],
+                    "yaw": ['-50','-40','-30','-20','-10','0','10','20','30','40', '50', '60','70','80','90'],
+                    "pitch":['-30', '-20', '-10', '0', '10','20'],
+                    "roll": ['-50','-40','-30','-20','-10','0','10','20','30','40'],
+                    "eyes":["open", "closed"],
+                    "mouth":["openm", "closedm"],
+                    "smile":["yes", "no"],
+                    "happy": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90'],
+                    "neutral": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90'],
+                    "sadness": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90']};
+    
+    areaCircle.reset();
+    genderCircle.reset();
+    eyesCircle.reset();
+    mouthCircle.reset();
+    smileCircle.reset();
+    document.getElementById('happyPath').reset();
+    document.getElementById('neutralPath').reset();
+    document.getElementById('sadnessPath').reset();
+    document.getElementById('totalPaintings').textContent = data.length;
+    document.getElementById('selectedPaintings').textContent = data.length;
+    showAll();
 }
 */
