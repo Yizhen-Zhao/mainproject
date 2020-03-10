@@ -377,19 +377,40 @@ for(var i = 0; i < 10; i++){
         .attr("width", 15)
         .attr("height", 90)
         .attr('fill', '#444444')
+        .on('mouseover', mouseOverRec)
+        .on('mousemove',mouseOverRec)
+        .on('mouseout', mouseOutRec)
         .attr('onclick','reply_click_age(this.id)');
+        
     svgContainer.append("text")
+        .attr('id','age_rect_text'+i*10)
         .attr("x", i * 15)
         .attr("y", 6)
         .attr("font-size", "12px")
         .attr("opacity", 0)
         .attr("dy", ".35em")
-        //.attr('opacity', 0)
         .text(function(){return (i * 10) + " to " + (i * 10 + 10);})
         .on("mouseover", mouseOver)
         .on("mousemove", mouseOver)
         .on("mouseout", mouseOut);
 }
+
+function mouseOverRec(){
+
+    d3.select(this)
+        .style('cursor', 'pointer')
+        id = this.getAttribute('id')    
+    d3.select('#age_rect_text'+id)
+        .style('opacity',0.9);
+}
+function mouseOutRec()
+{
+    d3.select(this)
+        id = this.getAttribute('id')    
+    d3.select('#age_rect_text'+id)
+        .style('opacity',0);
+}
+
 //function to show mouseover text
 function mouseOver(){
     d3.select(this)

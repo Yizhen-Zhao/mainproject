@@ -178,7 +178,7 @@ span.Male{
 text{
     fill:#444444;
 }
-.agerect:hover{cursor: pointer;}
+
 .agerect.selected{
     margin-bottom: 50px;
     fill: #444444;
