@@ -370,12 +370,13 @@ svgContainer = d3.select("#ageSvg");
 for(var i = 0; i < 10; i++){
     svgContainer.append("rect")
         .attr('id', i * 10)
+        .attr('fill-opacity','0')
         .attr('class', 'agerect')
         .attr("x", i * 15)
-        .attr("y", 13)
+        .attr("y", 20)
         .attr("width", 15)
-        .attr("height", 10)
-        .attr('fill', '#336774')
+        .attr("height", 90)
+        .attr('fill', '#444444')
         .attr('onclick','reply_click_age(this.id)');
     svgContainer.append("text")
         .attr("x", i * 15)
@@ -403,9 +404,20 @@ var ageRect = document.querySelectorAll('.agerect');
 chooseAgeRect(ageRect);
 //function to click yaw button and reply
 function reply_click_age(clicked_id){
+
+    var age_rects = document.getElementsByClassName('agerect');
+    for (var i =0; i<age_rects.length;i++)
+    {
+        var id = age_rects[i].getAttribute('id');
+        if(id == clicked_id)
+        {age_rects[i].setAttribute('fill-opacity','50%')}
+        else{age_rects[i].setAttribute('fill-opacity','0');}
+        
+    }
+
     selectedDict['age'] = [clicked_id];
     //console.log(selectedDict['age']);
-    document.getElementById('agePath').style.visibility = "hidden";
+    //document.getElementById('agePath').style.visibility = "hidden";
     showSelected(selectedDict);
     drawYawLine();
     drawRollLine();
@@ -494,7 +506,7 @@ for(var i = 0; i < 15; i++){
         .attr("width", 10)
         .attr("height", 80)
         .attr('fill-opacity','0%')
-        .attr('fill', '#336774')
+        .attr('fill', '#444444')
         .attr('onclick','reply_click_yaw(this.id)');
     svgContainer.append("text")
         .attr("x", i * 15)
@@ -523,7 +535,6 @@ function reply_click_yaw(clicked_id){
         else{yaw_rects[i].setAttribute('fill-opacity','0');}
         
     }
-    //document.querySelector('.yawrect#'+clicked_id).setAttribute('fill-opacity','50%');
 
     selectedDict['yaw'] = [clicked_id];
     //document.getElementById('yawPath').style.visibility = "hidden";
@@ -611,8 +622,9 @@ for(var i = 0; i < 6; i++){
         .attr("x", i * 25)
         .attr("y", 13)
         .attr("width", 25)
-        .attr("height", 10)
-        .attr('fill', '#336774')
+        .attr("height", 90)
+        .attr('fill-opacity','0%')
+        .attr('fill', '#444444')
         .attr('onclick','reply_click_pitch(this.id)');
     svgContainer.append("text")
         .attr("x", i * 25)
@@ -632,8 +644,18 @@ var pitchRect = document.querySelectorAll('.pitchrect');
 choosePitchRect(pitchRect);
 //function to click yaw button and reply
 function reply_click_pitch(clicked_id){
+    var pitch_rects = document.getElementsByClassName('pitchrect');
+    for (var i =0; i<pitch_rects.length;i++)
+    {
+        var id = pitch_rects[i].getAttribute('id');
+        if(id == clicked_id)
+        {pitch_rects[i].setAttribute('fill-opacity','50%')}
+        else{pitch_rects[i].setAttribute('fill-opacity','0');}
+        
+    }
+
     selectedDict['pitch'] = [clicked_id];
-    document.getElementById('pitchPath').style.visibility = "hidden";
+    //document.getElementById('pitchPath').style.visibility = "hidden";
     showSelected(selectedDict);
     drawYawLine();
     drawRollLine();
@@ -720,12 +742,13 @@ var svgContainer = d3.select("#rollSvg");
 for(var i = 0; i < 10; i++){
     svgContainer.append("rect")
         .attr('id', i * 10 - 50)
+        .attr('fill-opacity','0')
         .attr('class', 'rollrect')
         .attr("x", i * 15)
         .attr("y", 13)
         .attr("width", 15)
-        .attr("height", 10)
-        .attr('fill', '#336774')
+        .attr("height", 80)
+        .attr('fill', '#444444')
         .attr('onclick','reply_click_roll(this.id)');
     svgContainer.append("text")
         .attr("x", i * 15)
@@ -744,8 +767,19 @@ var rollRect = document.querySelectorAll('.rollrect');
 chooseRollRect(rollRect);
 //function to click roll button and reply
 function reply_click_roll(clicked_id){
+
+    var roll_rects = document.getElementsByClassName('rollrect');
+    for (var i =0; i<roll_rects.length;i++)
+    {
+        var id = roll_rects[i].getAttribute('id');
+        if(id == clicked_id)
+        {roll_rects[i].setAttribute('fill-opacity','50%')}
+        else{roll_rects[i].setAttribute('fill-opacity','0');}
+        
+    }
+
     selectedDict['roll'] = [clicked_id];
-    document.getElementById('rollPath').style.visibility = "hidden";
+    //document.getElementById('rollPath').style.visibility = "hidden";
     showSelected(selectedDict);
     drawPitchLine();
     drawYawLine();
@@ -827,10 +861,11 @@ for(var i = 0; i < 10; i++){
         .attr('id', i * 10)
         .attr('class', 'happyrect')
         .attr("x", i * 15)
-        .attr("y", 13)
+        .attr("y", 20)
         .attr("width", 15)
-        .attr("height", 10)
-        .attr('fill', '#336774')
+        .attr("height", 90)
+        .attr('fill-opacity','0')
+        .attr('fill', '#444444')
         .attr('onclick','reply_click_happy(this.id)');
     svgContainer.append("text")
         .attr("x", i * 13)
@@ -850,8 +885,19 @@ var happyRect = document.querySelectorAll('.happyrect');
 chooseHappyRect(happyRect);
 //function to click yaw button and reply
 function reply_click_happy(clicked_id){
+
+    var happy_rects = document.getElementsByClassName('happyrect');
+    for (var i =0; i<happy_rects.length;i++)
+    {
+        var id = happy_rects[i].getAttribute('id');
+        if(id == clicked_id)
+        {happy_rects[i].setAttribute('fill-opacity','50%')}
+        else{happy_rects[i].setAttribute('fill-opacity','0');}
+        
+    }
+
     selectedDict['happy'] = [clicked_id];
-    document.getElementById('happyPath').style.visibility = "hidden";
+    //document.getElementById('happyPath').style.visibility = "hidden";
     showSelected(selectedDict);
     drawYawLine();
     drawRollLine();
@@ -933,8 +979,9 @@ for(var i = 0; i < 10; i++){
         .attr("x", i * 15)
         .attr("y", 13)
         .attr("width", 15)
-        .attr("height", 10)
-        .attr('fill', '#336774')
+        .attr("height", 90)
+        .attr('fill-opacity','0')
+        .attr('fill', '#444444')
         .attr('onclick','reply_click_neutral(this.id)');
     svgContainer.append("text")
         .attr("x", i * 13)
@@ -954,8 +1001,19 @@ var neutralRect = document.querySelectorAll('.neutralrect');
 chooseNeutralRect(neutralRect);
 //function to click yaw button and reply
 function reply_click_neutral(clicked_id){
+
+    var neutral_rects = document.getElementsByClassName('neutralrect');
+    for (var i =0; i<neutral_rects.length;i++)
+    {
+        var id = neutral_rects[i].getAttribute('id');
+        if(id == clicked_id)
+        {neutral_rects[i].setAttribute('fill-opacity','50%')}
+        else{neutral_rects[i].setAttribute('fill-opacity','0');}
+        
+    }
+
     selectedDict['neutral'] = [clicked_id];
-    document.getElementById('neutralPath').style.visibility = "hidden";
+    //document.getElementById('neutralPath').style.visibility = "hidden";
     showSelected(selectedDict);
     drawYawLine();
     drawRollLine();
@@ -1036,11 +1094,12 @@ for(var i = 0; i < 10; i++){
     svgContainer.append("rect")
         .attr('id', i * 10)
         .attr('class', 'sadnessrect')
-        .attr("x", i * 10)
-        .attr("y", 13)
+        .attr("x", i * 15)
+        .attr("y", 20)
         .attr("width", 15)
-        .attr("height", 10)
-        .attr('fill', '#336774')
+        .attr("height", 90)
+        .attr('fill-opacity','0')
+        .attr('fill', '#444444')
         .attr('onclick','reply_click_sadness(this.id)');
     svgContainer.append("text")
         .attr("x", i * 10)
@@ -1060,8 +1119,19 @@ var sadnessRect = document.querySelectorAll('.sadnessrect');
 chooseSadnessRect(sadnessRect);
 //function to click yaw button and reply
 function reply_click_sadness(clicked_id){
+
+    var sadness_rects = document.getElementsByClassName('sadnessrect');
+    for (var i =0; i<sadness_rects.length;i++)
+    {
+        var id = sadness_rects[i].getAttribute('id');
+        if(id == clicked_id)
+        {sadness_rects[i].setAttribute('fill-opacity','50%')}
+        else{sadness_rects[i].setAttribute('fill-opacity','0');}
+        
+    }
+
     selectedDict['sadness'] = [clicked_id];
-    document.getElementById('sadnessPath').style.visibility = "hidden";
+    //document.getElementById('sadnessPath').style.visibility = "hidden";
     showSelected(selectedDict);
     drawYawLine();
     drawRollLine();

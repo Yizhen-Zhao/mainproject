@@ -3325,8 +3325,8 @@ var data = '[{\
     "Title": "Portrait of Ariosto",\
     "area": "Europe",\
     "Year": 1508,\
-    "url": "https://use2-uploads1.wikiart.org/images/titian/portrait-of-ariosto-1510.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/titian",\
+    "url": "http://use2-uploads1.wikiart.org/images/titian/portrait-of-ariosto-1510.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/titian",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 378,\
@@ -3337,7 +3337,7 @@ var data = '[{\
     "eyesdetailed": 99.173,\
     "mouth": "open",\
     "mouthdetailed": 185,\
-    "happiness": 1,\
+    "happy": 1,\
     "neutral": 73.212,\
     "sadness": 26.78\
   },{\
@@ -3350,8 +3350,8 @@ var data = '[{\
     "Title": "Portrait of a Gentleman",\
     "area": "Europe",\
     "Year": 1449,\
-    "url": "https://use2-uploads4.wikiart.org/images/andrea-del-castagno/portrait-of-a-gentleman.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/andrea-del-castagno",\
+    "url": "http://use2-uploads4.wikiart.org/images/andrea-del-castagno/portrait-of-a-gentleman.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/andrea-del-castagno",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 14.184,\
@@ -3362,7 +3362,7 @@ var data = '[{\
     "eyesdetailed": 99.988,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 2.907,\
+    "happy": 2.907,\
     "neutral": 10.771,\
     "sadness": 26.176\
   },{\
@@ -3375,8 +3375,8 @@ var data = '[{\
     "Title": "Self-Portrait at the Age of Twenty Eight",\
     "area": "Europe",\
     "Year": 1500,\
-    "url": "https://use2-uploads3.wikiart.org/images/albrecht-durer/self-portrait-at-the-age-of-twenty-eight-1500.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/albrecht-durer",\
+    "url": "http://use2-uploads3.wikiart.org/images/albrecht-durer/self-portrait-at-the-age-of-twenty-eight-1500.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/albrecht-durer",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 41,\
@@ -3387,7 +3387,7 @@ var data = '[{\
     "eyesdetailed": 99.97,\
     "mouth": "closed",\
     "mouthdetailed": 42,\
-    "happiness": 1,\
+    "happy": 1,\
     "neutral": 99.991,\
     "sadness": 2\
   },{\
@@ -3400,8 +3400,8 @@ var data = '[{\
     "Title": "Portrait of a Knight",\
     "area": "Europe",\
     "Year": 1510,\
-    "url": "https://use2-uploads4.wikiart.org/images/vittore-carpaccio/portrait-of-a-knight-1510.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/vittore-carpaccio",\
+    "url": "http://use2-uploads4.wikiart.org/images/vittore-carpaccio/portrait-of-a-knight-1510.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/vittore-carpaccio",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 7,\
@@ -3412,7 +3412,7 @@ var data = '[{\
     "eyesdetailed": 99.856,\
     "mouth": "closed",\
     "mouthdetailed": 1.637,\
-    "happiness": 179,\
+    "happy": 179,\
     "neutral": 26.596,\
     "sadness": 61.857\
   },{\
@@ -3425,8 +3425,8 @@ var data = '[{\
     "Title": "Portrait of a Noble Lady",\
     "area": "Europe",\
     "Year": 1510,\
-    "url": "https://use2-uploads0.wikiart.org/00112/images/bartolomeo-veneto/portrait-of-a-noble-lady.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/bartolomeo-veneto",\
+    "url": "http://use2-uploads0.wikiart.org/00112/images/bartolomeo-veneto/portrait-of-a-noble-lady.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/bartolomeo-veneto",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 9.517,\
@@ -3437,7 +3437,7 @@ var data = '[{\
     "eyesdetailed": 99.949,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 612,\
+    "happy": 612,\
     "neutral": 98.777,\
     "sadness": 155\
   },{\
@@ -3450,8 +3450,8 @@ var data = '[{\
     "Title": "Man holding book",\
     "area": "Europe",\
     "Year": 1449,\
-    "url": "https://use2-uploads8.wikiart.org/images/rogier-van-der-weyden/man-holding-book.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/rogier-van-der-weyden",\
+    "url": "http://use2-uploads8.wikiart.org/images/rogier-van-der-weyden/man-holding-book.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/rogier-van-der-weyden",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 102,\
@@ -3462,7 +3462,7 @@ var data = '[{\
     "eyesdetailed": 99.992,\
     "mouth": "closed",\
     "mouthdetailed": 43,\
-    "happiness": 0,\
+    "happy": 0,\
     "neutral": 99.997,\
     "sadness": 2\
   },{\
@@ -3475,8 +3475,8 @@ var data = '[{\
     "Title": "Portrait of a Goldsmith",\
     "area": "Europe",\
     "Year": 1510,\
-    "url": "https://use2-uploads6.wikiart.org/images/gerard-david/portrait-of-a-goldsmith.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/gerard-david",\
+    "url": "http://use2-uploads6.wikiart.org/images/gerard-david/portrait-of-a-goldsmith.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/gerard-david",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 189,\
@@ -3487,7 +3487,7 @@ var data = '[{\
     "eyesdetailed": 99.865,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 1.82,\
+    "happy": 1.82,\
     "neutral": 97.496,\
     "sadness": 16\
   },{\
@@ -3500,8 +3500,8 @@ var data = '[{\
     "Title": "Market woman at a vegetable stand",\
     "area": "Europe",\
     "Year": 1567,\
-    "url": "https://use2-uploads5.wikiart.org/images/pieter-aertsen/market-woman-at-a-vegetable-stand-1567.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/pieter-aertsen",\
+    "url": "http://use2-uploads5.wikiart.org/images/pieter-aertsen/market-woman-at-a-vegetable-stand-1567.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/pieter-aertsen",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 56,\
@@ -3512,7 +3512,7 @@ var data = '[{\
     "eyesdetailed": 99.88,\
     "mouth": "closed",\
     "mouthdetailed": 14,\
-    "happiness": 1,\
+    "happy": 1,\
     "neutral": 99.998,\
     "sadness": 0\
   },{\
@@ -3525,8 +3525,8 @@ var data = '[{\
     "Title": "Self-Portrait",\
     "area": "Europe",\
     "Year": 1493,\
-    "url": "https://use2-uploads3.wikiart.org/images/albrecht-durer/self-portrait-1493.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/albrecht-durer",\
+    "url": "http://use2-uploads3.wikiart.org/images/albrecht-durer/self-portrait-1493.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/albrecht-durer",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 127,\
@@ -3537,7 +3537,7 @@ var data = '[{\
     "eyesdetailed": 99.989,\
     "mouth": "open",\
     "mouthdetailed": 692,\
-    "happiness": 19,\
+    "happy": 19,\
     "neutral": 99.447,\
     "sadness": 3\
   },{\
@@ -3550,8 +3550,8 @@ var data = '[{\
     "Title": "Portrait of a Lady",\
     "area": "Europe",\
     "Year": 1460,\
-    "url": "https://use2-uploads0.wikiart.org/images/rogier-van-der-weyden/portrait-of-a-lady-1460(1).jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/rogier-van-der-weyden",\
+    "url": "http://use2-uploads0.wikiart.org/images/rogier-van-der-weyden/portrait-of-a-lady-1460(1).jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/rogier-van-der-weyden",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 142,\
@@ -3562,7 +3562,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 85,\
+    "happy": 85,\
     "neutral": 96.751,\
     "sadness": 3.139\
   },{\
@@ -3575,8 +3575,8 @@ var data = '[{\
     "Title": "Portrait of a Noble Man",\
     "area": "Europe",\
     "Year": 1510,\
-    "url": "https://use2-uploads8.wikiart.org/00112/images/bartolomeo-veneto/portrait-of-a-noble-man.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/bartolomeo-veneto",\
+    "url": "http://use2-uploads8.wikiart.org/00112/images/bartolomeo-veneto/portrait-of-a-noble-man.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/bartolomeo-veneto",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 327,\
@@ -3587,7 +3587,7 @@ var data = '[{\
     "eyesdetailed": 97.74,\
     "mouth": "open",\
     "mouthdetailed": 99.721,\
-    "happiness": 99,\
+    "happy": 99,\
     "neutral": 45.3,\
     "sadness": 2.77\
   },{\
@@ -3600,8 +3600,8 @@ var data = '[{\
     "Title": "Madonna and Child",\
     "area": "Europe",\
     "Year": 1495,\
-    "url": "https://use2-uploads3.wikiart.org/images/pietro-perugino/madonna-and-child.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/pietro-perugino",\
+    "url": "http://use2-uploads3.wikiart.org/images/pietro-perugino/madonna-and-child.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/pietro-perugino",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 0.07,\
@@ -3612,7 +3612,7 @@ var data = '[{\
     "eyesdetailed": 99.614,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 78,\
+    "happy": 78,\
     "neutral": 99.471,\
     "sadness": 41\
   },{\
@@ -3625,8 +3625,8 @@ var data = '[{\
     "Title": "Potrait of a Carthusian",\
     "area": "Europe",\
     "Year": 1446,\
-    "url": "https://use2-uploads5.wikiart.org/images/petrus-christus/potrait-of-a-carthusian-1446.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/petrus-christus",\
+    "url": "http://use2-uploads5.wikiart.org/images/petrus-christus/potrait-of-a-carthusian-1446.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/petrus-christus",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 36,\
@@ -3637,7 +3637,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 1.438,\
-    "happiness": 0,\
+    "happy": 0,\
     "neutral": 100,\
     "sadness": 0\
   },{\
@@ -3650,8 +3650,8 @@ var data = '[{\
     "Title": "Portrait of a Lady, thought to be Anne Boleyn",\
     "area": "Europe",\
     "Year": 1534,\
-    "url": "https://use2-uploads3.wikiart.org/images/hans-holbein-the-younger/portrait-of-a-lady-thought-to-be-anne-boleyn.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/hans-holbein-the-younger",\
+    "url": "http://use2-uploads3.wikiart.org/images/hans-holbein-the-younger/portrait-of-a-lady-thought-to-be-anne-boleyn.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/hans-holbein-the-younger",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 759,\
@@ -3662,7 +3662,7 @@ var data = '[{\
     "eyesdetailed": 99.867,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 2.819,\
+    "happy": 2.819,\
     "neutral": 69.714,\
     "sadness": 23.725\
   },{\
@@ -3675,8 +3675,8 @@ var data = '[{\
     "Title": "Portrait of Thomas Cromwell",\
     "area": "Europe",\
     "Year": 1533,\
-    "url": "https://use2-uploads4.wikiart.org/images/hans-holbein-the-younger/portrait-of-thomas-cromwell.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/hans-holbein-the-younger",\
+    "url": "http://use2-uploads4.wikiart.org/images/hans-holbein-the-younger/portrait-of-thomas-cromwell.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/hans-holbein-the-younger",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 72,\
@@ -3687,7 +3687,7 @@ var data = '[{\
     "eyesdetailed": 8.745,\
     "mouth": "open",\
     "mouthdetailed": 508,\
-    "happiness": 3.768,\
+    "happy": 3.768,\
     "neutral": 84.236,\
     "sadness": 1.374\
   },{\
@@ -3700,8 +3700,8 @@ var data = '[{\
     "Title": "Old Man with a Young Boy",\
     "area": "Europe",\
     "Year": 1510,\
-    "url": "https://use2-uploads6.wikiart.org/images/domenico-ghirlandaio/old-man-with-a-young-boy.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/domenico-ghirlandaio",\
+    "url": "http://use2-uploads6.wikiart.org/images/domenico-ghirlandaio/old-man-with-a-young-boy.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/domenico-ghirlandaio",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 194,\
@@ -3712,7 +3712,7 @@ var data = '[{\
     "eyesdetailed": 97.273,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 17,\
+    "happy": 17,\
     "neutral": 99.949,\
     "sadness": 0.02\
   },{\
@@ -3725,8 +3725,8 @@ var data = '[{\
     "Title": "Portrait of Georg Tannstetter (Collimitius)",\
     "area": "Europe",\
     "Year": 1515,\
-    "url": "https://use2-uploads1.wikiart.org/images/bernhard-strigel/portrait-of-georg-tannstetter-collimitius.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/bernhard-strigel",\
+    "url": "http://use2-uploads1.wikiart.org/images/bernhard-strigel/portrait-of-georg-tannstetter-collimitius.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/bernhard-strigel",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 35,\
@@ -3737,7 +3737,7 @@ var data = '[{\
     "eyesdetailed": 98.959,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 0,\
+    "happy": 0,\
     "neutral": 99.999,\
     "sadness": 0\
   },{\
@@ -3750,8 +3750,8 @@ var data = '[{\
     "Title": "Portrait of Charles the Bold",\
     "area": "Europe",\
     "Year": 1510,\
-    "url": "https://use2-uploads4.wikiart.org/images/rogier-van-der-weyden/portrait-of-charles-the-bold-1.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/rogier-van-der-weyden",\
+    "url": "http://use2-uploads4.wikiart.org/images/rogier-van-der-weyden/portrait-of-charles-the-bold-1.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/rogier-van-der-weyden",\
     "": "",\
     "smile": "no",\
     "smiledetailed": "0.24",\
@@ -3762,7 +3762,7 @@ var data = '[{\
     "eyesdetailed": "98.959",\
     "mouth": "cloesd",\
     "mouthdetailed": "0",\
-    "happiness": "0",\
+    "happy": "0",\
     "neutral": "99.999",\
     "sadness": "0"\
   },{\
@@ -3775,8 +3775,8 @@ var data = '[{\
     "Title": "Admiral John Forbes (1714â1796)",\
     "area": "Europe",\
     "Year": 1778,\
-    "url": "https://use2-uploads0.wikiart.org/images/george-romney/admiral-john-forbes-1714-1796-1778.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/george-romney",\
+    "url": "http://use2-uploads0.wikiart.org/images/george-romney/admiral-john-forbes-1714-1796-1778.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/george-romney",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 376,\
@@ -3787,7 +3787,7 @@ var data = '[{\
     "eyesdetailed": 99.999,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 14.978,\
+    "happy": 14.978,\
     "neutral": 49.672,\
     "sadness": 34.965\
   },{\
@@ -3800,8 +3800,8 @@ var data = '[{\
     "Title": "Portrait of Alexander Pushkin",\
     "area": "Europe",\
     "Year": 1827,\
-    "url": "https://use2-uploads5.wikiart.org/images/vasily-tropinin/not_detected_241177.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/vasily-tropinin",\
+    "url": "http://use2-uploads5.wikiart.org/images/vasily-tropinin/not_detected_241177.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/vasily-tropinin",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 5.391,\
@@ -3812,7 +3812,7 @@ var data = '[{\
     "eyesdetailed": 99.994,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 0,\
+    "happy": 0,\
     "neutral": 100,\
     "sadness": 0\
   },{\
@@ -3825,8 +3825,8 @@ var data = '[{\
     "Title": "Cyril Jackson",\
     "area": "Europe",\
     "Year": 1811,\
-    "url": "https://use2-uploads3.wikiart.org/images/charles-turner/cyril-jackson-1811.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/charles-turner",\
+    "url": "http://use2-uploads3.wikiart.org/images/charles-turner/cyril-jackson-1811.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/charles-turner",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 17,\
@@ -3837,7 +3837,7 @@ var data = '[{\
     "eyesdetailed": 99.073,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 3,\
+    "happy": 3,\
     "neutral": 99.771,\
     "sadness": 216\
   },{\
@@ -3850,8 +3850,8 @@ var data = '[{\
     "Title": "Portrait of a Condottiero",\
     "area": "Europe",\
     "Year": 1622,\
-    "url": "https://use2-uploads4.wikiart.org/images/artemisia-gentileschi/portrait-of-a-condottiero-1622.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/artemisia-gentileschi",\
+    "url": "http://use2-uploads4.wikiart.org/images/artemisia-gentileschi/portrait-of-a-condottiero-1622.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/artemisia-gentileschi",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 90.611,\
@@ -3862,7 +3862,7 @@ var data = '[{\
     "eyesdetailed": 99.274,\
     "mouth": "open",\
     "mouthdetailed": 97.798,\
-    "happiness": 99.976,\
+    "happy": 99.976,\
     "neutral": 4,\
     "sadness": 6\
   },{\
@@ -3875,8 +3875,8 @@ var data = '[{\
     "Title": "Portrait of a Young Married Couple",\
     "area": "Europe",\
     "Year": 1620,\
-    "url": "https://use2-uploads6.wikiart.org/images/jacob-jordaens/portrait-of-a-young-married-couple-1620.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/jacob-jordaens",\
+    "url": "http://use2-uploads6.wikiart.org/images/jacob-jordaens/portrait-of-a-young-married-couple-1620.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/jacob-jordaens",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 142,\
@@ -3887,7 +3887,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 17,\
-    "happiness": 227,\
+    "happy": 227,\
     "neutral": 98.145,\
     "sadness": 497\
   },{\
@@ -3900,8 +3900,8 @@ var data = '[{\
     "Title": "Portrait of A. G. Spiridov",\
     "area": "Europe",\
     "Year": 1772,\
-    "url": "https://use2-uploads7.wikiart.org/images/mikhail-shibanov/portrait-of-a-g-spiridov-1772.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/mikhail-shibanov",\
+    "url": "http://use2-uploads7.wikiart.org/images/mikhail-shibanov/portrait-of-a-g-spiridov-1772.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/mikhail-shibanov",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 6.301,\
@@ -3912,7 +3912,7 @@ var data = '[{\
     "eyesdetailed": 99.341,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 1,\
+    "happy": 1,\
     "neutral": 99.879,\
     "sadness": 81\
   },{\
@@ -3925,8 +3925,8 @@ var data = '[{\
     "Title": "Portrait of David Hume",\
     "area": "Europe",\
     "Year": 1766,\
-    "url": "https://use2-uploads5.wikiart.org/images/allan-ramsay/portrait-of-david-hume.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/allan-ramsay",\
+    "url": "http://use2-uploads5.wikiart.org/images/allan-ramsay/portrait-of-david-hume.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/allan-ramsay",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 5.362,\
@@ -3937,7 +3937,7 @@ var data = '[{\
     "eyesdetailed": 99.276,\
     "mouth": "closed",\
     "mouthdetailed": 0.01,\
-    "happiness": 64,\
+    "happy": 64,\
     "neutral": 99.871,\
     "sadness": 59\
   },{\
@@ -3950,8 +3950,8 @@ var data = '[{\
     "Title": "Arnauld de Beaufort",\
     "area": "Europe",\
     "Year": 1818,\
-    "url": "https://use2-uploads6.wikiart.org/images/pierre-paul-prud-hon/arnauld-de-beaufort-1818.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/pierre-paul-prud-hon",\
+    "url": "http://use2-uploads6.wikiart.org/images/pierre-paul-prud-hon/arnauld-de-beaufort-1818.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/pierre-paul-prud-hon",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 358,\
@@ -3962,7 +3962,7 @@ var data = '[{\
     "eyesdetailed": 99.999,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 0.05,\
+    "happy": 0.05,\
     "neutral": 658,\
     "sadness": 6.855\
   },{\
@@ -3975,8 +3975,8 @@ var data = '[{\
     "Title": "Portrait of Alexander Kokorinov, Director and First Rector of the Academy of Arts in St. Petersburg.",\
     "area": "Europe",\
     "Year": 1769,\
-    "url": "https://use2-uploads5.wikiart.org/images/dmitry-levitzky/portrait-of-alexander-kokorinov-director-and-first-rector-of-the-academy-of-arts-in-st-1769.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/dmitry-levitzky",\
+    "url": "http://use2-uploads5.wikiart.org/images/dmitry-levitzky/portrait-of-alexander-kokorinov-director-and-first-rector-of-the-academy-of-arts-in-st-1769.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/dmitry-levitzky",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 387,\
@@ -3987,7 +3987,7 @@ var data = '[{\
     "eyesdetailed": 99.988,\
     "mouth": "closed",\
     "mouthdetailed": 87,\
-    "happiness": 491,\
+    "happy": 491,\
     "neutral": 99.164,\
     "sadness": 57\
   },{\
@@ -4000,8 +4000,8 @@ var data = '[{\
     "Title": "Self-portrait with Saskia in the Parable of the Prodigal Son",\
     "area": "",\
     "Year": 1635,\
-    "url": "https://use2-uploads4.wikiart.org/images/rembrandt/self-portrait-with-saskia-in-the-parable-of-the-prodigal-son.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/rembrandt",\
+    "url": "http://use2-uploads4.wikiart.org/images/rembrandt/self-portrait-with-saskia-in-the-parable-of-the-prodigal-son.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/rembrandt",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 98.085,\
@@ -4012,7 +4012,7 @@ var data = '[{\
     "eyesdetailed": 80.452,\
     "mouth": "open",\
     "mouthdetailed": 99.992,\
-    "happiness": 99.97,\
+    "happy": 99.97,\
     "neutral": 26,\
     "sadness": 0\
   },{\
@@ -4025,8 +4025,8 @@ var data = '[{\
     "Title": "Harriot Beauclerk (n&#233;e Mellon), Duchess of St Albans",\
     "area": "Europe",\
     "Year": 1806,\
-    "url": "https://use2-uploads3.wikiart.org/images/charles-turner/harriot-beauclerk-n-e-mellon-duchess-of-st-albans-1806.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/charles-turner",\
+    "url": "http://use2-uploads3.wikiart.org/images/charles-turner/harriot-beauclerk-n-e-mellon-duchess-of-st-albans-1806.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/charles-turner",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 13.397,\
@@ -4037,7 +4037,7 @@ var data = '[{\
     "eyesdetailed": 98.127,\
     "mouth": "closed",\
     "mouthdetailed": 27.951,\
-    "happiness": 61.953,\
+    "happy": 61.953,\
     "neutral": 25.604,\
     "sadness": 79\
   },{\
@@ -4050,8 +4050,8 @@ var data = '[{\
     "Title": "Portrait of a Girl",\
     "area": "Europe",\
     "Year": 1873,\
-    "url": "https://use2-uploads1.wikiart.org/images/constantin-stahi/portrait-of-a-girl-1873.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/constantin-stahi",\
+    "url": "http://use2-uploads1.wikiart.org/images/constantin-stahi/portrait-of-a-girl-1873.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/constantin-stahi",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 32.603,\
@@ -4062,7 +4062,7 @@ var data = '[{\
     "eyesdetailed": 91.988,\
     "mouth": "closed",\
     "mouthdetailed": 7.842,\
-    "happiness": 31.398,\
+    "happy": 31.398,\
     "neutral": 68.465,\
     "sadness": 3\
   },{\
@@ -4075,8 +4075,8 @@ var data = '[{\
     "Title": "Mrs Siddons as the Tragic Muse",\
     "area": "Europe",\
     "Year": 1784,\
-    "url": "https://use2-uploads3.wikiart.org/images/joshua-reynolds/mrs-siddons-as-the-tragic-muse-1789.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/joshua-reynolds",\
+    "url": "http://use2-uploads3.wikiart.org/images/joshua-reynolds/mrs-siddons-as-the-tragic-muse-1789.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/joshua-reynolds",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 5.364,\
@@ -4087,7 +4087,7 @@ var data = '[{\
     "eyesdetailed": 99.266,\
     "mouth": "closed",\
     "mouthdetailed": 0.01,\
-    "happiness": 68,\
+    "happy": 68,\
     "neutral": 99.867,\
     "sadness": 59\
   },{\
@@ -4100,8 +4100,8 @@ var data = '[{\
     "Title": "Portrait of the Empress Josephine",\
     "area": "Europe",\
     "Year": 1805,\
-    "url": "https://use2-uploads2.wikiart.org/images/pierre-paul-prud-hon/portrait-of-the-empress-josephine-1805.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/pierre-paul-prud-hon",\
+    "url": "http://use2-uploads2.wikiart.org/images/pierre-paul-prud-hon/portrait-of-the-empress-josephine-1805.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/pierre-paul-prud-hon",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 3.505,\
@@ -4112,7 +4112,7 @@ var data = '[{\
     "eyesdetailed": 99.999,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 5.775,\
+    "happy": 5.775,\
     "neutral": 93.543,\
     "sadness": 2\
   },{\
@@ -4125,8 +4125,8 @@ var data = '[{\
     "Title": "George III",\
     "area": "Europe",\
     "Year": 1700,\
-    "url": "https://use2-uploads2.wikiart.org/images/allan-ramsay/george-iii.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/allan-ramsay",\
+    "url": "http://use2-uploads2.wikiart.org/images/allan-ramsay/george-iii.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/allan-ramsay",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 49,\
@@ -4137,7 +4137,7 @@ var data = '[{\
     "eyesdetailed": 99.923,\
     "mouth": "closed",\
     "mouthdetailed": 6,\
-    "happiness": 0.14,\
+    "happy": 0.14,\
     "neutral": 99.436,\
     "sadness": 0.2\
   },{\
@@ -4150,8 +4150,8 @@ var data = '[{\
     "Title": "Woman with Tambourine",\
     "area": "Europe",\
     "Year": 1800,\
-    "url": "https://use2-uploads2.wikiart.org/images/gheorghe-tattarescu/woman-with-tambourine.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/gheorghe-tattarescu",\
+    "url": "http://use2-uploads2.wikiart.org/images/gheorghe-tattarescu/woman-with-tambourine.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/gheorghe-tattarescu",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 39,\
@@ -4162,7 +4162,7 @@ var data = '[{\
     "eyesdetailed": 99.991,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 0,\
+    "happy": 0,\
     "neutral": 99.995,\
     "sadness": 5\
   },{\
@@ -4175,8 +4175,8 @@ var data = '[{\
     "Title": "A Youth with a Jug",\
     "area": "Europe",\
     "Year": 1629,\
-    "url": "https://use2-uploads3.wikiart.org/images/judith-leyster/a-youth-with-a-jug.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/judith-leyster",\
+    "url": "http://use2-uploads3.wikiart.org/images/judith-leyster/a-youth-with-a-jug.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/judith-leyster",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 99.695,\
@@ -4187,7 +4187,7 @@ var data = '[{\
     "eyesdetailed": 99.919,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 5.045,\
+    "happy": 5.045,\
     "neutral": 6,\
     "sadness": 3.055\
   },{\
@@ -4200,8 +4200,8 @@ var data = '[{\
     "Title": "Portrait of Leonilla, Princess of Sayn Wittgenstein",\
     "area": "Europe",\
     "Year": 1843,\
-    "url": "https://use2-uploads0.wikiart.org/images/franz-xaver-winterhalter/portrait-of-leonilla-princess-of-sayn-wittgenstein.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/franz-xaver-winterhalter",\
+    "url": "http://use2-uploads0.wikiart.org/images/franz-xaver-winterhalter/portrait-of-leonilla-princess-of-sayn-wittgenstein.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/franz-xaver-winterhalter",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 2.038,\
@@ -4212,7 +4212,7 @@ var data = '[{\
     "eyesdetailed": 99.656,\
     "mouth": "closed",\
     "mouthdetailed": 4.118,\
-    "happiness": 219,\
+    "happy": 219,\
     "neutral": 58.884,\
     "sadness": 31\
   },{\
@@ -4225,8 +4225,8 @@ var data = '[{\
     "Title": "Portrait of Count Alexey Bobrinsky as a Child",\
     "area": "Europe",\
     "Year": 1760,\
-    "url": "https://use2-uploads0.wikiart.org/images/fyodor-rokotov/portrait-of-a-g-bobrinsky-in-his-childhood.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/fyodor-rokotov",\
+    "url": "http://use2-uploads0.wikiart.org/images/fyodor-rokotov/portrait-of-a-g-bobrinsky-in-his-childhood.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/fyodor-rokotov",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 88.649,\
@@ -4237,7 +4237,7 @@ var data = '[{\
     "eyesdetailed": 99.993,\
     "mouth": "closed",\
     "mouthdetailed": 2,\
-    "happiness": 98.663,\
+    "happy": 98.663,\
     "neutral": 1.331,\
     "sadness": 1\
   },{\
@@ -4250,8 +4250,8 @@ var data = '[{\
     "Title": "General Sir William Maxwell",\
     "area": "Europe",\
     "Year": 1700,\
-    "url": "https://use2-uploads2.wikiart.org/images/henry-raeburn/general-sir-william-maxwell.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/henry-raeburn",\
+    "url": "http://use2-uploads2.wikiart.org/images/henry-raeburn/general-sir-william-maxwell.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/henry-raeburn",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 219,\
@@ -4262,7 +4262,7 @@ var data = '[{\
     "eyesdetailed": 99.843,\
     "mouth": "closed",\
     "mouthdetailed": 5,\
-    "happiness": 2.597,\
+    "happy": 2.597,\
     "neutral": 97.398,\
     "sadness": 2\
   },{\
@@ -4275,8 +4275,8 @@ var data = '[{\
     "Title": "Jane Elizabeth, Countess of Oxford",\
     "area": "Europe",\
     "Year": 1797,\
-    "url": "https://use2-uploads3.wikiart.org/images/john-hoppner/jane-elizabeth-countess-of-oxford-1797.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/john-hoppner",\
+    "url": "http://use2-uploads3.wikiart.org/images/john-hoppner/jane-elizabeth-countess-of-oxford-1797.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/john-hoppner",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 731,\
@@ -4287,7 +4287,7 @@ var data = '[{\
     "eyesdetailed": 97.635,\
     "mouth": "closed",\
     "mouthdetailed": 5,\
-    "happiness": 3.325,\
+    "happy": 3.325,\
     "neutral": 96.641,\
     "sadness": 5\
   },{\
@@ -4300,8 +4300,8 @@ var data = '[{\
     "Title": "Lady in a Turkish Costume (Felicita Sartori)",\
     "area": "Europe",\
     "Year": 1728,\
-    "url": "https://use2-uploads7.wikiart.org/images/rosalba-carriera/lady-in-a-turkish-costume-felicita-sartori-1728.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/rosalba-carriera",\
+    "url": "http://use2-uploads7.wikiart.org/images/rosalba-carriera/lady-in-a-turkish-costume-felicita-sartori-1728.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/rosalba-carriera",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 9.837,\
@@ -4312,7 +4312,7 @@ var data = '[{\
     "eyesdetailed": 99.997,\
     "mouth": "closed",\
     "mouthdetailed": 4,\
-    "happiness": 20.432,\
+    "happy": 20.432,\
     "neutral": 32.659,\
     "sadness": 32.848\
   },{\
@@ -4325,8 +4325,8 @@ var data = '[{\
     "Title": "Portrait of Constance Mayer",\
     "area": "Europe",\
     "Year": 1804,\
-    "url": "https://use2-uploads5.wikiart.org/images/pierre-paul-prud-hon/portrait-of-constance-mayer-1804.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/pierre-paul-prud-hon",\
+    "url": "http://use2-uploads5.wikiart.org/images/pierre-paul-prud-hon/portrait-of-constance-mayer-1804.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/pierre-paul-prud-hon",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 96.09,\
@@ -4337,7 +4337,7 @@ var data = '[{\
     "eyesdetailed": 83.308,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 85.954,\
+    "happy": 85.954,\
     "neutral": 22,\
     "sadness": 1.518\
   },{\
@@ -4350,8 +4350,8 @@ var data = '[{\
     "Title": "Boy with a Dead Goldfinch",\
     "area": "Europe",\
     "Year": 1829,\
-    "url": "https://use2-uploads7.wikiart.org/images/vasily-tropinin/boy-with-a-dead-goldfinch-1829.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/vasily-tropinin",\
+    "url": "http://use2-uploads7.wikiart.org/images/vasily-tropinin/boy-with-a-dead-goldfinch-1829.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/vasily-tropinin",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 4.216,\
@@ -4362,7 +4362,7 @@ var data = '[{\
     "eyesdetailed": 95.97,\
     "mouth": "open",\
     "mouthdetailed": 60.516,\
-    "happiness": 18,\
+    "happy": 18,\
     "neutral": 99.353,\
     "sadness": 0.23\
   },{\
@@ -4375,8 +4375,8 @@ var data = '[{\
     "Title": "Portrait of Paul Johann Ludwig von Heyse",\
     "area": "Europe",\
     "Year": 1853,\
-    "url": "https://use2-uploads5.wikiart.org/images/adolph-menzel/portrait-of-paul-johann-ludwig-von-heyse-1853(1).jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/adolph-menzel",\
+    "url": "http://use2-uploads5.wikiart.org/images/adolph-menzel/portrait-of-paul-johann-ludwig-von-heyse-1853(1).jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/adolph-menzel",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 496,\
@@ -4387,7 +4387,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 91,\
+    "happy": 91,\
     "neutral": 99.667,\
     "sadness": 19\
   },{\
@@ -4400,8 +4400,8 @@ var data = '[{\
     "Title": "Boy with a Top",\
     "area": "Europe",\
     "Year": 1735,\
-    "url": "https://use2-uploads4.wikiart.org/images/jean-baptiste-simeon-chardin/boy-with-a-top.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/jean-baptiste-simeon-chardin",\
+    "url": "http://use2-uploads4.wikiart.org/images/jean-baptiste-simeon-chardin/boy-with-a-top.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/jean-baptiste-simeon-chardin",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 269,\
@@ -4412,7 +4412,7 @@ var data = '[{\
     "eyesdetailed": 23.653,\
     "mouth": "closed",\
     "mouthdetailed": 1.183,\
-    "happiness": 28,\
+    "happy": 28,\
     "neutral": 99.499,\
     "sadness": 423\
   },{\
@@ -4425,8 +4425,8 @@ var data = '[{\
     "Title": "Apollo and Diana",\
     "area": "Europe",\
     "Year": 1757,\
-    "url": "https://use2-uploads8.wikiart.org/images/giovanni-battista-tiepolo/apollo-and-diana-1757.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/giovanni-battista-tiepolo",\
+    "url": "http://use2-uploads8.wikiart.org/images/giovanni-battista-tiepolo/apollo-and-diana-1757.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/giovanni-battista-tiepolo",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 615,\
@@ -4437,7 +4437,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "open",\
     "mouthdetailed": 78.43,\
-    "happiness": 91,\
+    "happy": 91,\
     "neutral": 93.648,\
     "sadness": 4.488\
   },{\
@@ -4450,8 +4450,8 @@ var data = '[{\
     "Title": "Youth Making a Face",\
     "area": "Europe",\
     "Year": 1633,\
-    "url": "https://use2-uploads5.wikiart.org/images/adriaen-brouwer/youth-making-a-face.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/adriaen-brouwer",\
+    "url": "http://use2-uploads5.wikiart.org/images/adriaen-brouwer/youth-making-a-face.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/adriaen-brouwer",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 16.721,\
@@ -4462,7 +4462,7 @@ var data = '[{\
     "eyesdetailed": 99.892,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 6.67,\
+    "happy": 6.67,\
     "neutral": 80.093,\
     "sadness": 122\
   },{\
@@ -4475,8 +4475,8 @@ var data = '[{\
     "Title": "Portrait of a Kleptomaniac",\
     "area": "Europe",\
     "Year": 1819,\
-    "url": "https://use2-uploads2.wikiart.org/images/theodore-gericault/portrait-of-a-kleptomaniac-1822.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/theodore-gericault",\
+    "url": "http://use2-uploads2.wikiart.org/images/theodore-gericault/portrait-of-a-kleptomaniac-1822.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/theodore-gericault",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 2.306,\
@@ -4487,7 +4487,7 @@ var data = '[{\
     "eyesdetailed": 99.999,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 27,\
+    "happy": 27,\
     "neutral": 96.887,\
     "sadness": 13\
   },{\
@@ -4500,8 +4500,8 @@ var data = '[{\
     "Title": "Portrait of Mrs. E. Bethune",\
     "area": "Europe",\
     "Year": 1750,\
-    "url": "https://use2-uploads0.wikiart.org/images/henry-raeburn/portrait-of-mrs-e-bethune.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/henry-raeburn",\
+    "url": "http://use2-uploads0.wikiart.org/images/henry-raeburn/portrait-of-mrs-e-bethune.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/henry-raeburn",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 2.064,\
@@ -4512,7 +4512,7 @@ var data = '[{\
     "eyesdetailed": 99.994,\
     "mouth": "closed",\
     "mouthdetailed": 1,\
-    "happiness": 4.459,\
+    "happy": 4.459,\
     "neutral": 95.271,\
     "sadness": 168\
   },{\
@@ -4525,8 +4525,8 @@ var data = '[{\
     "Title": "The old beggar",\
     "area": "Europe",\
     "Year": 1869,\
-    "url": "https://use2-uploads6.wikiart.org/images/fyodor-bronnikov/the-old-beggar-1869.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/fyodor-bronnikov",\
+    "url": "http://use2-uploads6.wikiart.org/images/fyodor-bronnikov/the-old-beggar-1869.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/fyodor-bronnikov",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 2.636,\
@@ -4537,7 +4537,7 @@ var data = '[{\
     "eyesdetailed": 94.107,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 7.544,\
+    "happy": 7.544,\
     "neutral": 36.043,\
     "sadness": 3.842\
   },{\
@@ -4550,8 +4550,8 @@ var data = '[{\
     "Title": "Portrait of Leo Tolstoy",\
     "area": "Europe",\
     "Year": 1873,\
-    "url": "https://use2-uploads3.wikiart.org/images/ivan-kramskoy/portrait-of-leo-tolstoy-1873.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/ivan-kramskoy",\
+    "url": "http://use2-uploads3.wikiart.org/images/ivan-kramskoy/portrait-of-leo-tolstoy-1873.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/ivan-kramskoy",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 84,\
@@ -4562,7 +4562,7 @@ var data = '[{\
     "eyesdetailed": 99.99,\
     "mouth": "closed",\
     "mouthdetailed": 1,\
-    "happiness": 19,\
+    "happy": 19,\
     "neutral": 2.902,\
     "sadness": 1\
   },{\
@@ -4575,8 +4575,8 @@ var data = '[{\
     "Title": "The King of Rome",\
     "area": "Europe",\
     "Year": 1811,\
-    "url": "https://use2-uploads3.wikiart.org/images/pierre-paul-prud-hon/the-king-of-rome-1811.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/pierre-paul-prud-hon",\
+    "url": "http://use2-uploads3.wikiart.org/images/pierre-paul-prud-hon/the-king-of-rome-1811.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/pierre-paul-prud-hon",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 479,\
@@ -4587,7 +4587,7 @@ var data = '[{\
     "eyesdetailed": 6.682,\
     "mouth": "closed",\
     "mouthdetailed": 7.266,\
-    "happiness": 14,\
+    "happy": 14,\
     "neutral": 99.383,\
     "sadness": 287\
   },{\
@@ -4600,8 +4600,8 @@ var data = '[{\
     "Title": "Portrait of Marie Antoinette",\
     "area": "Europe",\
     "Year": 1780,\
-    "url": "https://use2-uploads6.wikiart.org/images/anne-vallayer-coster/portrait-of-marie-antoinette-1780.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/anne-vallayer-coster",\
+    "url": "http://use2-uploads6.wikiart.org/images/anne-vallayer-coster/portrait-of-marie-antoinette-1780.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/anne-vallayer-coster",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 3.536,\
@@ -4612,7 +4612,7 @@ var data = '[{\
     "eyesdetailed": 99.893,\
     "mouth": "closed",\
     "mouthdetailed": 1,\
-    "happiness": 46.304,\
+    "happy": 46.304,\
     "neutral": 52.27,\
     "sadness": 75\
   },{\
@@ -4625,8 +4625,8 @@ var data = '[{\
     "Title": "Lady Hamilton",\
     "area": "Europe",\
     "Year": 1750,\
-    "url": "https://use2-uploads5.wikiart.org/images/louise-elisabeth-vigee-le-brun/lady-hamilton.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/louise-elisabeth-vigee-le-brun",\
+    "url": "http://use2-uploads5.wikiart.org/images/louise-elisabeth-vigee-le-brun/lady-hamilton.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/louise-elisabeth-vigee-le-brun",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 88.342,\
@@ -4637,7 +4637,7 @@ var data = '[{\
     "eyesdetailed": 99.1,\
     "mouth": "open",\
     "mouthdetailed": 879,\
-    "happiness": 97.835,\
+    "happy": 97.835,\
     "neutral": 2.08,\
     "sadness": 9\
   },{\
@@ -4650,8 +4650,8 @@ var data = '[{\
     "Title": "Frederick II of Prussia",\
     "area": "Europe",\
     "Year": 1757,\
-    "url": "https://use2-uploads3.wikiart.org/images/antoine-pesne/frederick-ii-of-prussia-1757.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/antoine-pesne",\
+    "url": "http://use2-uploads3.wikiart.org/images/antoine-pesne/frederick-ii-of-prussia-1757.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/antoine-pesne",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 725,\
@@ -4662,7 +4662,7 @@ var data = '[{\
     "eyesdetailed": 99.942,\
     "mouth": "open",\
     "mouthdetailed": 82.537,\
-    "happiness": 913,\
+    "happy": 913,\
     "neutral": 97.853,\
     "sadness": 15\
   },{\
@@ -4675,8 +4675,8 @@ var data = '[{\
     "Title": "Catherine Whitmore (n&#233;e Thomason)",\
     "area": "Europe",\
     "Year": 1810,\
-    "url": "https://use2-uploads3.wikiart.org/images/charles-turner/catherine-whitmore-n-e-thomason-1810.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/charles-turner",\
+    "url": "http://use2-uploads3.wikiart.org/images/charles-turner/catherine-whitmore-n-e-thomason-1810.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/charles-turner",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 367,\
@@ -4687,7 +4687,7 @@ var data = '[{\
     "eyesdetailed": 99.954,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 202,\
+    "happy": 202,\
     "neutral": 99.76,\
     "sadness": 0.01\
   },{\
@@ -4700,8 +4700,8 @@ var data = '[{\
     "Title": "Queen Marie Antoinette of France",\
     "area": "Europe",\
     "Year": 1783,\
-    "url": "https://use2-uploads2.wikiart.org/images/louise-elisabeth-vigee-le-brun/queen-marie-antoinette-of-france-1783.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/louise-elisabeth-vigee-le-brun",\
+    "url": "http://use2-uploads2.wikiart.org/images/louise-elisabeth-vigee-le-brun/queen-marie-antoinette-of-france-1783.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/louise-elisabeth-vigee-le-brun",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 12.449,\
@@ -4712,7 +4712,7 @@ var data = '[{\
     "eyesdetailed": 99.434,\
     "mouth": "closed",\
     "mouthdetailed": 56.701,\
-    "happiness": 83.004,\
+    "happy": 83.004,\
     "neutral": 16.301,\
     "sadness": 33\
   },{\
@@ -4725,8 +4725,8 @@ var data = '[{\
     "Title": "Portrait of Louis du Vergier",\
     "area": "Europe",\
     "Year": 1819,\
-    "url": "https://use2-uploads8.wikiart.org/images/pierre-narcisse-guerin/portrait-of-louis-du-vergier-1819.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/pierre-narcisse-guerin",\
+    "url": "http://use2-uploads8.wikiart.org/images/pierre-narcisse-guerin/portrait-of-louis-du-vergier-1819.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/pierre-narcisse-guerin",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 543,\
@@ -4737,7 +4737,7 @@ var data = '[{\
     "eyesdetailed": 98.85,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 95,\
+    "happy": 95,\
     "neutral": 96.916,\
     "sadness": 71\
   },{\
@@ -4750,8 +4750,8 @@ var data = '[{\
     "Title": "Mary Digges (1737-1829) Lady Robert Manners",\
     "area": "Europe",\
     "Year": 1700,\
-    "url": "https://use2-uploads6.wikiart.org/images/allan-ramsay/mary-digges-1737-1829-lady-robert-manners.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/allan-ramsay",\
+    "url": "http://use2-uploads6.wikiart.org/images/allan-ramsay/mary-digges-1737-1829-lady-robert-manners.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/allan-ramsay",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 2.856,\
@@ -4762,7 +4762,7 @@ var data = '[{\
     "eyesdetailed": 98.681,\
     "mouth": "closed",\
     "mouthdetailed": 1.813,\
-    "happiness": 1.749,\
+    "happy": 1.749,\
     "neutral": 98.251,\
     "sadness": 0\
   },{\
@@ -4775,8 +4775,8 @@ var data = '[{\
     "Title": "Portrait of Alexandra Struiskaya",\
     "area": "Europe",\
     "Year": 1772,\
-    "url": "https://use2-uploads8.wikiart.org/images/fyodor-rokotov/portrait-of-alexandra-struiskaya.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/fyodor-rokotov",\
+    "url": "http://use2-uploads8.wikiart.org/images/fyodor-rokotov/portrait-of-alexandra-struiskaya.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/fyodor-rokotov",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 6.363,\
@@ -4787,7 +4787,7 @@ var data = '[{\
     "eyesdetailed": 99.999,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 16.507,\
+    "happy": 16.507,\
     "neutral": 80.249,\
     "sadness": 39\
   },{\
@@ -4800,8 +4800,8 @@ var data = '[{\
     "Title": "Portrait of Elisabeth Mertens and her Late Husband",\
     "area": "Europe",\
     "Year": 1630,\
-    "url": "https://use2-uploads0.wikiart.org/images/cornelis-de-vos/portrait-of-elisabeth-mertens-and-her-late-husband.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/cornelis-de-vos",\
+    "url": "http://use2-uploads0.wikiart.org/images/cornelis-de-vos/portrait-of-elisabeth-mertens-and-her-late-husband.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/cornelis-de-vos",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 75,\
@@ -4812,7 +4812,7 @@ var data = '[{\
     "eyesdetailed": 99.501,\
     "mouth": "closed",\
     "mouthdetailed": 4.03,\
-    "happiness": 7,\
+    "happy": 7,\
     "neutral": 76.188,\
     "sadness": 23.379\
   },{\
@@ -4825,8 +4825,8 @@ var data = '[{\
     "Title": "Carlos IV, Prince of Asturias",\
     "area": "Europe",\
     "Year": 1765,\
-    "url": "https://use2-uploads2.wikiart.org/00118/images/anton-raphael-mengs/carlos-iv-prince-of-asturias-1765.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/anton-raphael-mengs",\
+    "url": "http://use2-uploads2.wikiart.org/00118/images/anton-raphael-mengs/carlos-iv-prince-of-asturias-1765.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/anton-raphael-mengs",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 2.175,\
@@ -4837,7 +4837,7 @@ var data = '[{\
     "eyesdetailed": 99.974,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 622,\
+    "happy": 622,\
     "neutral": 98.848,\
     "sadness": 349\
   },{\
@@ -4850,8 +4850,8 @@ var data = '[{\
     "Title": "Portrait of Augusta of Saxe Gotha, Princess of Wales",\
     "area": "Europe",\
     "Year": 1780,\
-    "url": "https://use2-uploads7.wikiart.org/images/allan-ramsay/portrait-of-augusta-of-saxe-gotha-princess-of-wales.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/allan-ramsay",\
+    "url": "http://use2-uploads7.wikiart.org/images/allan-ramsay/portrait-of-augusta-of-saxe-gotha-princess-of-wales.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/allan-ramsay",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 1.003,\
@@ -4862,7 +4862,7 @@ var data = '[{\
     "eyesdetailed": 64.405,\
     "mouth": "closed",\
     "mouthdetailed": 4,\
-    "happiness": 64,\
+    "happy": 64,\
     "neutral": 14.435,\
     "sadness": 4.047\
   },{\
@@ -4875,8 +4875,8 @@ var data = '[{\
     "Title": "Portrait of an Unknown Man in a Cocked Hat",\
     "area": "Europe",\
     "Year": 1770,\
-    "url": "https://use2-uploads0.wikiart.org/images/fyodor-rokotov/portrait-of-an-unknown-man-in-a-cocked-hat.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/fyodor-rokotov",\
+    "url": "http://use2-uploads0.wikiart.org/images/fyodor-rokotov/portrait-of-an-unknown-man-in-a-cocked-hat.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/fyodor-rokotov",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 87.016,\
@@ -4887,7 +4887,7 @@ var data = '[{\
     "eyesdetailed": 99.999,\
     "mouth": "open",\
     "mouthdetailed": 237,\
-    "happiness": 20.883,\
+    "happy": 20.883,\
     "neutral": 76.514,\
     "sadness": 2.091\
   },{\
@@ -4900,8 +4900,8 @@ var data = '[{\
     "Title": "Henry Rich, 1st Earl of Holland",\
     "area": "Europe",\
     "Year": 1810,\
-    "url": "https://use2-uploads2.wikiart.org/images/charles-turner/henry-rich-1st-earl-of-holland-1810.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/charles-turner",\
+    "url": "http://use2-uploads2.wikiart.org/images/charles-turner/henry-rich-1st-earl-of-holland-1810.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/charles-turner",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 57.203,\
@@ -4912,7 +4912,7 @@ var data = '[{\
     "eyesdetailed": 99.99,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 3.797,\
+    "happy": 3.797,\
     "neutral": 31.157,\
     "sadness": 47\
   },{\
@@ -4925,8 +4925,8 @@ var data = '[{\
     "Title": "John Plampin",\
     "area": "Europe",\
     "Year": 1753,\
-    "url": "https://use2-uploads2.wikiart.org/images/thomas-gainsborough/john-plampin.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/thomas-gainsborough",\
+    "url": "http://use2-uploads2.wikiart.org/images/thomas-gainsborough/john-plampin.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/thomas-gainsborough",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 70.02,\
@@ -4937,7 +4937,7 @@ var data = '[{\
     "eyesdetailed": 42.236,\
     "mouth": "closed",\
     "mouthdetailed": 2.12,\
-    "happiness": 11.429,\
+    "happy": 11.429,\
     "neutral": 79.145,\
     "sadness": 9.001\
   },{\
@@ -4950,8 +4950,8 @@ var data = '[{\
     "Title": "Portrait of Johan Wierts",\
     "area": "Europe",\
     "Year": 1635,\
-    "url": "https://use2-uploads5.wikiart.org/images/jacob-jordaens/portrait-of-johan-wierts-1635.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/jacob-jordaens",\
+    "url": "http://use2-uploads5.wikiart.org/images/jacob-jordaens/portrait-of-johan-wierts-1635.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/jacob-jordaens",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 0.45,\
@@ -4962,7 +4962,7 @@ var data = '[{\
     "eyesdetailed": 99.997,\
     "mouth": "closed",\
     "mouthdetailed": 18.733,\
-    "happiness": 569,\
+    "happy": 569,\
     "neutral": 72.547,\
     "sadness": 19\
   },{\
@@ -4975,8 +4975,8 @@ var data = '[{\
     "Title": "Captain Peter Heywood",\
     "area": "Europe",\
     "Year": 1822,\
-    "url": "https://use2-uploads0.wikiart.org/images/john-simpson/captain-peter-heywood-1822.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/john-simpson",\
+    "url": "http://use2-uploads0.wikiart.org/images/john-simpson/captain-peter-heywood-1822.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/john-simpson",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 0,\
@@ -4987,7 +4987,7 @@ var data = '[{\
     "eyesdetailed": 99.993,\
     "mouth": "closed",\
     "mouthdetailed": 5,\
-    "happiness": 12,\
+    "happy": 12,\
     "neutral": 99.568,\
     "sadness": 318\
   },{\
@@ -5000,8 +5000,8 @@ var data = '[{\
     "Title": "The painter&#39;s wife, Margaret Lindsay",\
     "area": "Europe",\
     "Year": 1700,\
-    "url": "https://use2-uploads0.wikiart.org/images/allan-ramsay/the-painter-s-wife-margaret-lindsay.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/allan-ramsay",\
+    "url": "http://use2-uploads0.wikiart.org/images/allan-ramsay/the-painter-s-wife-margaret-lindsay.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/allan-ramsay",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 3.319,\
@@ -5012,7 +5012,7 @@ var data = '[{\
     "eyesdetailed": 99.98,\
     "mouth": "closed",\
     "mouthdetailed": 3.609,\
-    "happiness": 61,\
+    "happy": 61,\
     "neutral": 99.914,\
     "sadness": 15\
   },{\
@@ -5025,8 +5025,8 @@ var data = '[{\
     "Title": "Portrait of the Artist",\
     "area": "Europe",\
     "Year": 1879,\
-    "url": "https://use2-uploads6.wikiart.org/images/william-adolphe-bouguereau/portrait-of-the-artist-1879.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/william-adolphe-bouguereau",\
+    "url": "http://use2-uploads6.wikiart.org/images/william-adolphe-bouguereau/portrait-of-the-artist-1879.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/william-adolphe-bouguereau",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 1,\
@@ -5037,7 +5037,7 @@ var data = '[{\
     "eyesdetailed": 99.851,\
     "mouth": "closed",\
     "mouthdetailed": 57,\
-    "happiness": 1,\
+    "happy": 1,\
     "neutral": 99.339,\
     "sadness": 575\
   },{\
@@ -5048,10 +5048,10 @@ var data = '[{\
     "Category": "Realism",\
     "Artist": "George Catlin",\
     "Title": "See-non-ty-a, an Iowa Medicine Man",\
-    "area": "North America",\
+    "area": "North",\
     "Year": 1845,\
-    "url": "https://use2-uploads4.wikiart.org/images/george-catlin/see-non-ty-a-an-iowa-medicine-man-1845.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/george-catlin",\
+    "url": "http://use2-uploads4.wikiart.org/images/george-catlin/see-non-ty-a-an-iowa-medicine-man-1845.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/george-catlin",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 1.458,\
@@ -5062,7 +5062,7 @@ var data = '[{\
     "eyesdetailed": 99.998,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 2,\
+    "happy": 2,\
     "neutral": 1.217,\
     "sadness": 98.707\
   },{\
@@ -5075,8 +5075,8 @@ var data = '[{\
     "Title": "Elizabeth Cromwell (n&#233;e Steward)",\
     "area": "Europe",\
     "Year": 1810,\
-    "url": "https://use2-uploads4.wikiart.org/images/charles-turner/elizabeth-cromwell-n-e-steward-1810-1.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/charles-turner",\
+    "url": "http://use2-uploads4.wikiart.org/images/charles-turner/elizabeth-cromwell-n-e-steward-1810-1.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/charles-turner",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 66,\
@@ -5087,7 +5087,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 25.403,\
-    "happiness": 1.932,\
+    "happy": 1.932,\
     "neutral": 46.072,\
     "sadness": 51.228\
   },{\
@@ -5100,8 +5100,8 @@ var data = '[{\
     "Title": "St. Rufina of Seville",\
     "area": "Europe",\
     "Year": 1635,\
-    "url": "https://use2-uploads5.wikiart.org/images/francisco-zurbaran/st-rufina-of-seville-1640.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/francisco-de-zurbaran",\
+    "url": "http://use2-uploads5.wikiart.org/images/francisco-zurbaran/st-rufina-of-seville-1640.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/francisco-de-zurbaran",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 56,\
@@ -5112,7 +5112,7 @@ var data = '[{\
     "eyesdetailed": 99.82,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 7,\
+    "happy": 7,\
     "neutral": 99.889,\
     "sadness": 1\
   },{\
@@ -5125,8 +5125,8 @@ var data = '[{\
     "Title": "Portrait of a Gentleman in Red",\
     "area": "Europe",\
     "Year": 1739,\
-    "url": "https://use2-uploads4.wikiart.org/images/rosalba-carriera/portrait-of-a-gentleman-in-red-1739.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/rosalba-carriera",\
+    "url": "http://use2-uploads4.wikiart.org/images/rosalba-carriera/portrait-of-a-gentleman-in-red-1739.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/rosalba-carriera",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 0.3,\
@@ -5137,7 +5137,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 32,\
-    "happiness": 6,\
+    "happy": 6,\
     "neutral": 99.993,\
     "sadness": 0\
   },{\
@@ -5150,8 +5150,8 @@ var data = '[{\
     "Title": "Captain Peter Parker",\
     "area": "Europe",\
     "Year": 1808,\
-    "url": "https://use2-uploads8.wikiart.org/images/john-hoppner/captain-peter-parker-1808.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/john-hoppner",\
+    "url": "http://use2-uploads8.wikiart.org/images/john-hoppner/captain-peter-parker-1808.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/john-hoppner",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 3.046,\
@@ -5162,7 +5162,7 @@ var data = '[{\
     "eyesdetailed": 99.951,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 25,\
+    "happy": 25,\
     "neutral": 99.961,\
     "sadness": 3\
   },{\
@@ -5175,8 +5175,8 @@ var data = '[{\
     "Title": "A Young Woman With a Macaw",\
     "area": "Europe",\
     "Year": 1758,\
-    "url": "https://use2-uploads4.wikiart.org/images/giovanni-battista-tiepolo/a-young-woman-with-a-macaw.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/giovanni-battista-tiepolo",\
+    "url": "http://use2-uploads4.wikiart.org/images/giovanni-battista-tiepolo/a-young-woman-with-a-macaw.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/giovanni-battista-tiepolo",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 943,\
@@ -5187,7 +5187,7 @@ var data = '[{\
     "eyesdetailed": 99.998,\
     "mouth": "closed",\
     "mouthdetailed": 4,\
-    "happiness": 3,\
+    "happy": 3,\
     "neutral": 99.036,\
     "sadness": 2\
   },{\
@@ -5200,8 +5200,8 @@ var data = '[{\
     "Title": "Equestrian Portrait of Joachim Murat",\
     "area": "Europe",\
     "Year": 1812,\
-    "url": "https://use2-uploads8.wikiart.org/00118/images/antoine-jean-gros/equestrian-portrait-of-joachim-murat-1812.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/antoine-jean-gros",\
+    "url": "http://use2-uploads8.wikiart.org/00118/images/antoine-jean-gros/equestrian-portrait-of-joachim-murat-1812.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/antoine-jean-gros",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 3.601,\
@@ -5212,7 +5212,7 @@ var data = '[{\
     "eyesdetailed": 40.643,\
     "mouth": "closed",\
     "mouthdetailed": 1,\
-    "happiness": 5.334,\
+    "happy": 5.334,\
     "neutral": 63.254,\
     "sadness": 1.556\
   },{\
@@ -5225,8 +5225,8 @@ var data = '[{\
     "Title": "A Venetian Lady from the House of Barbarigo (Caterina Sagredo Barbarigo)",\
     "area": "Europe",\
     "Year": 1735,\
-    "url": "https://use2-uploads8.wikiart.org/images/rosalba-carriera/a-venetian-lady-from-the-house-of-barbarigo-caterina-sagredo-barbarigo-1735.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/rosalba-carriera",\
+    "url": "http://use2-uploads8.wikiart.org/images/rosalba-carriera/a-venetian-lady-from-the-house-of-barbarigo-caterina-sagredo-barbarigo-1735.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/rosalba-carriera",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 1.174,\
@@ -5237,7 +5237,7 @@ var data = '[{\
     "eyesdetailed": 99.969,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 517,\
+    "happy": 517,\
     "neutral": 98.937,\
     "sadness": 438\
   },{\
@@ -5250,8 +5250,8 @@ var data = '[{\
     "Title": "Portrait of French journalist Louis-Fran&#231;ois Bertin",\
     "area": "Europe",\
     "Year": 1832,\
-    "url": "https://use2-uploads6.wikiart.org/images/pierre-narcisse-guerin/the-portrait-of-the-chouan-rochejaquelin.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/jean-auguste-dominique-ingres",\
+    "url": "http://use2-uploads6.wikiart.org/images/pierre-narcisse-guerin/the-portrait-of-the-chouan-rochejaquelin.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/jean-auguste-dominique-ingres",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 51,\
@@ -5262,7 +5262,7 @@ var data = '[{\
     "eyesdetailed": 99.985,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 15,\
+    "happy": 15,\
     "neutral": 99.978,\
     "sadness": 0\
   },{\
@@ -5275,8 +5275,8 @@ var data = '[{\
     "Title": "Mr. and Mrs. Andrews",\
     "area": "Europe",\
     "Year": 1749,\
-    "url": "https://use2-uploads4.wikiart.org/images/thomas-gainsborough/mr-and-mrs-andrews-1749.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/thomas-gainsborough",\
+    "url": "http://use2-uploads4.wikiart.org/images/thomas-gainsborough/mr-and-mrs-andrews-1749.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/thomas-gainsborough",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 169,\
@@ -5287,7 +5287,7 @@ var data = '[{\
     "eyesdetailed": 99.999,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 20.343,\
+    "happy": 20.343,\
     "neutral": 62.339,\
     "sadness": 8.873\
   },{\
@@ -5300,8 +5300,8 @@ var data = '[{\
     "Title": "William Cavendish, Marquess of Hartington, Later 4th Duke of Devonshire",\
     "area": "Europe",\
     "Year": 1741,\
-    "url": "https://use2-uploads6.wikiart.org/images/william-hogarth/william-cavendish-marquess-of-hartington-later-4th-duke-of-devonshire-1741.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/william-hogarth",\
+    "url": "http://use2-uploads6.wikiart.org/images/william-hogarth/william-cavendish-marquess-of-hartington-later-4th-duke-of-devonshire-1741.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/william-hogarth",\
     "": "",\
     "smile": "",\
     "smiledetailed": 101,\
@@ -5312,7 +5312,7 @@ var data = '[{\
     "eyesdetailed": 61.691,\
     "mouth": "open",\
     "mouthdetailed": 465,\
-    "happiness": 6,\
+    "happy": 6,\
     "neutral": 99.447,\
     "sadness": 15\
   },{\
@@ -5325,8 +5325,8 @@ var data = '[{\
     "Title": "Crown Prince Friedrich Christian of Saxony",\
     "area": "Europe",\
     "Year": 1739,\
-    "url": "https://use2-uploads7.wikiart.org/images/rosalba-carriera/crown-prince-friedrich-christian-of-saxony-1739.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/rosalba-carriera",\
+    "url": "http://use2-uploads7.wikiart.org/images/rosalba-carriera/crown-prince-friedrich-christian-of-saxony-1739.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/rosalba-carriera",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 145,\
@@ -5337,7 +5337,7 @@ var data = '[{\
     "eyesdetailed": 99.404,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 1.11,\
+    "happy": 1.11,\
     "neutral": 97.729,\
     "sadness": 34\
   },{\
@@ -5350,8 +5350,8 @@ var data = '[{\
     "Title": "A Lady in a Brown Dress. &#39;The Parson&#39;s Daughter&#39;",\
     "area": "Europe",\
     "Year": 1785,\
-    "url": "https://use2-uploads7.wikiart.org/images/george-romney/a-lady-in-a-brown-dress-the-parson-s-daughter-1785.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/george-romney",\
+    "url": "http://use2-uploads7.wikiart.org/images/george-romney/a-lady-in-a-brown-dress-the-parson-s-daughter-1785.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/george-romney",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 3.769,\
@@ -5362,7 +5362,7 @@ var data = '[{\
     "eyesdetailed": 99.951,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 22.785,\
+    "happy": 22.785,\
     "neutral": 77.19,\
     "sadness": 3\
   },{\
@@ -5375,8 +5375,8 @@ var data = '[{\
     "Title": "Boy and Rabbit",\
     "area": "Europe",\
     "Year": 1814,\
-    "url": "https://use2-uploads7.wikiart.org/images/henry-raeburn/boy-and-rabbit.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/henry-raeburn",\
+    "url": "http://use2-uploads7.wikiart.org/images/henry-raeburn/boy-and-rabbit.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/henry-raeburn",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 1.274,\
@@ -5387,7 +5387,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 7,\
+    "happy": 7,\
     "neutral": 95.232,\
     "sadness": 4.737\
   },{\
@@ -5400,8 +5400,8 @@ var data = '[{\
     "Title": "Sleeping Herd-Boy",\
     "area": "Europe",\
     "Year": 1824,\
-    "url": "https://use2-uploads6.wikiart.org/images/alexey-venetsianov/sleeping-herd-boy.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/alexey-venetsianov",\
+    "url": "http://use2-uploads6.wikiart.org/images/alexey-venetsianov/sleeping-herd-boy.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/alexey-venetsianov",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 651,\
@@ -5412,7 +5412,7 @@ var data = '[{\
     "eyesdetailed": 2.951,\
     "mouth": "closed",\
     "mouthdetailed": 14.739,\
-    "happiness": 0.01,\
+    "happy": 0.01,\
     "neutral": 83.354,\
     "sadness": 15.311\
   },{\
@@ -5425,8 +5425,8 @@ var data = '[{\
     "Title": "Portrait of Victoria of the United Kingdom",\
     "area": "Europe",\
     "Year": 1843,\
-    "url": "https://use2-uploads1.wikiart.org/images/franz-xaver-winterhalter/portrait-of-victoria-of-the-united-kingdom.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/franz-xaver-winterhalter",\
+    "url": "http://use2-uploads1.wikiart.org/images/franz-xaver-winterhalter/portrait-of-victoria-of-the-united-kingdom.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/franz-xaver-winterhalter",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 1.173,\
@@ -5437,7 +5437,7 @@ var data = '[{\
     "eyesdetailed": 99.991,\
     "mouth": "closed",\
     "mouthdetailed": 0.03,\
-    "happiness": 4,\
+    "happy": 4,\
     "neutral": 99.992,\
     "sadness": 0\
   },{\
@@ -5450,8 +5450,8 @@ var data = '[{\
     "Title": "Small Girl Presenting Cherries",\
     "area": "Europe",\
     "Year": 1780,\
-    "url": "https://use2-uploads0.wikiart.org/images/john-russell/small-girl-presenting-cherries-1780.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/john-russell",\
+    "url": "http://use2-uploads0.wikiart.org/images/john-russell/small-girl-presenting-cherries-1780.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/john-russell",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 30.997,\
@@ -5462,7 +5462,7 @@ var data = '[{\
     "eyesdetailed": 99.997,\
     "mouth": "closed",\
     "mouthdetailed": 22,\
-    "happiness": 63.453,\
+    "happy": 63.453,\
     "neutral": 34.611,\
     "sadness": 1.886\
   },{\
@@ -5475,8 +5475,8 @@ var data = '[{\
     "Title": "Portrait of Maria Bicknell",\
     "area": "Europe",\
     "Year": 1816,\
-    "url": "https://use2-uploads7.wikiart.org/images/john-constable/portrait-of-maria-bicknell-1816.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/john-constable",\
+    "url": "http://use2-uploads7.wikiart.org/images/john-constable/portrait-of-maria-bicknell-1816.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/john-constable",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 4.794,\
@@ -5487,7 +5487,7 @@ var data = '[{\
     "eyesdetailed": 99.841,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 6.447,\
+    "happy": 6.447,\
     "neutral": 93.501,\
     "sadness": 3\
   },{\
@@ -5500,8 +5500,8 @@ var data = '[{\
     "Title": "Girl with Burak",\
     "area": "Europe",\
     "Year": 1824,\
-    "url": "https://use2-uploads4.wikiart.org/images/alexey-venetsianov/girl-with-burak.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/alexey-venetsianov",\
+    "url": "http://use2-uploads4.wikiart.org/images/alexey-venetsianov/girl-with-burak.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/alexey-venetsianov",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 151,\
@@ -5512,7 +5512,7 @@ var data = '[{\
     "eyesdetailed": 99.994,\
     "mouth": "closed",\
     "mouthdetailed": 45,\
-    "happiness": 2.51,\
+    "happy": 2.51,\
     "neutral": 85.343,\
     "sadness": 4.821\
   },{\
@@ -5525,8 +5525,8 @@ var data = '[{\
     "Title": "Portrait of Elisa Bonaparte, Grand Duchess of Tuscany",\
     "area": "Europe",\
     "Year": 1805,\
-    "url": "https://use2-uploads7.wikiart.org/images/marie-guillemine-benoist/portrait-of-elisa-bonaparte-grand-duchess-of-tuscany-1805.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/marie-guillemine-benoist",\
+    "url": "http://use2-uploads7.wikiart.org/images/marie-guillemine-benoist/portrait-of-elisa-bonaparte-grand-duchess-of-tuscany-1805.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/marie-guillemine-benoist",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 39.585,\
@@ -5537,7 +5537,7 @@ var data = '[{\
     "eyesdetailed": 8,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 115,\
+    "happy": 115,\
     "neutral": 57.51,\
     "sadness": 1.959\
   },{\
@@ -5548,10 +5548,10 @@ var data = '[{\
     "Category": "Rococo",\
     "Artist": "Charles Willson Peale",\
     "Title": "William Smith and His Grandson",\
-    "area": "North America",\
+    "area": "North",\
     "Year": 1788,\
-    "url": "https://use2-uploads0.wikiart.org/images/charles-willson-peale/william-smith-and-his-grandson-1788.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/charles-willson-peale",\
+    "url": "http://use2-uploads0.wikiart.org/images/charles-willson-peale/william-smith-and-his-grandson-1788.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/charles-willson-peale",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 548,\
@@ -5562,7 +5562,7 @@ var data = '[{\
     "eyesdetailed": 99.997,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 597,\
+    "happy": 597,\
     "neutral": 99.213,\
     "sadness": 13\
   },{\
@@ -5575,8 +5575,8 @@ var data = '[{\
     "Title": "Frederik I of Prussia",\
     "area": "Europe",\
     "Year": 1650,\
-    "url": "https://use2-uploads6.wikiart.org/images/antoine-pesne/frederik-i-von-preu-en.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/antoine-pesne",\
+    "url": "http://use2-uploads6.wikiart.org/images/antoine-pesne/frederik-i-von-preu-en.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/antoine-pesne",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 1.019,\
@@ -5587,7 +5587,7 @@ var data = '[{\
     "eyesdetailed": 99.888,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 30.502,\
+    "happy": 30.502,\
     "neutral": 58.119,\
     "sadness": 97\
   },{\
@@ -5598,10 +5598,10 @@ var data = '[{\
     "Category": "Romanticism",\
     "Artist": "Thomas Sully",\
     "Title": "Portrait of the Artist",\
-    "area": "North America",\
+    "area": "North",\
     "Year": 1821,\
-    "url": "https://use2-uploads1.wikiart.org/images/thomas-sully/portrait-of-the-artist-1821.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/thomas-sully",\
+    "url": "http://use2-uploads1.wikiart.org/images/thomas-sully/portrait-of-the-artist-1821.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/thomas-sully",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 16,\
@@ -5612,7 +5612,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 1,\
-    "happiness": 0,\
+    "happy": 0,\
     "neutral": 99.997,\
     "sadness": 0\
   },{\
@@ -5625,8 +5625,8 @@ var data = '[{\
     "Title": "Henrietta Maria Hill, Marchioness of Ailesbury",\
     "area": "Europe",\
     "Year": 1809,\
-    "url": "https://use2-uploads0.wikiart.org/images/thomas-lawrence/henrietta-maria-hill-marchioness-of-ailesbury-1809.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/thomas-lawrence",\
+    "url": "http://use2-uploads0.wikiart.org/images/thomas-lawrence/henrietta-maria-hill-marchioness-of-ailesbury-1809.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/thomas-lawrence",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 0.04,\
@@ -5637,7 +5637,7 @@ var data = '[{\
     "eyesdetailed": 99.883,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 84,\
+    "happy": 84,\
     "neutral": 99.808,\
     "sadness": 5\
   },{\
@@ -5650,8 +5650,8 @@ var data = '[{\
     "Title": "Portrait of Madame Marie Clerc",\
     "area": "Europe",\
     "Year": 1874,\
-    "url": "https://use2-uploads8.wikiart.org/00121/images/carolus-duran/portrait-of-madame-marie-clerc-1974.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/carolus-duran",\
+    "url": "http://use2-uploads8.wikiart.org/00121/images/carolus-duran/portrait-of-madame-marie-clerc-1974.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/carolus-duran",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 13,\
@@ -5662,7 +5662,7 @@ var data = '[{\
     "eyesdetailed": 99.965,\
     "mouth": "closed",\
     "mouthdetailed": 46.739,\
-    "happiness": 857,\
+    "happy": 857,\
     "neutral": 99.134,\
     "sadness": 1\
   },{\
@@ -5675,8 +5675,8 @@ var data = '[{\
     "Title": "Portrait of Colonel Evgraf V. Davydov",\
     "area": "Europe",\
     "Year": 1809,\
-    "url": "https://use2-uploads0.wikiart.org/images/orest-kiprensky/portrait-of-colonel-evgraf-v-davydov-1809.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/orest-kiprensky",\
+    "url": "http://use2-uploads0.wikiart.org/images/orest-kiprensky/portrait-of-colonel-evgraf-v-davydov-1809.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/orest-kiprensky",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 37,\
@@ -5687,7 +5687,7 @@ var data = '[{\
     "eyesdetailed": 99.997,\
     "mouth": "closed",\
     "mouthdetailed": 3,\
-    "happiness": 0,\
+    "happy": 0,\
     "neutral": 99.666,\
     "sadness": 0\
   },{\
@@ -5700,8 +5700,8 @@ var data = '[{\
     "Title": "Laughing Children with a Cat",\
     "area": "Europe",\
     "Year": 1629,\
-    "url": "https://use2-uploads0.wikiart.org/images/judith-leyster/laughing-children-with-a-cat-1629.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/judith-leyster",\
+    "url": "http://use2-uploads0.wikiart.org/images/judith-leyster/laughing-children-with-a-cat-1629.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/judith-leyster",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 99.938,\
@@ -5712,7 +5712,7 @@ var data = '[{\
     "eyesdetailed": 98.654,\
     "mouth": "open",\
     "mouthdetailed": 99.192,\
-    "happiness": 95.395,\
+    "happy": 95.395,\
     "neutral": 135,\
     "sadness": 2.728\
   },{\
@@ -5725,8 +5725,8 @@ var data = '[{\
     "Title": "Sir Robert Liston,  Diplomat",\
     "area": "Europe",\
     "Year": 1811,\
-    "url": "https://use2-uploads5.wikiart.org/images/david-wilkie/sir-robert-liston-diplomat-1811.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/david-wilkie",\
+    "url": "http://use2-uploads5.wikiart.org/images/david-wilkie/sir-robert-liston-diplomat-1811.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/david-wilkie",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 389,\
@@ -5737,7 +5737,7 @@ var data = '[{\
     "eyesdetailed": 99.989,\
     "mouth": "closed",\
     "mouthdetailed": 16,\
-    "happiness": 612,\
+    "happy": 612,\
     "neutral": 98.904,\
     "sadness": 1\
   },{\
@@ -5750,8 +5750,8 @@ var data = '[{\
     "Title": "Young Sick Bacchus",\
     "area": "Europe",\
     "Year": 1593,\
-    "url": "https://use2-uploads2.wikiart.org/images/caravaggio/young-sick-bacchus(1).jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/caravaggio",\
+    "url": "http://use2-uploads2.wikiart.org/images/caravaggio/young-sick-bacchus(1).jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/caravaggio",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 475,\
@@ -5762,7 +5762,7 @@ var data = '[{\
     "eyesdetailed": 70.404,\
     "mouth": "open",\
     "mouthdetailed": 95.553,\
-    "happiness": 15.847,\
+    "happy": 15.847,\
     "neutral": 66.179,\
     "sadness": 24\
   },{\
@@ -5775,8 +5775,8 @@ var data = '[{\
     "Title": "Julie Salis Schwabe",\
     "area": "Europe",\
     "Year": 1850,\
-    "url": "https://use2-uploads8.wikiart.org/00151/images/ary-scheffer/julie-salis-schwabe-1850.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/ary-scheffer",\
+    "url": "http://use2-uploads8.wikiart.org/00151/images/ary-scheffer/julie-salis-schwabe-1850.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/ary-scheffer",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 9,\
@@ -5787,7 +5787,7 @@ var data = '[{\
     "eyesdetailed": 99.796,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 0.05,\
+    "happy": 0.05,\
     "neutral": 99.881,\
     "sadness": 39\
   },{\
@@ -5800,8 +5800,8 @@ var data = '[{\
     "Title": "Portrait of Christine of Lorraine, Grand Duchess of Tuscany",\
     "area": "Europe",\
     "Year": 1589,\
-    "url": "https://use2-uploads6.wikiart.org/images/agostino-carracci/portrait-of-christine-of-lorraine-grand-duchess-of-tuscany-1589.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/agostino-carracci",\
+    "url": "http://use2-uploads6.wikiart.org/images/agostino-carracci/portrait-of-christine-of-lorraine-grand-duchess-of-tuscany-1589.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/agostino-carracci",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 3.866,\
@@ -5812,7 +5812,7 @@ var data = '[{\
     "eyesdetailed": 98.058,\
     "mouth": "open",\
     "mouthdetailed": 97.111,\
-    "happiness": 484,\
+    "happy": 484,\
     "neutral": 99.443,\
     "sadness": 4\
   },{\
@@ -5825,8 +5825,8 @@ var data = '[{\
     "Title": "Woman Playing a Lute",\
     "area": "Europe",\
     "Year": 1628,\
-    "url": "https://use2-uploads3.wikiart.org/images/artemisia-gentileschi/woman-playing-a-lute.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/artemisia-gentileschi",\
+    "url": "http://use2-uploads3.wikiart.org/images/artemisia-gentileschi/woman-playing-a-lute.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/artemisia-gentileschi",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 5.217,\
@@ -5837,7 +5837,7 @@ var data = '[{\
     "eyesdetailed": 0.23,\
     "mouth": "open",\
     "mouthdetailed": 96.948,\
-    "happiness": 25,\
+    "happy": 25,\
     "neutral": 99.853,\
     "sadness": 0\
   },{\
@@ -5850,8 +5850,8 @@ var data = '[{\
     "Title": "Sir John Fleming Leicester",\
     "area": "Europe",\
     "Year": 1826,\
-    "url": "https://use2-uploads5.wikiart.org/images/john-simpson/sir-john-fleming-leicester-1826.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/john-simpson",\
+    "url": "http://use2-uploads5.wikiart.org/images/john-simpson/sir-john-fleming-leicester-1826.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/john-simpson",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 316,\
@@ -5862,7 +5862,7 @@ var data = '[{\
     "eyesdetailed": 97.781,\
     "mouth": "closed",\
     "mouthdetailed": 33,\
-    "happiness": 188,\
+    "happy": 188,\
     "neutral": 71.569,\
     "sadness": 53\
   },{\
@@ -5875,8 +5875,8 @@ var data = '[{\
     "Title": "Peter Leopold Nassau Cowper, 5th Earl Cowper",\
     "area": "Europe",\
     "Year": 1750,\
-    "url": "https://use2-uploads8.wikiart.org/images/john-hoppner/peter-leopold-nassau-cowper-5th-earl-cowper.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/john-hoppner",\
+    "url": "http://use2-uploads8.wikiart.org/images/john-hoppner/peter-leopold-nassau-cowper-5th-earl-cowper.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/john-hoppner",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 1,\
@@ -5887,7 +5887,7 @@ var data = '[{\
     "eyesdetailed": 99.936,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 0,\
+    "happy": 0,\
     "neutral": 100,\
     "sadness": 0\
   },{\
@@ -5900,8 +5900,8 @@ var data = '[{\
     "Title": "Fisher Boy",\
     "area": "Europe",\
     "Year": 1630,\
-    "url": "https://use2-uploads5.wikiart.org/images/frans-hals/fisher-boy-1632.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/frans-hals",\
+    "url": "http://use2-uploads5.wikiart.org/images/frans-hals/fisher-boy-1632.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/frans-hals",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 99.098,\
@@ -5912,7 +5912,7 @@ var data = '[{\
     "eyesdetailed": 100,\
     "mouth": "closed",\
     "mouthdetailed": 41.801,\
-    "happiness": 99.638,\
+    "happy": 99.638,\
     "neutral": 157,\
     "sadness": 193\
   },{\
@@ -5925,8 +5925,8 @@ var data = '[{\
     "Title": "The Two Sisters",\
     "area": "Europe",\
     "Year": 1843,\
-    "url": "https://use2-uploads1.wikiart.org/images/theodore-chasseriau/the-two-sisters-1843.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/theodore-chasseriau",\
+    "url": "http://use2-uploads1.wikiart.org/images/theodore-chasseriau/the-two-sisters-1843.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/theodore-chasseriau",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 225,\
@@ -5937,7 +5937,7 @@ var data = '[{\
     "eyesdetailed": 98.896,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 15,\
+    "happy": 15,\
     "neutral": 99.985,\
     "sadness": 0\
   },{\
@@ -5950,8 +5950,8 @@ var data = '[{\
     "Title": "Charlotte Bettesworth (c.1755â1841), Mrs John Sargent",\
     "area": "Europe",\
     "Year": 1778,\
-    "url": "https://use2-uploads3.wikiart.org/images/george-romney/charlotte-bettesworth-c-1755-1841-mrs-john-sargent-1778.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/george-romney",\
+    "url": "http://use2-uploads3.wikiart.org/images/george-romney/charlotte-bettesworth-c-1755-1841-mrs-john-sargent-1778.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/george-romney",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 37,\
@@ -5962,7 +5962,7 @@ var data = '[{\
     "eyesdetailed": 99.951,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 569,\
+    "happy": 569,\
     "neutral": 99.411,\
     "sadness": 2\
   },{\
@@ -5975,8 +5975,8 @@ var data = '[{\
     "Title": "Portrait of the Author Feodor Dostoyevsky",\
     "area": "Europe",\
     "Year": 1872,\
-    "url": "https://use2-uploads2.wikiart.org/images/vasily-perov/portrait-of-the-author-feodor-dostoyevsky-1872.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/vasily-perov",\
+    "url": "http://use2-uploads2.wikiart.org/images/vasily-perov/portrait-of-the-author-feodor-dostoyevsky-1872.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/vasily-perov",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 3,\
@@ -5987,7 +5987,7 @@ var data = '[{\
     "eyesdetailed": 99.954,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 0.09,\
+    "happy": 0.09,\
     "neutral": 13.579,\
     "sadness": 22.642\
   },{\
@@ -6000,8 +6000,8 @@ var data = '[{\
     "Title": "Portrait of Two Boys",\
     "area": "Europe",\
     "Year": 1783,\
-    "url": "https://use2-uploads7.wikiart.org/images/david-allan/portrait-of-two-boys-1783.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/david-allan",\
+    "url": "http://use2-uploads7.wikiart.org/images/david-allan/portrait-of-two-boys-1783.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/david-allan",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 16.684,\
@@ -6012,7 +6012,7 @@ var data = '[{\
     "eyesdetailed": 99.389,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 87.8,\
+    "happy": 87.8,\
     "neutral": 11.43,\
     "sadness": 206\
   },{\
@@ -6025,8 +6025,8 @@ var data = '[{\
     "Title": "Portrait of Vasily Shuhaev in his Studio",\
     "area": "Europe",\
     "Year": 1928,\
-    "url": "https://use2-uploads4.wikiart.org/images/alexandre-yevgenievich-jacovleff/portrait-of-vasily-shuhaeva-in-his-studio-1928.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/alexandre-jacovleff",\
+    "url": "http://use2-uploads4.wikiart.org/images/alexandre-yevgenievich-jacovleff/portrait-of-vasily-shuhaeva-in-his-studio-1928.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/alexandre-jacovleff",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 323,\
@@ -6037,7 +6037,7 @@ var data = '[{\
     "eyesdetailed": 75.473,\
     "mouth": "closed",\
     "mouthdetailed": 1,\
-    "happiness": 23.107,\
+    "happy": 23.107,\
     "neutral": 72.025,\
     "sadness": 0.02\
   },{\
@@ -6050,8 +6050,8 @@ var data = '[{\
     "Title": "Portrait of Madame Courcelles",\
     "area": "Europe",\
     "Year": 1750,\
-    "url": "https://use2-uploads7.wikiart.org/images/jean-baptiste-greuze/portrait-of-madame-courcelles-1750.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/jean-baptiste-greuze",\
+    "url": "http://use2-uploads7.wikiart.org/images/jean-baptiste-greuze/portrait-of-madame-courcelles-1750.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/jean-baptiste-greuze",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 11.57,\
@@ -6062,7 +6062,7 @@ var data = '[{\
     "eyesdetailed": 99.984,\
     "mouth": "closed",\
     "mouthdetailed": 3.886,\
-    "happiness": 4.066,\
+    "happy": 4.066,\
     "neutral": 40.529,\
     "sadness": 2\
   },{\
@@ -6075,8 +6075,8 @@ var data = '[{\
     "Title": "Portrait of Fra Zumel Francisco",\
     "area": "Europe",\
     "Year": 1633,\
-    "url": "https://use2-uploads2.wikiart.org/images/francisco-zurbaran/portrait-of-fra-zumel-francisco.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/francisco-de-zurbaran",\
+    "url": "http://use2-uploads2.wikiart.org/images/francisco-zurbaran/portrait-of-fra-zumel-francisco.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/francisco-de-zurbaran",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 645,\
@@ -6087,7 +6087,7 @@ var data = '[{\
     "eyesdetailed": 95.815,\
     "mouth": "closed",\
     "mouthdetailed": 21,\
-    "happiness": 19,\
+    "happy": 19,\
     "neutral": 97.751,\
     "sadness": 42\
   },{\
@@ -6100,8 +6100,8 @@ var data = '[{\
     "Title": "John Arthur Douglas Bloomfield, 2nd Baron Bloomfield",\
     "area": "Europe",\
     "Year": 1819,\
-    "url": "https://use2-uploads6.wikiart.org/images/thomas-lawrence/john-arthur-douglas-bloomfield-2nd-baron-bloomfield-1819.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/thomas-lawrence",\
+    "url": "http://use2-uploads6.wikiart.org/images/thomas-lawrence/john-arthur-douglas-bloomfield-2nd-baron-bloomfield-1819.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/thomas-lawrence",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 6.286,\
@@ -6112,7 +6112,7 @@ var data = '[{\
     "eyesdetailed": 96.693,\
     "mouth": "closed",\
     "mouthdetailed": 3,\
-    "happiness": 81.884,\
+    "happy": 81.884,\
     "neutral": 14.87,\
     "sadness": 1.729\
   },{\
@@ -6125,8 +6125,8 @@ var data = '[{\
     "Title": "Boy with a Basket of Fruit",\
     "area": "Europe",\
     "Year": 1593,\
-    "url": "https://use2-uploads1.wikiart.org/images/caravaggio/boy-with-a-basket-of-fruit(1).jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/caravaggio",\
+    "url": "http://use2-uploads1.wikiart.org/images/caravaggio/boy-with-a-basket-of-fruit(1).jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/caravaggio",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 6.5,\
@@ -6137,7 +6137,7 @@ var data = '[{\
     "eyesdetailed": 99.924,\
     "mouth": "open",\
     "mouthdetailed": 79.006,\
-    "happiness": 1,\
+    "happy": 1,\
     "neutral": 99.09,\
     "sadness": 0\
   },{\
@@ -6150,8 +6150,8 @@ var data = '[{\
     "Title": "Retrato de D. Jo&#227;o VI",\
     "area": "Europe",\
     "Year": 1750,\
-    "url": "https://use2-uploads8.wikiart.org/images/domingos-sequeira/retrato-de-d-jo-o-vi.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/domingos-sequeira",\
+    "url": "http://use2-uploads8.wikiart.org/images/domingos-sequeira/retrato-de-d-jo-o-vi.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/domingos-sequeira",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 18,\
@@ -6162,7 +6162,7 @@ var data = '[{\
     "eyesdetailed": 98.724,\
     "mouth": "open",\
     "mouthdetailed": 99.973,\
-    "happiness": 11,\
+    "happy": 11,\
     "neutral": 98.557,\
     "sadness": 6\
   },{\
@@ -6175,8 +6175,8 @@ var data = '[{\
     "Title": "Portrait of Alexander Lanskoy, Aide-de-camp to the Empress",\
     "area": "Europe",\
     "Year": 1782,\
-    "url": "https://use2-uploads3.wikiart.org/images/dmitry-levitzky/portrait-of-alexander-lanskoy-aide-de-camp-to-the-empress-1782.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/dmitry-levitzky",\
+    "url": "http://use2-uploads3.wikiart.org/images/dmitry-levitzky/portrait-of-alexander-lanskoy-aide-de-camp-to-the-empress-1782.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/dmitry-levitzky",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 4.837,\
@@ -6187,7 +6187,7 @@ var data = '[{\
     "eyesdetailed": 99.984,\
     "mouth": "closed",\
     "mouthdetailed": 1,\
-    "happiness": 2.628,\
+    "happy": 2.628,\
     "neutral": 95.29,\
     "sadness": 11\
   },{\
@@ -6200,8 +6200,8 @@ var data = '[{\
     "Title": "Sir William Hamilton",\
     "area": "Europe",\
     "Year": 1775,\
-    "url": "https://use2-uploads7.wikiart.org/images/david-allan/sir-william-hamilton-1775.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/david-allan",\
+    "url": "http://use2-uploads7.wikiart.org/images/david-allan/sir-william-hamilton-1775.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/david-allan",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 15,\
@@ -6212,7 +6212,7 @@ var data = '[{\
     "eyesdetailed": 94.471,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 189,\
+    "happy": 189,\
     "neutral": 99.518,\
     "sadness": 279\
   },{\
@@ -6225,8 +6225,8 @@ var data = '[{\
     "Title": "Self portrait with a Sunflower",\
     "area": "Europe",\
     "Year": 1632,\
-    "url": "https://use2-uploads4.wikiart.org/images/anthony-van-dyck/self-portrait-with-a-sunflower-1632.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/anthony-van-dyck",\
+    "url": "http://use2-uploads4.wikiart.org/images/anthony-van-dyck/self-portrait-with-a-sunflower-1632.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/anthony-van-dyck",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 641,\
@@ -6237,7 +6237,7 @@ var data = '[{\
     "eyesdetailed": 99.898,\
     "mouth": "closed",\
     "mouthdetailed": 0,\
-    "happiness": 1.296,\
+    "happy": 1.296,\
     "neutral": 98.685,\
     "sadness": 2\
   },{\
@@ -6248,10 +6248,10 @@ var data = '[{\
     "Category": "Realism",\
     "Artist": "George Catlin",\
     "Title": "Ah-yaw-ne-tak-o&#225;r-ron, a Warrior",\
-    "area": "North America",\
+    "area": "North",\
     "Year": 1831,\
-    "url": "https://use2-uploads2.wikiart.org/images/george-catlin/ah-yaw-ne-tak-o-r-ron-a-warrior-1831.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/george-catlin",\
+    "url": "http://use2-uploads2.wikiart.org/images/george-catlin/ah-yaw-ne-tak-o-r-ron-a-warrior-1831.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/george-catlin",\
     "": "",\
     "smile": "yes",\
     "smiledetailed": 701,\
@@ -6262,7 +6262,7 @@ var data = '[{\
     "eyesdetailed": 98.404,\
     "mouth": "closed",\
     "mouthdetailed": 18.962,\
-    "happiness": 312,\
+    "happy": 312,\
     "neutral": 68.627,\
     "sadness": 30.696\
   },{\
@@ -6275,8 +6275,8 @@ var data = '[{\
     "Title": "John Philip Kemble (1757â1823), as Richard in &#39;Richard III&#39; by William Shakespeare",\
     "area": "Europe",\
     "Year": 1788,\
-    "url": "https://use2-uploads6.wikiart.org/images/william-hamilton/john-philip-kemble-1757-1823-as-richard-in-richard-iii-by-william-shakespeare-1788.jpg",\
-    "Artist Info URL": "https://www.wikiart.org/en/william-hamilton",\
+    "url": "http://use2-uploads6.wikiart.org/images/william-hamilton/john-philip-kemble-1757-1823-as-richard-in-richard-iii-by-william-shakespeare-1788.jpg",\
+    "Artist Info URL": "http://www.wikiart.org/en/william-hamilton",\
     "": "",\
     "smile": "no",\
     "smiledetailed": 13.173,\
@@ -6287,7 +6287,7 @@ var data = '[{\
     "eyesdetailed": 1.241,\
     "mouth": "open",\
     "mouthdetailed": 99.789,\
-    "happiness": 22,\
+    "happy": 22,\
     "neutral": 81.581,\
     "sadness": 19\
   }\
