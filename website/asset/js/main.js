@@ -156,7 +156,7 @@ function updateDiagram(diagramData){
     }
     var xAxisLength = xMax-xMin+20;
     var yAxisLength = yMax-yMin+20;
-
+    var t = d3.transition().duration(1000);
     for(var circleId in dictExistSvgCircle){
 
         if(!dictExistSvgCircle[circleId].flag_remove){
@@ -175,6 +175,7 @@ function updateDiagram(diagramData){
                 .attr("x", -20);
                 
                 showArea.append('circle')
+                .transition(t)
                 .attr('class','svgPics svgCircle')
                 .attr("r", 20)
                 .attr("id", 'painting-circle-'+painting.ID)
@@ -188,6 +189,7 @@ function updateDiagram(diagramData){
             }
             else{
                 showArea.select('#'+circleId)
+                .transition(t)
                 .attr('r',20)
                 .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
                 .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*(showArea.node().getBoundingClientRect().height)+20);
@@ -195,6 +197,7 @@ function updateDiagram(diagramData){
         }
         else{
             showArea.select('#'+circleId)
+            .transition(t)
             .attr('r',0);
         }
 
