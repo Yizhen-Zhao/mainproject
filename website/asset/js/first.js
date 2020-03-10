@@ -32,7 +32,7 @@ var data = '[{\
     "yaw": "-30.550.234",\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": " closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 7,\
     "neutral": 80.74,\
@@ -1702,7 +1702,7 @@ var data = '[{\
     "Artist": "Masaccio",\
     "Title": "Portrait of a Young Man",\
     "area": "North",\
-    "Year": "1423-1425",\
+    "Year": "1423",\
     "url": "http://use2-uploads7.wikiart.org/images/masaccio/portrait-of-a-young-man-1425.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/masaccio",\
     "smile": "no",\
@@ -1726,7 +1726,7 @@ var data = '[{\
     "Artist": "Martin Schongauer",\
     "Title": "Portrait of a young woman",\
     "area": "Europe",\
-    "Year": "1475-1480",\
+    "Year": "1475",\
     "url": "http://use2-uploads4.wikiart.org/images/martin-schongauer/portrait-of-a-young-woman.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/martin-schongauer",\
     "smile": "no",\
@@ -1750,7 +1750,7 @@ var data = '[{\
     "Artist": "Giorgione",\
     "Title": "The Sleeping Venus",\
     "area": "North",\
-    "Year": "1508-1510",\
+    "Year": "1508",\
     "url": "http://use2-uploads3.wikiart.org/the-sleeping-venus-1510(2).jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/giorgione",\
     "smile": "no",\
@@ -1824,7 +1824,7 @@ var data = '[{\
     "Artist": "Dosso Dossi",\
     "Title": "A Personification Of Geometry",\
     "area": "Europe",\
-    "Year": "XVI cent.",\
+    "Year": "1600",\
     "url": "http://use2-uploads2.wikiart.org/images/dosso-dossi/a-personification-of-geometry.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/dosso-dossi/a-personification-of-geometry",\
     "#untitled": "http://www.wikiart.org/en/dosso-dossi",\
@@ -2049,7 +2049,7 @@ var data = '[{\
     "Artist": "Fyodor Rokotov",\
     "Title": "Portrait of Count I.G.Orlov",\
     "area": "South",\
-    "Year": "1762-1765",\
+    "Year": "1762",\
     "url": "http://use2-uploads3.wikiart.org/images/fyodor-rokotov/portrait-of-count-i-g-orlov.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/fyodor-rokotov/portrait-of-count-i-g-orlov",\
     "#untitled": "http://www.wikiart.org/en/fyodor-rokotov",\
@@ -2249,7 +2249,7 @@ var data = '[{\
     "Artist": "Domenico Ghirlandaio",\
     "Title": "Portrait of Giovane Donna",\
     "area": "North",\
-    "Year": "XV cent.",\
+    "Year": "1500",\
     "url": "http://use2-uploads7.wikiart.org/images/domenico-ghirlandaio/portrait-of-giovane-donna.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/domenico-ghirlandaio/portrait-of-giovane-donna",\
     "#untitled": "http://www.wikiart.org/en/domenico-ghirlandaio",\
@@ -2374,7 +2374,7 @@ var data = '[{\
     "Artist": "Antoine Watteau",\
     "Title": "Diana at her Bath",\
     "area": "Europe",\
-    "Year": "1715-1716",\
+    "Year": "1715",\
     "url": "http://use2-uploads8.wikiart.org/images/antoine-watteau/diana-at-her-bath-1716.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/antoine-watteau/diana-at-her-bath-1716",\
     "#untitled": "http://www.wikiart.org/en/antoine-watteau",\
@@ -2424,7 +2424,7 @@ var data = '[{\
     "Artist": "Domenico Ghirlandaio",\
     "Title": "Portrait of Giovanna Tornabuoni",\
     "area": "Europe",\
-    "Year": "1485-1488",\
+    "Year": "1485",\
     "url": "http://use2-uploads4.wikiart.org/images/domenico-ghirlandaio/portrait-of-giovanna-tornabuoni.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/domenico-ghirlandaio/portrait-of-giovanna-tornabuoni",\
     "#untitled": "http://www.wikiart.org/en/domenico-ghirlandaio",\
@@ -2599,7 +2599,7 @@ var data = '[{\
     "Artist": "Hans Memling",\
     "Title": "Portrait of an Old Woman",\
     "area": "South",\
-    "Year": "1468-1470",\
+    "Year": "1468",\
     "url": "http://use2-uploads3.wikiart.org/images/hans-memling/portrait-of-an-old-woman-1470.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/hans-memling/portrait-of-an-old-woman-1470",\
     "#untitled": "http://www.wikiart.org/en/hans-memling",\
@@ -2624,7 +2624,7 @@ var data = '[{\
     "Artist": "John Singleton Copley",\
     "Title": "Paul Revere",\
     "area": "Europe",\
-    "Year": "1768-1770",\
+    "Year": "1768",\
     "url": "http://use2-uploads1.wikiart.org/images/john-singleton-copley/paul-revere-1770-1.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/john-singleton-copley/paul-revere-1770-1",\
     "#untitled": "http://www.wikiart.org/en/john-singleton-copley",\
@@ -3074,7 +3074,7 @@ var data = '[{\
     "Artist": "Pietro Perugino",\
     "Title": "Polyptych Annunziata (St. Illuminata)",\
     "area": "North",\
-    "Year": "XV-XVI cent.",\
+    "Year": "1550",\
     "url": "http://use2-uploads2.wikiart.org/images/pietro-perugino/polyptych-annunziata-st-illuminata.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/pietro-perugino/polyptych-annunziata-st-illuminata",\
     "#untitled": "http://www.wikiart.org/en/pietro-perugino",\
@@ -3274,7 +3274,7 @@ var data = '[{\
     "Artist": "Camille Corot",\
     "Title": "The Woman with a Pearl",\
     "area": "South",\
-    "Year": "1868-1870",\
+    "Year": "1868",\
     "url": "http://use2-uploads2.wikiart.org/images/camille-corot/the-woman-with-a-pearl-1870.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/camille-corot/the-woman-with-a-pearl-1870",\
     "#untitled": "http://www.wikiart.org/en/camille-corot",\
@@ -3335,7 +3335,7 @@ var data = '[{\
     "yaw": -40.162395,\
     "eyes": "open",\
     "eyesdetailed": 99.173,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 185,\
     "happy": 1,\
     "neutral": 73.212,\
@@ -3360,7 +3360,7 @@ var data = '[{\
     "yaw": 34.43904,\
     "eyes": "open",\
     "eyesdetailed": 99.988,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 2.907,\
     "neutral": 10.771,\
@@ -3385,7 +3385,7 @@ var data = '[{\
     "yaw": -2.810831,\
     "eyes": "open",\
     "eyesdetailed": 99.97,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 42,\
     "happy": 1,\
     "neutral": 99.991,\
@@ -3410,7 +3410,7 @@ var data = '[{\
     "yaw": -2.3103728,\
     "eyes": "open",\
     "eyesdetailed": 99.856,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1.637,\
     "happy": 179,\
     "neutral": 26.596,\
@@ -3435,7 +3435,7 @@ var data = '[{\
     "yaw": 35.15609,\
     "eyes": "open",\
     "eyesdetailed": 99.949,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 612,\
     "neutral": 98.777,\
@@ -3460,7 +3460,7 @@ var data = '[{\
     "yaw": 33.625195,\
     "eyes": "open",\
     "eyesdetailed": 99.992,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 43,\
     "happy": 0,\
     "neutral": 99.997,\
@@ -3485,7 +3485,7 @@ var data = '[{\
     "yaw": 21.86806,\
     "eyes": "open",\
     "eyesdetailed": 99.865,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 1.82,\
     "neutral": 97.496,\
@@ -3510,7 +3510,7 @@ var data = '[{\
     "yaw": 21.350029,\
     "eyes": "open",\
     "eyesdetailed": 99.88,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 14,\
     "happy": 1,\
     "neutral": 99.998,\
@@ -3535,7 +3535,7 @@ var data = '[{\
     "yaw": -37.946774,\
     "eyes": "open",\
     "eyesdetailed": 99.989,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 692,\
     "happy": 19,\
     "neutral": 99.447,\
@@ -3560,7 +3560,7 @@ var data = '[{\
     "yaw": 34.858044,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 85,\
     "neutral": 96.751,\
@@ -3585,7 +3585,7 @@ var data = '[{\
     "yaw": 14.959858,\
     "eyes": "open",\
     "eyesdetailed": 97.74,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 99.721,\
     "happy": 99,\
     "neutral": 45.3,\
@@ -3610,7 +3610,7 @@ var data = '[{\
     "yaw": 17.717949,\
     "eyes": "open",\
     "eyesdetailed": 99.614,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 78,\
     "neutral": 99.471,\
@@ -3635,7 +3635,7 @@ var data = '[{\
     "yaw": -23.585022,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1.438,\
     "happy": 0,\
     "neutral": 100,\
@@ -3660,7 +3660,7 @@ var data = '[{\
     "yaw": -46.07565,\
     "eyes": "open",\
     "eyesdetailed": 99.867,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 2.819,\
     "neutral": 69.714,\
@@ -3685,7 +3685,7 @@ var data = '[{\
     "yaw": 74.793755,\
     "eyes": "closed",\
     "eyesdetailed": 8.745,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 508,\
     "happy": 3.768,\
     "neutral": 84.236,\
@@ -3710,7 +3710,7 @@ var data = '[{\
     "yaw": -31.810001,\
     "eyes": "open",\
     "eyesdetailed": 97.273,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 17,\
     "neutral": 99.949,\
@@ -3735,7 +3735,7 @@ var data = '[{\
     "yaw": -27.053682,\
     "eyes": "open",\
     "eyesdetailed": 98.959,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 0,\
     "neutral": 99.999,\
@@ -3760,7 +3760,7 @@ var data = '[{\
     "yaw": "25.981627",\
     "eyes": "open",\
     "eyesdetailed": "98.959",\
-    "mouth": "cloesd",\
+    "mouth": "closedm",\
     "mouthdetailed": "0",\
     "happy": "0",\
     "neutral": "99.999",\
@@ -3785,7 +3785,7 @@ var data = '[{\
     "yaw": 24.352488,\
     "eyes": "open",\
     "eyesdetailed": 99.999,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 14.978,\
     "neutral": 49.672,\
@@ -3810,7 +3810,7 @@ var data = '[{\
     "yaw": -20.441442,\
     "eyes": "open",\
     "eyesdetailed": 99.994,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 0,\
     "neutral": 100,\
@@ -3835,7 +3835,7 @@ var data = '[{\
     "yaw": 11.02053,\
     "eyes": "open",\
     "eyesdetailed": 99.073,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 3,\
     "neutral": 99.771,\
@@ -3860,7 +3860,7 @@ var data = '[{\
     "yaw": -9.015575,\
     "eyes": "open",\
     "eyesdetailed": 99.274,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 97.798,\
     "happy": 99.976,\
     "neutral": 4,\
@@ -3885,7 +3885,7 @@ var data = '[{\
     "yaw": -10.424069,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 17,\
     "happy": 227,\
     "neutral": 98.145,\
@@ -3910,7 +3910,7 @@ var data = '[{\
     "yaw": -17.308249,\
     "eyes": "open",\
     "eyesdetailed": 99.341,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 1,\
     "neutral": 99.879,\
@@ -3935,7 +3935,7 @@ var data = '[{\
     "yaw": -3.7447784,\
     "eyes": "open",\
     "eyesdetailed": 99.276,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0.01,\
     "happy": 64,\
     "neutral": 99.871,\
@@ -3960,7 +3960,7 @@ var data = '[{\
     "yaw": -12.165686,\
     "eyes": "open",\
     "eyesdetailed": 99.999,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 0.05,\
     "neutral": 658,\
@@ -3985,7 +3985,7 @@ var data = '[{\
     "yaw": 15.670031,\
     "eyes": "open",\
     "eyesdetailed": 99.988,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 87,\
     "happy": 491,\
     "neutral": 99.164,\
@@ -3998,7 +3998,7 @@ var data = '[{\
     "Category": "Baroque",\
     "Artist": "Rembrandt",\
     "Title": "Self-portrait with Saskia in the Parable of the Prodigal Son",\
-    "area": "",\
+    "area": "Europe",\
     "Year": 1635,\
     "url": "http://use2-uploads4.wikiart.org/images/rembrandt/self-portrait-with-saskia-in-the-parable-of-the-prodigal-son.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/rembrandt",\
@@ -4010,7 +4010,7 @@ var data = '[{\
     "yaw": 31.996279,\
     "eyes": "open",\
     "eyesdetailed": 80.452,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 99.992,\
     "happy": 99.97,\
     "neutral": 26,\
@@ -4035,7 +4035,7 @@ var data = '[{\
     "yaw": 47.069252,\
     "eyes": "open",\
     "eyesdetailed": 98.127,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 27.951,\
     "happy": 61.953,\
     "neutral": 25.604,\
@@ -4060,7 +4060,7 @@ var data = '[{\
     "yaw": 59.70441,\
     "eyes": "open",\
     "eyesdetailed": 91.988,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 7.842,\
     "happy": 31.398,\
     "neutral": 68.465,\
@@ -4085,7 +4085,7 @@ var data = '[{\
     "yaw": -3.6673086,\
     "eyes": "open",\
     "eyesdetailed": 99.266,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0.01,\
     "happy": 68,\
     "neutral": 99.867,\
@@ -4110,7 +4110,7 @@ var data = '[{\
     "yaw": 40.611263,\
     "eyes": "open",\
     "eyesdetailed": 99.999,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 5.775,\
     "neutral": 93.543,\
@@ -4135,7 +4135,7 @@ var data = '[{\
     "yaw": 25.736658,\
     "eyes": "open",\
     "eyesdetailed": 99.923,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 6,\
     "happy": 0.14,\
     "neutral": 99.436,\
@@ -4160,7 +4160,7 @@ var data = '[{\
     "yaw": 13.0082445,\
     "eyes": "open",\
     "eyesdetailed": 99.991,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 0,\
     "neutral": 99.995,\
@@ -4185,7 +4185,7 @@ var data = '[{\
     "yaw": 18.185505,\
     "eyes": "open",\
     "eyesdetailed": 99.919,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 5.045,\
     "neutral": 6,\
@@ -4210,7 +4210,7 @@ var data = '[{\
     "yaw": -28.969099,\
     "eyes": "open",\
     "eyesdetailed": 99.656,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 4.118,\
     "happy": 219,\
     "neutral": 58.884,\
@@ -4235,7 +4235,7 @@ var data = '[{\
     "yaw": 13.415312,\
     "eyes": "open",\
     "eyesdetailed": 99.993,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 2,\
     "happy": 98.663,\
     "neutral": 1.331,\
@@ -4260,7 +4260,7 @@ var data = '[{\
     "yaw": 19.750616,\
     "eyes": "open",\
     "eyesdetailed": 99.843,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 5,\
     "happy": 2.597,\
     "neutral": 97.398,\
@@ -4285,7 +4285,7 @@ var data = '[{\
     "yaw": -51.495007,\
     "eyes": "open",\
     "eyesdetailed": 97.635,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 5,\
     "happy": 3.325,\
     "neutral": 96.641,\
@@ -4310,7 +4310,7 @@ var data = '[{\
     "yaw": 9.010399,\
     "eyes": "open",\
     "eyesdetailed": 99.997,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 4,\
     "happy": 20.432,\
     "neutral": 32.659,\
@@ -4335,7 +4335,7 @@ var data = '[{\
     "yaw": -6.06178,\
     "eyes": "open",\
     "eyesdetailed": 83.308,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 85.954,\
     "neutral": 22,\
@@ -4360,7 +4360,7 @@ var data = '[{\
     "yaw": -37.44836,\
     "eyes": "open",\
     "eyesdetailed": 95.97,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 60.516,\
     "happy": 18,\
     "neutral": 99.353,\
@@ -4385,7 +4385,7 @@ var data = '[{\
     "yaw": 21.96937,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 91,\
     "neutral": 99.667,\
@@ -4410,7 +4410,7 @@ var data = '[{\
     "yaw": 54.5209,\
     "eyes": "closed",\
     "eyesdetailed": 23.653,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1.183,\
     "happy": 28,\
     "neutral": 99.499,\
@@ -4435,7 +4435,7 @@ var data = '[{\
     "yaw": 20.69632,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 78.43,\
     "happy": 91,\
     "neutral": 93.648,\
@@ -4460,7 +4460,7 @@ var data = '[{\
     "yaw": -5.918459,\
     "eyes": "open",\
     "eyesdetailed": 99.892,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 6.67,\
     "neutral": 80.093,\
@@ -4485,7 +4485,7 @@ var data = '[{\
     "yaw": -5.6663156,\
     "eyes": "open",\
     "eyesdetailed": 99.999,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 27,\
     "neutral": 96.887,\
@@ -4510,7 +4510,7 @@ var data = '[{\
     "yaw": -23.465384,\
     "eyes": "open",\
     "eyesdetailed": 99.994,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1,\
     "happy": 4.459,\
     "neutral": 95.271,\
@@ -4535,7 +4535,7 @@ var data = '[{\
     "yaw": -5.7240853,\
     "eyes": "open",\
     "eyesdetailed": 94.107,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 7.544,\
     "neutral": 36.043,\
@@ -4560,7 +4560,7 @@ var data = '[{\
     "yaw": 10.590696,\
     "eyes": "open",\
     "eyesdetailed": 99.99,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1,\
     "happy": 19,\
     "neutral": 2.902,\
@@ -4585,7 +4585,7 @@ var data = '[{\
     "yaw": 5.3202505,\
     "eyes": "closed",\
     "eyesdetailed": 6.682,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 7.266,\
     "happy": 14,\
     "neutral": 99.383,\
@@ -4610,7 +4610,7 @@ var data = '[{\
     "yaw": -19.24806,\
     "eyes": "open",\
     "eyesdetailed": 99.893,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1,\
     "happy": 46.304,\
     "neutral": 52.27,\
@@ -4635,7 +4635,7 @@ var data = '[{\
     "yaw": 26.966848,\
     "eyes": "open",\
     "eyesdetailed": 99.1,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 879,\
     "happy": 97.835,\
     "neutral": 2.08,\
@@ -4660,7 +4660,7 @@ var data = '[{\
     "yaw": 21.413532,\
     "eyes": "open",\
     "eyesdetailed": 99.942,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 82.537,\
     "happy": 913,\
     "neutral": 97.853,\
@@ -4685,7 +4685,7 @@ var data = '[{\
     "yaw": -13.134574,\
     "eyes": "open",\
     "eyesdetailed": 99.954,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 202,\
     "neutral": 99.76,\
@@ -4710,7 +4710,7 @@ var data = '[{\
     "yaw": -22.115654,\
     "eyes": "open",\
     "eyesdetailed": 99.434,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 56.701,\
     "happy": 83.004,\
     "neutral": 16.301,\
@@ -4735,7 +4735,7 @@ var data = '[{\
     "yaw": 30.358591,\
     "eyes": "open",\
     "eyesdetailed": 98.85,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 95,\
     "neutral": 96.916,\
@@ -4760,7 +4760,7 @@ var data = '[{\
     "yaw": -19.325686,\
     "eyes": "open",\
     "eyesdetailed": 98.681,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1.813,\
     "happy": 1.749,\
     "neutral": 98.251,\
@@ -4785,7 +4785,7 @@ var data = '[{\
     "yaw": 10.68935,\
     "eyes": "open",\
     "eyesdetailed": 99.999,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 16.507,\
     "neutral": 80.249,\
@@ -4810,7 +4810,7 @@ var data = '[{\
     "yaw": 16.696598,\
     "eyes": "open",\
     "eyesdetailed": 99.501,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 4.03,\
     "happy": 7,\
     "neutral": 76.188,\
@@ -4835,7 +4835,7 @@ var data = '[{\
     "yaw": -17.914913,\
     "eyes": "open",\
     "eyesdetailed": 99.974,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 622,\
     "neutral": 98.848,\
@@ -4860,7 +4860,7 @@ var data = '[{\
     "yaw": 41.353676,\
     "eyes": "open",\
     "eyesdetailed": 64.405,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 4,\
     "happy": 64,\
     "neutral": 14.435,\
@@ -4885,7 +4885,7 @@ var data = '[{\
     "yaw": 9.397067,\
     "eyes": "open",\
     "eyesdetailed": 99.999,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 237,\
     "happy": 20.883,\
     "neutral": 76.514,\
@@ -4910,7 +4910,7 @@ var data = '[{\
     "yaw": -14.62686,\
     "eyes": "open",\
     "eyesdetailed": 99.99,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 3.797,\
     "neutral": 31.157,\
@@ -4935,7 +4935,7 @@ var data = '[{\
     "yaw": -14.445996,\
     "eyes": "open",\
     "eyesdetailed": 42.236,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 2.12,\
     "happy": 11.429,\
     "neutral": 79.145,\
@@ -4960,7 +4960,7 @@ var data = '[{\
     "yaw": -2.8160605,\
     "eyes": "open",\
     "eyesdetailed": 99.997,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 18.733,\
     "happy": 569,\
     "neutral": 72.547,\
@@ -4985,7 +4985,7 @@ var data = '[{\
     "yaw": 19.252981,\
     "eyes": "open",\
     "eyesdetailed": 99.993,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 5,\
     "happy": 12,\
     "neutral": 99.568,\
@@ -5010,7 +5010,7 @@ var data = '[{\
     "yaw": -33.767868,\
     "eyes": "open",\
     "eyesdetailed": 99.98,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 3.609,\
     "happy": 61,\
     "neutral": 99.914,\
@@ -5035,7 +5035,7 @@ var data = '[{\
     "yaw": 30.45738,\
     "eyes": "open",\
     "eyesdetailed": 99.851,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 57,\
     "happy": 1,\
     "neutral": 99.339,\
@@ -5060,7 +5060,7 @@ var data = '[{\
     "yaw": -0.87711835,\
     "eyes": "open",\
     "eyesdetailed": 99.998,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 2,\
     "neutral": 1.217,\
@@ -5085,7 +5085,7 @@ var data = '[{\
     "yaw": -28.723816,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 25.403,\
     "happy": 1.932,\
     "neutral": 46.072,\
@@ -5110,7 +5110,7 @@ var data = '[{\
     "yaw": 34.993576,\
     "eyes": "open",\
     "eyesdetailed": 99.82,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 7,\
     "neutral": 99.889,\
@@ -5135,7 +5135,7 @@ var data = '[{\
     "yaw": 21.076027,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 32,\
     "happy": 6,\
     "neutral": 99.993,\
@@ -5160,7 +5160,7 @@ var data = '[{\
     "yaw": 43.03248,\
     "eyes": "open",\
     "eyesdetailed": 99.951,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 25,\
     "neutral": 99.961,\
@@ -5185,7 +5185,7 @@ var data = '[{\
     "yaw": 27.397848,\
     "eyes": "open",\
     "eyesdetailed": 99.998,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 4,\
     "happy": 3,\
     "neutral": 99.036,\
@@ -5210,7 +5210,7 @@ var data = '[{\
     "yaw": -33.593918,\
     "eyes": "closed",\
     "eyesdetailed": 40.643,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1,\
     "happy": 5.334,\
     "neutral": 63.254,\
@@ -5235,7 +5235,7 @@ var data = '[{\
     "yaw": 25.627548,\
     "eyes": "open",\
     "eyesdetailed": 99.969,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 517,\
     "neutral": 98.937,\
@@ -5260,7 +5260,7 @@ var data = '[{\
     "yaw": 1.9586506,\
     "eyes": "open",\
     "eyesdetailed": 99.985,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 15,\
     "neutral": 99.978,\
@@ -5285,7 +5285,7 @@ var data = '[{\
     "yaw": -15.346649,\
     "eyes": "open",\
     "eyesdetailed": 99.999,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 20.343,\
     "neutral": 62.339,\
@@ -5303,14 +5303,14 @@ var data = '[{\
     "url": "http://use2-uploads6.wikiart.org/images/william-hogarth/william-cavendish-marquess-of-hartington-later-4th-duke-of-devonshire-1741.jpg",\
     "Artist Info URL": "http://www.wikiart.org/en/william-hogarth",\
     "": "",\
-    "smile": "",\
+    "smile": "yes",\
     "smiledetailed": 101,\
     "pitch": 3.698329,\
     "roll": -1.9360874,\
     "yaw": 23.27431,\
     "eyes": "open",\
     "eyesdetailed": 61.691,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 465,\
     "happy": 6,\
     "neutral": 99.447,\
@@ -5335,7 +5335,7 @@ var data = '[{\
     "yaw": -21.362871,\
     "eyes": "open",\
     "eyesdetailed": 99.404,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 1.11,\
     "neutral": 97.729,\
@@ -5360,7 +5360,7 @@ var data = '[{\
     "yaw": 37.821476,\
     "eyes": "open",\
     "eyesdetailed": 99.951,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 22.785,\
     "neutral": 77.19,\
@@ -5385,7 +5385,7 @@ var data = '[{\
     "yaw": 13.816487,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 7,\
     "neutral": 95.232,\
@@ -5410,7 +5410,7 @@ var data = '[{\
     "yaw": -4.9610267,\
     "eyes": "closed",\
     "eyesdetailed": 2.951,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 14.739,\
     "happy": 0.01,\
     "neutral": 83.354,\
@@ -5435,7 +5435,7 @@ var data = '[{\
     "yaw": 1.5196402,\
     "eyes": "open",\
     "eyesdetailed": 99.991,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0.03,\
     "happy": 4,\
     "neutral": 99.992,\
@@ -5460,7 +5460,7 @@ var data = '[{\
     "yaw": 16.026052,\
     "eyes": "open",\
     "eyesdetailed": 99.997,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 22,\
     "happy": 63.453,\
     "neutral": 34.611,\
@@ -5485,7 +5485,7 @@ var data = '[{\
     "yaw": 50.3692,\
     "eyes": "open",\
     "eyesdetailed": 99.841,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 6.447,\
     "neutral": 93.501,\
@@ -5510,7 +5510,7 @@ var data = '[{\
     "yaw": 21.520157,\
     "eyes": "open",\
     "eyesdetailed": 99.994,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 45,\
     "happy": 2.51,\
     "neutral": 85.343,\
@@ -5535,7 +5535,7 @@ var data = '[{\
     "yaw": -8.503266,\
     "eyes": "closed",\
     "eyesdetailed": 8,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 115,\
     "neutral": 57.51,\
@@ -5560,7 +5560,7 @@ var data = '[{\
     "yaw": 17.493578,\
     "eyes": "open",\
     "eyesdetailed": 99.997,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 597,\
     "neutral": 99.213,\
@@ -5585,7 +5585,7 @@ var data = '[{\
     "yaw": -9.411427,\
     "eyes": "open",\
     "eyesdetailed": 99.888,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 30.502,\
     "neutral": 58.119,\
@@ -5610,7 +5610,7 @@ var data = '[{\
     "yaw": -19.218105,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1,\
     "happy": 0,\
     "neutral": 99.997,\
@@ -5635,7 +5635,7 @@ var data = '[{\
     "yaw": 36.84229,\
     "eyes": "open",\
     "eyesdetailed": 99.883,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 84,\
     "neutral": 99.808,\
@@ -5660,7 +5660,7 @@ var data = '[{\
     "yaw": 0.97934747,\
     "eyes": "open",\
     "eyesdetailed": 99.965,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 46.739,\
     "happy": 857,\
     "neutral": 99.134,\
@@ -5685,7 +5685,7 @@ var data = '[{\
     "yaw": 14.446977,\
     "eyes": "open",\
     "eyesdetailed": 99.997,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 3,\
     "happy": 0,\
     "neutral": 99.666,\
@@ -5710,7 +5710,7 @@ var data = '[{\
     "yaw": 16.969841,\
     "eyes": "open",\
     "eyesdetailed": 98.654,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 99.192,\
     "happy": 95.395,\
     "neutral": 135,\
@@ -5735,7 +5735,7 @@ var data = '[{\
     "yaw": 19.850996,\
     "eyes": "open",\
     "eyesdetailed": 99.989,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 16,\
     "happy": 612,\
     "neutral": 98.904,\
@@ -5760,7 +5760,7 @@ var data = '[{\
     "yaw": -21.103905,\
     "eyes": "open",\
     "eyesdetailed": 70.404,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 95.553,\
     "happy": 15.847,\
     "neutral": 66.179,\
@@ -5785,7 +5785,7 @@ var data = '[{\
     "yaw": 9.415342,\
     "eyes": "open",\
     "eyesdetailed": 99.796,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 0.05,\
     "neutral": 99.881,\
@@ -5810,7 +5810,7 @@ var data = '[{\
     "yaw": 16.251755,\
     "eyes": "open",\
     "eyesdetailed": 98.058,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 97.111,\
     "happy": 484,\
     "neutral": 99.443,\
@@ -5835,7 +5835,7 @@ var data = '[{\
     "yaw": 64.57305,\
     "eyes": "closed",\
     "eyesdetailed": 0.23,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 96.948,\
     "happy": 25,\
     "neutral": 99.853,\
@@ -5860,7 +5860,7 @@ var data = '[{\
     "yaw": 15.785755,\
     "eyes": "open",\
     "eyesdetailed": 97.781,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 33,\
     "happy": 188,\
     "neutral": 71.569,\
@@ -5885,7 +5885,7 @@ var data = '[{\
     "yaw": -5.550248,\
     "eyes": "open",\
     "eyesdetailed": 99.936,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 0,\
     "neutral": 100,\
@@ -5910,7 +5910,7 @@ var data = '[{\
     "yaw": 14.522519,\
     "eyes": "open",\
     "eyesdetailed": 100,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 41.801,\
     "happy": 99.638,\
     "neutral": 157,\
@@ -5935,7 +5935,7 @@ var data = '[{\
     "yaw": -25.464308,\
     "eyes": "open",\
     "eyesdetailed": 98.896,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 15,\
     "neutral": 99.985,\
@@ -5960,7 +5960,7 @@ var data = '[{\
     "yaw": -18.55045,\
     "eyes": "open",\
     "eyesdetailed": 99.951,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 569,\
     "neutral": 99.411,\
@@ -5985,7 +5985,7 @@ var data = '[{\
     "yaw": 50.29585,\
     "eyes": "open",\
     "eyesdetailed": 99.954,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 0.09,\
     "neutral": 13.579,\
@@ -6010,7 +6010,7 @@ var data = '[{\
     "yaw": 1.2832253,\
     "eyes": "open",\
     "eyesdetailed": 99.389,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 87.8,\
     "neutral": 11.43,\
@@ -6035,7 +6035,7 @@ var data = '[{\
     "yaw": 35.862095,\
     "eyes": "open",\
     "eyesdetailed": 75.473,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1,\
     "happy": 23.107,\
     "neutral": 72.025,\
@@ -6060,7 +6060,7 @@ var data = '[{\
     "yaw": -8.01471,\
     "eyes": "open",\
     "eyesdetailed": 99.984,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 3.886,\
     "happy": 4.066,\
     "neutral": 40.529,\
@@ -6085,7 +6085,7 @@ var data = '[{\
     "yaw": -13.082902,\
     "eyes": "open",\
     "eyesdetailed": 95.815,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 21,\
     "happy": 19,\
     "neutral": 97.751,\
@@ -6110,7 +6110,7 @@ var data = '[{\
     "yaw": 52.28762,\
     "eyes": "open",\
     "eyesdetailed": 96.693,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 3,\
     "happy": 81.884,\
     "neutral": 14.87,\
@@ -6135,7 +6135,7 @@ var data = '[{\
     "yaw": -29.14662,\
     "eyes": "open",\
     "eyesdetailed": 99.924,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 79.006,\
     "happy": 1,\
     "neutral": 99.09,\
@@ -6160,7 +6160,7 @@ var data = '[{\
     "yaw": 23.11449,\
     "eyes": "open",\
     "eyesdetailed": 98.724,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 99.973,\
     "happy": 11,\
     "neutral": 98.557,\
@@ -6185,7 +6185,7 @@ var data = '[{\
     "yaw": -22.993975,\
     "eyes": "open",\
     "eyesdetailed": 99.984,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 1,\
     "happy": 2.628,\
     "neutral": 95.29,\
@@ -6210,7 +6210,7 @@ var data = '[{\
     "yaw": 22.706955,\
     "eyes": "open",\
     "eyesdetailed": 94.471,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 189,\
     "neutral": 99.518,\
@@ -6235,7 +6235,7 @@ var data = '[{\
     "yaw": -44.116585,\
     "eyes": "open",\
     "eyesdetailed": 99.898,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 0,\
     "happy": 1.296,\
     "neutral": 98.685,\
@@ -6260,7 +6260,7 @@ var data = '[{\
     "yaw": 2.6474104,\
     "eyes": "open",\
     "eyesdetailed": 98.404,\
-    "mouth": "closed",\
+    "mouth": "closedm",\
     "mouthdetailed": 18.962,\
     "happy": 312,\
     "neutral": 68.627,\
@@ -6285,7 +6285,7 @@ var data = '[{\
     "yaw": 43.251812,\
     "eyes": "closed",\
     "eyesdetailed": 1.241,\
-    "mouth": "open",\
+    "mouth": "openm",\
     "mouthdetailed": 99.789,\
     "happy": 22,\
     "neutral": 81.581,\

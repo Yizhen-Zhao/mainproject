@@ -27,11 +27,18 @@ h5{
     font-size: 15px;
 }
 .filters{
+    overflow: hidden;
     width:auto;
-    height: 480px;
+    height: 80px;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: linear;
     border:none;
     padding: 0;
     
+}
+.filters:hover{
+    height:480px;
 }
 #Europe{    height: 25px;width: 25px;}
 #North {    height: 16px;width: 16px;}
@@ -97,9 +104,9 @@ h5{
     margin-top: -30px;
     margin-left: -30px;}
 #Male   { 
-    height: 35px;width: 35px;
-    margin-top: -15px;
-    margin-left: 10px;}
+    height: 60px;width: 60px;
+    margin-top: -30px;
+    margin-left: 0px;}
 
 .genderCircle{
     z-index: -1;
@@ -428,8 +435,8 @@ div.scroll{
     z-index: 100;
     opacity: 80%;
     float: none;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-left: -15px;
     margin-bottom: -15px;
 }
@@ -441,4 +448,10 @@ div.scroll{
     height: 20px;
     margin-bottom: -23px;
     margin-left: 19px;
+}
+
+#showArea svg{
+
+    width: 80vw;
+    height: 30vw;
 }

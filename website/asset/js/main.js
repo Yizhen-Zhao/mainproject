@@ -37,7 +37,7 @@ for(var i = 0; i < data.length; i++){
     data[i]['neutral'].toString();
 }
 
-var showArea = document.getElementById("showArea");
+var showArea = d3.select('#showArea').append('svg');
 var painting = document.getElementById("painting");
 var areaCircle = document.querySelectorAll(".areaCircle");
 var genderCircle = document.querySelectorAll(".genderCircle");
@@ -70,29 +70,17 @@ chooseGenderButton();
 chooseEyesButton();
 chooseMouthButton();
 chooseSmileButton();
-//function to show one painting
-function showOne(data){
-    var newDiv = document.createElement("div");
-    newDiv.className = 'paintingdiv';
-    newDiv.id = data['Artist']+' '+data['Title'];
-    newDiv.style.width = '200px';
-    var img = document.createElement("img");
-    img.style.width = '180px';
-    img.src = data['url'];
-    img.className = 'painting';
-    img.id = data['Title'];
-    img.style.display = 'inline';
-    newDiv.appendChild(img);
-    document.getElementById('showArea').appendChild(newDiv);
-}
+
 // Click on img to get original pic
 $("img").click(function(){location.href = $(this).attr('src');});
 
 //function to show selected paintings
 function showSelected(selectedDict){
-    const myNode = document.getElementById("showArea");
-    myNode.innerHTML = '';
+    //const myNode = document.getElementById("showArea");
+    //myNode.innerHTML = '';
+    console.log(selectedDict);
     var number = 0;
+    var selectedPics = [];
     for(var i = 0; i < data.length; i ++){
         var tmparea = selectedDict['areas'].includes(data[i]['area']);
         var tmpgender = selectedDict['gender'].includes(data[i]['gender']);
@@ -114,19 +102,21 @@ function showSelected(selectedDict){
         var sadness = Math.floor(parseInt(data[i]['sadness'])/10)*10;
         var tmpsadness = selectedDict['sadness'].includes(sadness.toString());
         if(tmparea && tmpgender && tmpage && tmpyaw && tmppitch && tmproll && tmpeyes && tmpmouth && tmpsmile && tmphappy && tmpneutral && tmpsadness){
-            
-            showOne(data[i]);
+            selectedPics.push(data[i]);
+            //showOne(data[i]);
             number = number + 1;
             }
+            else{console.log({
+                "smile":data[i].ID,
+                "tmparea": tmparea, "tmpgender": tmpgender, "tmpage": tmpage, "tmpyaw": tmpyaw, "tmppitch": tmppitch, "tmproll": tmproll, "tmpeyes": tmpeyes, "tmpmouth": tmpmouth, "tmpsmile": tmpsmile, "tmphappy": tmphappy, "tmpneutral": tmpneutral, "tmpsadnes": tmpsadness});}
                
     }
+    updateDiagram(selectedPics);
     document.getElementById('selectedPaintings').textContent = number;
 }
 //function to show all painting in show area
 function showAll(){
-    for(var i = 0; i < data.length; i ++){
-        showOne(data[i]);
-    }
+  //  for(var i = 0; i < data.length; i ++){showOne(data[i]); }
     drawAgeLine();
     drawYawLine();
     drawPitchLine();
@@ -134,6 +124,67 @@ function showAll(){
     drawHappyLine();
     drawNeutralLine();
     drawSadnessLine();
+    updateDiagram(data);
+}
+
+function updateDiagram(diagramData){
+    //console.log(diagramData);
+    var xIndex = document.getElementById('xAxis').selectedIndex;
+    var xValue = document.getElementById('xAxis').options[xIndex].value;
+    var yIndex = document.getElementById('yAxis').selectedIndex;
+    var yValue = document.getElementById('yAxis').options[yIndex].value;
+
+    var xMin=Number.MAX_SAFE_INTEGER; var xMax= -Number.MAX_SAFE_INTEGER; 
+    var yMin=Number.MAX_SAFE_INTEGER; var yMax= -Number.MAX_SAFE_INTEGER; 
+
+    
+    for(var i = 0; i<diagramData.length;i++){
+        if(1.0*diagramData[i][xValue]<xMin)
+            {xMin = 1.0*diagramData[i][xValue];}
+        if(1.0*diagramData[i][xValue]>xMax)
+            {xMax = 1.0*diagramData[i][xValue];}
+
+        if(1.0*diagramData[i][yValue]<yMin)
+            {yMin = 1.0*diagramData[i][yValue];}
+        if(1.0*diagramData[i][yValue]>yMax)
+            {yMax = 1.0*diagramData[i][yValue];}       
+    }
+    var xAxisLength = xMax-xMin+20;
+    var yAxisLength = yMax-yMin+20;
+
+    showArea.selectAll('.svgCircle').remove();
+    for(var i = 0; i<diagramData.length;i++)
+    {
+        if(document.getElementById('painting-'+diagramData[i].ID) ==null){
+        showArea.append('pattern')
+        .attr('class','svgPics')
+        .attr("id", 'painting-'+diagramData[i].ID)
+        .attr("width", 1)
+        .attr("height", 1)
+        .append("svg:image")
+        .attr("xlink:href",'asset/imgs/'+diagramData[i].ID+'.jpg')
+        .attr("width", 100)
+        .attr("height", 100)
+        .attr("y", -20)
+        .attr("x", -20);
+        
+        }
+        showArea.append('circle')
+        .attr('class','svgPics svgCircle')
+        .attr("r", 20)
+        .attr("id", 'painting-circle-'+diagramData[i].ID)
+        .attr("stroke", "transparent")
+        .attr("stroke-width", "2px")
+        .attr('cx',(((1.0*diagramData[i][xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
+        .attr('cy',(((1.0*diagramData[i][yValue])-yMin)/yAxisLength)*(showArea.node().getBoundingClientRect().height)+20)
+        .attr("fill", function(d,j){
+        return 'url(#painting-'+diagramData[i].ID+')'
+        });
+
+    }
+
+
+
 }
 
 /*
@@ -289,11 +340,13 @@ function reply_click_area(clicked_id){
 function reply_click_gender(clicked_id){
     if (flag_g =='') {
         selectedDict['gender'] = [clicked_id];
-        showSelected(selectedDict);
+       // showSelected(selectedDict);
     } else {
         selectedDict['gender'] = ["Female", "Male"];
-        showSelected(selectedDict);
-    }
+        //showSelected(selectedDict);
+    }    
+    //console.log(selectedDict.gender);
+
     showSelected(selectedDict);
     drawPitchLine();
     drawYawLine();
@@ -1245,4 +1298,20 @@ jQuery('*:not(.nocapture)').on('click', function(e){
 })
 */
 
-
+//function to show one painting
+/*
+function showOne(data){
+    var newDiv = document.createElement("div");
+    newDiv.className = 'paintingdiv';
+    newDiv.id = data['Artist']+' '+data['Title'];
+    newDiv.style.width = '200px';
+    var img = document.createElement("img");
+    img.style.width = '180px';
+    img.src = data['url'];
+    img.className = 'painting';
+    img.id = data['Title'];
+    img.style.display = 'inline';
+    newDiv.appendChild(img);
+    document.getElementById('showArea').appendChild(newDiv);
+}
+*/
