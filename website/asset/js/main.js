@@ -72,7 +72,32 @@ chooseMouthButton();
 chooseSmileButton();
 
 // Click on img to get original pic
-$("img").click(function(){location.href = $(this).attr('src');});
+//$("img").click(function(){location.href = $(this).attr('src');});
+
+//draw grid
+//draw vertical line |
+for (var i = 0; i < 21; i++){
+    showArea.append("line")
+        .attr("x1", i*40)
+        .attr("y1",0)
+        .attr("x2", i*40)
+        .attr("y2", 300)
+        .attr("stroke-width", 0.5)
+        .attr("stroke-dasharray", "4 7")
+        .attr("stroke", "grey");
+}
+//draw horizental line --
+for (var i = 0; i < 11; i++){
+    showArea.append("line")
+        .attr("x1", 0)
+        .attr("y1",i*43)
+        .attr("x2", 900)
+        .attr("y2", i*43)
+        .attr("stroke-width", 0.5)
+        .attr("stroke-dasharray", "4 7")
+        .attr("stroke", "grey");
+}
+
 
 //function to show selected paintings
 function showSelected(selectedDict){
