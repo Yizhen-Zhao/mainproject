@@ -185,6 +185,7 @@ function updateDiagram(diagramData){
                 .attr("link",'asset/imgs/'+painting.ID+'.jpg')
                 .attr("area", painting.area)
                 .attr("gender", painting.gender)
+                .attr("url", painting.url)
                 .attr("stroke", "transparent")
                 .attr("stroke-width", "2px")
                 .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
@@ -192,6 +193,9 @@ function updateDiagram(diagramData){
                 .attr("fill", function(d,j){
                 return 'url(#painting-'+painting.ID+')'
                 });
+
+                // Click on img to get original pic
+                $('circle').click(function(){location.href = $(this).attr('url');});
 
                 //add tooltip to pic circles
                 $(document).ready(function(){
@@ -215,7 +219,9 @@ function updateDiagram(diagramData){
                             '<br>' + area +
                             '<br>' + gender +
                             '<br>' + age +
+                            '<br>' + "Click circle to show picture!" +
                             '<br>' + "<img class='toolpic' src='" + img + "' height='50%' width='100%'>";
+
 
                         $(this).data('tipText', rawArtist);
                             // .removeAttr('title');
