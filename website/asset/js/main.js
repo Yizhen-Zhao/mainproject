@@ -225,7 +225,6 @@ function chooseGenderButton(){
                 for(var i = 0; i < genderCircle.length; i++){
                 genderCircle[i].classList.remove("selected");
                 }            
-                //console.log(this);
                 flag_g = this.id;
                 this.classList.add("selected");    
             } 
@@ -330,14 +329,14 @@ function reply_click_area(clicked_id){
 function reply_click_gender(clicked_id){
     if (flag_g =='') {
         selectedDict['gender'] = [clicked_id];
-       // showSelected(selectedDict);
+        showSelected(selectedDict);
     } else {
         selectedDict['gender'] = ["Female", "Male"];
-        //showSelected(selectedDict);
+        showSelected(selectedDict);
     }    
     //console.log(selectedDict.gender);
 
-    showSelected(selectedDict);
+    //showSelected(selectedDict);
     drawPitchLine();
     drawYawLine();
     drawRollLine();
@@ -428,7 +427,7 @@ for(var i = 0; i < 10; i++){
     svgContainer.append("text")
         .attr('id','age_rect_text'+i*10)
         .attr("x", i * 15)
-        .attr("y", 6)
+        .attr("y", 25)
         .attr("font-size", "12px")
         .attr("opacity", 0)
         .attr("dy", ".35em")
@@ -574,7 +573,7 @@ for(var i = 0; i < 15; i++){
         .attr('onclick','reply_click_yaw(this.id)');
     svgContainer.append("text")
         .attr("x", i * 15)
-        .attr("y", 6)
+        .attr("y", 25)
         .attr("font-size", "12px")
         .attr("opacity", 0)
         .attr("dy", ".35em")
@@ -692,7 +691,7 @@ for(var i = 0; i < 6; i++){
         .attr('onclick','reply_click_pitch(this.id)');
     svgContainer.append("text")
         .attr("x", i * 25)
-        .attr("y", 6)
+        .attr("y", 25)
         .attr("font-size", "12px")
         .attr("opacity", 0)
         .attr("dy", ".35em")
@@ -811,12 +810,12 @@ for(var i = 0; i < 10; i++){
         .attr("x", i * 15)
         .attr("y", 13)
         .attr("width", 15)
-        .attr("height", 80)
+        .attr("height", 90)
         .attr('fill', '#444444')
         .attr('onclick','reply_click_roll(this.id)');
     svgContainer.append("text")
         .attr("x", i * 15)
-        .attr("y", 6)
+        .attr("y", 25)
         .attr("font-size", "12px")
         .attr("opacity", 0)
         .attr("dy", ".35em")
@@ -933,7 +932,7 @@ for(var i = 0; i < 10; i++){
         .attr('onclick','reply_click_happy(this.id)');
     svgContainer.append("text")
         .attr("x", i * 13)
-        .attr("y", 6)
+        .attr("y", 25)
         .attr("font-size", "12px")
         .attr("opacity", 0)
         .attr("dy", ".35em")
@@ -1049,7 +1048,7 @@ for(var i = 0; i < 10; i++){
         .attr('onclick','reply_click_neutral(this.id)');
     svgContainer.append("text")
         .attr("x", i * 13)
-        .attr("y", 6)
+        .attr("y", 25)
         .attr("font-size", "12px")
         .attr("opacity", 0)
         .attr("dy", ".35em")
@@ -1167,7 +1166,7 @@ for(var i = 0; i < 10; i++){
         .attr('onclick','reply_click_sadness(this.id)');
     svgContainer.append("text")
         .attr("x", i * 10)
-        .attr("y", 6)
+        .attr("y", 25)
         .attr("font-size", "12px")
         .attr("opacity", 0)
         .attr("dy", ".35em")
