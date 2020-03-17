@@ -72,7 +72,37 @@ chooseMouthButton();
 chooseSmileButton();
 
 // Click on img to get original pic
-$("img").click(function(){location.href = $(this).attr('src');});
+//$("img").click(function(){location.href = $(this).attr('src');});
+
+//draw grid
+//draw vertical line |
+for (var i = 0; i < 21; i++){
+    showArea.append("line")
+        .attr("x1", i*40)
+        .attr("y1",0)
+        .attr("x2", i*40)
+        .attr("y2", 390)
+        .attr("stroke-width", 0.5)
+        .attr("stroke-dasharray", "4 7")
+        .attr("stroke", "grey");
+}
+//draw horizental line --
+for (var i = 0; i < 10; i++){
+    showArea.append("line")
+        .attr("x1", 0)
+        .attr("y1",i*43)
+        .attr("x2", 900)
+        .attr("y2", i*43)
+        .attr("stroke-width", 0.5)
+        .attr("stroke-dasharray", "4 7")
+        .attr("stroke", "grey");
+}
+
+
+
+
+
+
 
 //function to show selected paintings
 function showSelected(selectedDict){
@@ -179,12 +209,65 @@ function updateDiagram(diagramData){
                 .attr('class','svgPics svgCircle')
                 .attr("r", 20)
                 .attr("id", 'painting-circle-'+painting.ID)
+                .attr("artist", painting.Artist)
+                .attr("year", painting.Year)
+                .attr("age", painting.age)
+                .attr("link",'asset/imgs/'+painting.ID+'.jpg')
+                .attr("area", painting.area)
+                .attr("gender", painting.gender)
+                .attr("url", painting.url)
                 .attr("stroke", "transparent")
                 .attr("stroke-width", "2px")
                 .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
                 .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*(showArea.node().getBoundingClientRect().height)+20)
                 .attr("fill", function(d,j){
                 return 'url(#painting-'+painting.ID+')'
+                });
+
+                // Click on img to get original pic
+                $('circle').click(function(){location.href = $(this).attr('url');});
+
+                //add tooltip to pic circles
+                $(document).ready(function(){
+                    $('circle').hover(function () {
+                        $(this).css("cursor", "pointer")
+                        var rawArtist = $(this).attr('artist');
+                        var rawYear = $(this).attr('year');
+                        var rawAge = $(this).attr('age');
+                        var img = $(this).attr('link');
+                        var rawArea = $(this).attr('area');
+                        var rawGender = $(this).attr('gender');
+
+                        var artist = "Artist: " + rawArtist;
+                        var year = "Year: " + rawYear;
+                        var age = " Age: " + rawAge;
+                        var area = " Area: " + rawArea;
+                        var gender = "Gender: " + rawGender;
+
+                        var output = artist +
+                            '<br>' + year +
+                            '<br>' + area +
+                            '<br>' + gender +
+                            '<br>' + age +
+                            '<br>' + "Click circle to show picture!" +
+                            '<br>' + "<img class='toolpic' src='" + img + "' height='50%' width='100%'>";
+
+
+                        $(this).data('tipText', rawArtist);
+                            // .removeAttr('title');
+                        $('<p class="tooltip_"></p>')
+                            .html(output)
+                            .appendTo('body')
+                            .fadeIn('slow');
+                    }, function(){
+                        $(this).attr('artist', $(this).data('tipText'));
+                        $('.tooltip_').remove();
+                    }).mouseenter(function (e) {
+                        var mousex = e.pageX + 20 ;
+                        var mousey = e.pageY + 20 ;
+                        $('.tooltip_')
+                            .css({top:mousey, left:mousex})
+                    });
                 });
             }
             else{

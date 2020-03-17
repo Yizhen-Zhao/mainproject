@@ -36,6 +36,8 @@ Information visualization
 
 [Mar.5th](#5th-mar)
 
+[Mar.11th](#11th-mar)
+
 
 ### 13th Feb 
 
@@ -145,4 +147,16 @@ Information visualization
 
 	1. Design unique features of our viszualization.
 	2. Optimize our viszualization.
+		
+
+### 11th Mar
+
+##### Key points discussed
+
+	1. Advice for current visualization.
+	2. Advice and guidence for final report.
+
+##### Task for this week
+	1. Optimize current visualization (add x-y axis and grids for display area)
+	2. Working on final report about our visualization
 
