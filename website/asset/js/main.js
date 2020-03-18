@@ -1038,7 +1038,7 @@ function reply_click_happy(clicked_id){
         var id = happy_rects[i].getAttribute('id');
         if(id == clicked_id)
         {happy_rects[i].setAttribute('fill-opacity','50%')}
-        else{happy_rects[i].setAttribute('fill-opacity','0');}
+        else{happy_rects[i].setAttribute('fill-opacity','0%');}
         
     }
 
@@ -1066,12 +1066,12 @@ function chooseHappyRect(happyRect){
 
 //function to draw line in happy area
 function drawHappyLine(){
+
     points = getHappyPoints();
     for(var i = 0; i < points.length; i++){
         //need to change with large data
         points[i][1] = 100 - points[i][1];
     }
-    //console.log(points);
     //console.log(points);
     var lineGenerator = d3.line()
                         .curve(d3.curveCardinal);
@@ -1081,6 +1081,7 @@ function drawHappyLine(){
     d3.select('#happyPath')
         .attr('d', pathData);
 }
+
 //function to get points in happy area after any button clicked
 function getHappyPoints(){
     if(selectedDict['happy'].length == 1){
