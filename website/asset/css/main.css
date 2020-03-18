@@ -493,3 +493,7 @@ div.scroll{
     width: 80vw;
     height: 30vw;
 }
+
+.tooltip_{
+    border-color: transparent;
+}

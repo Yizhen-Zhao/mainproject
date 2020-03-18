@@ -55,7 +55,7 @@ var selectedDict = {"areas": ["North", "South", "Europe"],
                     "pitch":['-30', '-20', '-10', '0', '10','20'],
                     "roll": ['-50','-40','-30','-20','-10','0','10','20','30','40'],
                     "eyes":["open", "closed"],
-                    "mouth":["openm", "closedm"],
+                    "mouth":["open", "closed"],
                     "smile":["yes", "no"],
                     "happy": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90'],
                     "neutral": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90'],
@@ -216,6 +216,7 @@ function updateDiagram(diagramData){
                 .attr("area", painting.area)
                 .attr("gender", painting.gender)
                 .attr("url", painting.url)
+                .attr("Title", painting.Title)
                 .attr("stroke", "transparent")
                 .attr("stroke-width", "2px")
                 .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
@@ -231,24 +232,37 @@ function updateDiagram(diagramData){
                 $(document).ready(function(){
                     $('circle').hover(function () {
                         $(this).css("cursor", "pointer")
+                        var rawPaintingName = $(this).attr('Title');
                         var rawArtist = $(this).attr('artist');
                         var rawYear = $(this).attr('year');
-                        var rawAge = $(this).attr('age');
                         var img = $(this).attr('link');
                         var rawArea = $(this).attr('area');
-                        var rawGender = $(this).attr('gender');
-
+                        //var rawAge = $(this).attr('age');
+                        //var rawGender = $(this).attr('gender');
+                        
+                        var paintingName = "Title: " + rawPaintingName;
                         var artist = "Artist: " + rawArtist;
                         var year = "Year: " + rawYear;
-                        var age = " Age: " + rawAge;
-                        var area = " Area: " + rawArea;
-                        var gender = "Gender: " + rawGender;
+                        var area = " "
+                        if(rawArea == "South"){
+                            area = "Area: South America"
+                        }
+                        else if (rawArea == "North"){
+                            area = "Area: North America"
+                        }
+                        else{
+                            area = "Area: Europe"
+                        }
+                        //var area = " Area: " + rawArea;
+                        //var age = " Age: " + rawAge;
+                        //var gender = "Gender: " + rawGender;
 
-                        var output = artist +
+                        var output = paintingName +
+                            '<br>' + artist +
                             '<br>' + year +
                             '<br>' + area +
-                            '<br>' + gender +
-                            '<br>' + age +
+                            //'<br>' + gender +
+                            //'<br>' + age +
                             '<br>' + "Click circle to show picture!" +
                             '<br>' + "<img class='toolpic' src='" + img + "' height='50%' width='100%'>";
 
