@@ -41,14 +41,11 @@ h5{
 }
 #Europe{    height: 25px;width: 25px;}
 #North {    height: 16px;width: 16px;}
-#South {    height: 10px;width: 10px;}
-.areaCircle {
-    height: 25px;
-    width: 25px;
-    background: (
 
-        #444444
-    );
+.areaCircle {
+
+    background: 
+    #e2d5bf;
     border-radius: 50%;
     display: inline-block;
 	margin: 1.66%;
@@ -64,7 +61,7 @@ h5{
 }
 
 .areaCircle.selected {
-	background: #444444;
+	background: rgb(155, 155, 155);
 }
 
 .dimension{
@@ -494,6 +491,19 @@ div.scroll{
     height: 30vw;
 }
 
-.tooltip_{
-    border-color: transparent;
+
+.tooltip_ {
+	display:none;
+	position:absolute;
+	border:1px solid transparent;
+    background-color:rgba(44, 44, 44, 0.5);
+	border-radius:5px;
+	padding:10px;
+	color:#faf1e0;
+	font-size:13px;
+
+}
+
+.toolpic {
+	margin-top: 5px;
 }

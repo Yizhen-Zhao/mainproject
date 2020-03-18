@@ -216,6 +216,7 @@ function updateDiagram(diagramData){
                 .attr("area", painting.area)
                 .attr("gender", painting.gender)
                 .attr("url", painting.url)
+                .attr("paintingUrl", painting.painting_info_url)
                 .attr("Title", painting.Title)
                 .attr("stroke", "transparent")
                 .attr("stroke-width", "2px")
@@ -226,12 +227,12 @@ function updateDiagram(diagramData){
                 });
 
                 // Click on img to get original pic
-                $('circle').click(function(){location.href = $(this).attr('url');});
+                $('circle').click(function(){window.open($(this).attr('paintingUrl'),'_blank');});
 
                 //add tooltip to pic circles
                 $(document).ready(function(){
                     $('circle').hover(function () {
-                        $(this).css("cursor", "pointer")
+                        $(this).css({"cursor": "pointer"});
                         var rawPaintingName = $(this).attr('Title');
                         var rawArtist = $(this).attr('artist');
                         var rawYear = $(this).attr('year');
@@ -244,10 +245,7 @@ function updateDiagram(diagramData){
                         var artist = "Artist: " + rawArtist;
                         var year = "Year: " + rawYear;
                         var area = " "
-                        if(rawArea == "South"){
-                            area = "Area: South America"
-                        }
-                        else if (rawArea == "North"){
+                        if (rawArea == "North"){
                             area = "Area: North America"
                         }
                         else{
@@ -256,14 +254,14 @@ function updateDiagram(diagramData){
                         //var area = " Area: " + rawArea;
                         //var age = " Age: " + rawAge;
                         //var gender = "Gender: " + rawGender;
-
-                        var output = paintingName +
+                        var output =
+                            paintingName +
                             '<br>' + artist +
                             '<br>' + year +
                             '<br>' + area +
                             //'<br>' + gender +
                             //'<br>' + age +
-                            '<br>' + "Click circle to show picture!" +
+                            //'<br>' + "Click circle to show picture!" +
                             '<br>' + "<img class='toolpic' src='" + img + "' height='50%' width='100%'>";
 
 
@@ -303,13 +301,21 @@ function updateDiagram(diagramData){
 }
 
 //function to choose area
+var flag_a ='';
 function chooseAreaButton(){
     for(var i = 0; i < areaCircle.length; i++){
         areaCircle[i].addEventListener("click", function(){
-            for(var i = 0; i < areaCircle.length; i++){
-                areaCircle[i].classList.remove("selected");
+            if (this.id != flag_a) {
+                for(var i = 0; i < areaCircle.length; i++){
+                    areaCircle[i].classList.remove("selected");
+                }
+                flag_a = this.id;
+                this.classList.add("selected");
             }
-            this.classList.add("selected");          
+            else{
+                this.classList.remove("selected");
+                flag_a = '';
+            }          
         });
     }
 }
@@ -398,20 +404,13 @@ function chooseSmileButton(){
 
 //function to click area button and reply
 function reply_click_area(clicked_id){
-    /*
-    for(var i = 0; i < data.length; i++){
-        
-        if(data[i]['area'] != clicked_id && document.getElementById(data[i]['Title']) != null){
-            //console.log(document.querySelectorAll('#'+data[i]['Title']));
-            document.getElementById(data[i]['Artist']+' '+data[i]['Title']).remove();        
-        }
-        
-        if(data[i]['area'] == clicked_id && document.getElementById(data[i]['Title']) == null){
-            showOne(data[i]);
-        }
-    }
-    */
-    selectedDict['areas'] = [clicked_id];
+    if (flag_a =='') {
+        selectedDict['areas'] = [clicked_id];
+        showSelected(selectedDict);
+    } else {
+        selectedDict['areas'] = ["North", "Europe"];
+        showSelected(selectedDict);
+    }  
     //console.log(selectedDict);
     showSelected(selectedDict);
     drawPitchLine();
