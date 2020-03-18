@@ -55,7 +55,7 @@ var selectedDict = {"areas": ["North", "South", "Europe"],
                     "pitch":['-30', '-20', '-10', '0', '10','20'],
                     "roll": ['-50','-40','-30','-20','-10','0','10','20','30','40'],
                     "eyes":["open", "closed"],
-                    "mouth":["open", "closed"],
+                    "mouth":["openm", "closedm"],
                     "smile":["yes", "no"],
                     "happy": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90'],
                     "neutral": ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90'],
@@ -74,7 +74,7 @@ chooseSmileButton();
 // Click on img to get original pic
 //$("img").click(function(){location.href = $(this).attr('src');});
 
-//draw grid
+/*draw grid
 //draw vertical line |
 for (var i = 0; i < 21; i++){
     showArea.append("line")
@@ -97,7 +97,7 @@ for (var i = 0; i < 10; i++){
         .attr("stroke-dasharray", "4 7")
         .attr("stroke", "grey");
 }
-
+*/
 
 
 
@@ -186,6 +186,8 @@ function updateDiagram(diagramData){
     }
     var xAxisLength = xMax-xMin+20;
     var yAxisLength = yMax-yMin+20;
+    var showAreaWidth = showArea.node().getBoundingClientRect().width;
+    var showAreaHeight = showArea.node().getBoundingClientRect().height;
     var t = d3.transition().duration(1000);
     for(var circleId in dictExistSvgCircle){
 
@@ -220,11 +222,21 @@ function updateDiagram(diagramData){
                 .attr("Title", painting.Title)
                 .attr("stroke", "transparent")
                 .attr("stroke-width", "2px")
-                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
-                .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*(showArea.node().getBoundingClientRect().height)+20)
+                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*showAreaWidth+20)
+                .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*showAreaHeight+20)
                 .attr("fill", function(d,j){
                 return 'url(#painting-'+painting.ID+')'
                 });
+
+                //try to add grid
+                showArea.append("line")
+                .attr('x1',0)
+                .attr('y1',0)
+                .attr('x2',showAreaWidth)
+                .attr('y2',0)
+                .attr("stroke-width", 0.5)
+                .attr("stroke-dasharray", "4 7")
+                .attr("stroke", "grey");
 
                 // Click on img to get original pic
                 $('circle').click(function(){window.open($(this).attr('paintingUrl'),'_blank');});

@@ -18,7 +18,7 @@ var data = '[{\
   "yaw": "-5.872.727",\
   "eyes": "closed",\
   "eyesdetailed": 20.764,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 9,\
   "neutral": 99.415,\
@@ -43,7 +43,7 @@ var data = '[{\
   "yaw": "42.778.458",\
   "eyes": "open",\
   "eyesdetailed": 99.663,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 26,\
   "happy": 1.743,\
   "neutral": 34.766,\
@@ -68,7 +68,7 @@ var data = '[{\
   "yaw": "27.117.826",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 13,\
   "neutral": 42.111,\
@@ -93,7 +93,7 @@ var data = '[{\
   "yaw": "20.639.177",\
   "eyes": "open",\
   "eyesdetailed": 99.946,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 5,\
   "neutral": 99.982,\
@@ -118,7 +118,7 @@ var data = '[{\
   "yaw": "-24.665.815",\
   "eyes": "open",\
   "eyesdetailed": 85.371,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 111,\
   "happy": 53,\
   "neutral": 99.843,\
@@ -143,7 +143,7 @@ var data = '[{\
   "yaw": "-15.238.022",\
   "eyes": "open",\
   "eyesdetailed": 99.731,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 7,\
   "happy": 30.645,\
   "neutral": 2.754,\
@@ -168,7 +168,7 @@ var data = '[{\
   "yaw": "19.827.297",\
   "eyes": "closed",\
   "eyesdetailed": 24.638,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 261,\
   "neutral": 5.905,\
@@ -193,7 +193,7 @@ var data = '[{\
   "yaw": "10.656.422",\
   "eyes": "closed",\
   "eyesdetailed": 79,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 3,\
   "happy": 9.718,\
   "neutral": 89.316,\
@@ -218,7 +218,7 @@ var data = '[{\
   "yaw": "36.976.643",\
   "eyes": "open",\
   "eyesdetailed": 99.342,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 15,\
   "happy": 22.57,\
   "neutral": 27.452,\
@@ -243,7 +243,7 @@ var data = '[{\
   "yaw": "17.873.049",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 386,\
   "neutral": 99.602,\
@@ -268,7 +268,7 @@ var data = '[{\
   "yaw": "2.634.341",\
   "eyes": "open",\
   "eyesdetailed": 99.062,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 2,\
   "neutral": 99.997,\
@@ -293,7 +293,7 @@ var data = '[{\
   "yaw": "76.677.315",\
   "eyes": "closed",\
   "eyesdetailed": 2,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 4.127,\
   "neutral": 56.115,\
@@ -318,7 +318,7 @@ var data = '[{\
   "yaw": "35.862.095",\
   "eyes": "open",\
   "eyesdetailed": 75.473,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 23.107,\
   "neutral": 72.025,\
@@ -343,7 +343,7 @@ var data = '[{\
   "yaw": "3.323.635",\
   "eyes": "open",\
   "eyesdetailed": 555,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 984,\
   "happy": 1.256,\
   "neutral": 26,\
@@ -368,7 +368,7 @@ var data = '[{\
   "yaw": "-12.636.443",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 126,\
   "happy": 83,\
   "neutral": 99.833,\
@@ -393,7 +393,7 @@ var data = '[{\
   "yaw": "80.924.736",\
   "eyes": "closed",\
   "eyesdetailed": 6.524,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 21.553,\
   "neutral": 66.637,\
@@ -418,7 +418,7 @@ var data = '[{\
   "yaw": "7.281.146",\
   "eyes": "open",\
   "eyesdetailed": 56,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.034,\
   "neutral": 84.726,\
@@ -443,7 +443,7 @@ var data = '[{\
   "yaw": "-31.231.602",\
   "eyes": "open",\
   "eyesdetailed": 99.649,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 24,\
   "happy": 0.04,\
   "neutral": 94.296,\
@@ -468,7 +468,7 @@ var data = '[{\
   "yaw": "17.546.841",\
   "eyes": "open",\
   "eyesdetailed": 98.084,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.08,\
   "happy": 4,\
   "neutral": 99.89,\
@@ -493,7 +493,7 @@ var data = '[{\
   "yaw": "-34.827.585",\
   "eyes": "open",\
   "eyesdetailed": 99.982,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 3.653,\
   "happy": 14,\
   "neutral": 99.624,\
@@ -518,7 +518,7 @@ var data = '[{\
   "yaw": "24.506.693",\
   "eyes": "open",\
   "eyesdetailed": 99.965,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 38,\
   "happy": 0,\
   "neutral": 99.723,\
@@ -543,7 +543,7 @@ var data = '[{\
   "yaw": "59.013.298",\
   "eyes": "closed",\
   "eyesdetailed": 1.173,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 98.975,\
   "happy": 437,\
   "neutral": 98.912,\
@@ -568,7 +568,7 @@ var data = '[{\
   "yaw": "3.649.832",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 6,\
   "neutral": 98.367,\
@@ -593,7 +593,7 @@ var data = '[{\
   "yaw": "3.045.738",\
   "eyes": "open",\
   "eyesdetailed": 99.851,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 57,\
   "happy": 1,\
   "neutral": 99.339,\
@@ -618,7 +618,7 @@ var data = '[{\
   "yaw": "-4.844.666",\
   "eyes": "open",\
   "eyesdetailed": 53.651,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 449,\
   "happy": 2.9,\
   "neutral": 39.623,\
@@ -643,7 +643,7 @@ var data = '[{\
   "yaw": "23.175.508",\
   "eyes": "open",\
   "eyesdetailed": 99.996,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 6,\
   "happy": 51.431,\
   "neutral": 43.402,\
@@ -668,7 +668,7 @@ var data = '[{\
   "yaw": "4.119.642",\
   "eyes": "open",\
   "eyesdetailed": 99.978,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 1.262,\
   "neutral": 98.655,\
@@ -693,7 +693,7 @@ var data = '[{\
   "yaw": 0.97934747,\
   "eyes": "open",\
   "eyesdetailed": 99.965,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 46.739,\
   "happy": 857,\
   "neutral": 99.134,\
@@ -718,7 +718,7 @@ var data = '[{\
   "yaw": "5.970.441",\
   "eyes": "open",\
   "eyesdetailed": 91.988,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 7.842,\
   "happy": 31.398,\
   "neutral": 68.465,\
@@ -743,7 +743,7 @@ var data = '[{\
   "yaw": "10.590.696",\
   "eyes": "open",\
   "eyesdetailed": 99.99,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 19,\
   "neutral": 2.902,\
@@ -768,7 +768,7 @@ var data = '[{\
   "yaw": "5.029.585",\
   "eyes": "open",\
   "eyesdetailed": 99.954,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0.09,\
   "neutral": 13.579,\
@@ -793,7 +793,7 @@ var data = '[{\
   "yaw": "4.536.227",\
   "eyes": "open",\
   "eyesdetailed": 78.684,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 9,\
   "happy": 121,\
   "neutral": 95.201,\
@@ -818,7 +818,7 @@ var data = '[{\
   "yaw": "-57.240.853",\
   "eyes": "open",\
   "eyesdetailed": 94.107,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 7.544,\
   "neutral": 36.043,\
@@ -843,7 +843,7 @@ var data = '[{\
   "yaw": "-8.558.863",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 211,\
   "happy": 87,\
   "neutral": 55.216,\
@@ -868,7 +868,7 @@ var data = '[{\
   "yaw": "5.366.132",\
   "eyes": "closed",\
   "eyesdetailed": 10.107,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 409,\
   "happy": 99,\
   "neutral": 85.727,\
@@ -893,7 +893,7 @@ var data = '[{\
   "yaw": "-70.507.793",\
   "eyes": "open",\
   "eyesdetailed": 99.994,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 566,\
   "happy": 14,\
   "neutral": 4.192,\
@@ -918,7 +918,7 @@ var data = '[{\
   "yaw": "2.196.937",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 91,\
   "neutral": 99.667,\
@@ -943,7 +943,7 @@ var data = '[{\
   "yaw": "9.415.342",\
   "eyes": "open",\
   "eyesdetailed": 99.796,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0.05,\
   "neutral": 99.881,\
@@ -968,7 +968,7 @@ var data = '[{\
   "yaw": "66.990.094",\
   "eyes": "open",\
   "eyesdetailed": 99.97,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.08,\
   "happy": 45,\
   "neutral": 99.953,\
@@ -993,7 +993,7 @@ var data = '[{\
   "yaw": -0.87711835,\
   "eyes": "open",\
   "eyesdetailed": 99.998,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 2,\
   "neutral": 1.217,\
@@ -1018,7 +1018,7 @@ var data = '[{\
   "yaw": "-28.969.099",\
   "eyes": "open",\
   "eyesdetailed": 99.656,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 4.118,\
   "happy": 219,\
   "neutral": 58.884,\
@@ -1043,7 +1043,7 @@ var data = '[{\
   "yaw": "15.196.402",\
   "eyes": "open",\
   "eyesdetailed": 99.991,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.03,\
   "happy": 4,\
   "neutral": 99.992,\
@@ -1068,7 +1068,7 @@ var data = '[{\
   "yaw": "-25.464.308",\
   "eyes": "open",\
   "eyesdetailed": 98.896,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 15,\
   "neutral": 99.985,\
@@ -1093,7 +1093,7 @@ var data = '[{\
   "yaw": "-20.816.854",\
   "eyes": "open",\
   "eyesdetailed": 99.812,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 6.366,\
   "neutral": 85.299,\
@@ -1118,7 +1118,7 @@ var data = '[{\
   "yaw": "1.795.415",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 362,\
   "happy": 97.891,\
   "neutral": 17,\
@@ -1143,7 +1143,7 @@ var data = '[{\
   "yaw": "-20.515.696",\
   "eyes": "open",\
   "eyesdetailed": 99.031,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 2.539,\
   "neutral": 91.792,\
@@ -1168,7 +1168,7 @@ var data = '[{\
   "yaw": "19.586.506",\
   "eyes": "open",\
   "eyesdetailed": 99.985,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 15,\
   "neutral": 99.978,\
@@ -1193,7 +1193,7 @@ var data = '[{\
   "yaw": "26.474.104",\
   "eyes": "open",\
   "eyesdetailed": 98.404,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 18.962,\
   "happy": 312,\
   "neutral": 68.627,\
@@ -1218,7 +1218,7 @@ var data = '[{\
   "yaw": "8.718.282",\
   "eyes": "open",\
   "eyesdetailed": 95.022,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 125,\
   "neutral": 99.394,\
@@ -1243,7 +1243,7 @@ var data = '[{\
   "yaw": "-3.744.836",\
   "eyes": "open",\
   "eyesdetailed": 95.97,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 60.516,\
   "happy": 18,\
   "neutral": 99.353,\
@@ -1268,7 +1268,7 @@ var data = '[{\
   "yaw": "-22.782.133",\
   "eyes": "open",\
   "eyesdetailed": 99.8,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 898,\
   "neutral": 99.098,\
@@ -1293,7 +1293,7 @@ var data = '[{\
   "yaw": "-20.441.442",\
   "eyes": "open",\
   "eyesdetailed": 99.994,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0,\
   "neutral": 100,\
@@ -1318,7 +1318,7 @@ var data = '[{\
   "yaw": "15.785.755",\
   "eyes": "open",\
   "eyesdetailed": 97.781,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 33,\
   "happy": 188,\
   "neutral": 71.569,\
@@ -1343,7 +1343,7 @@ var data = '[{\
   "yaw": "-49.610.267",\
   "eyes": "closed",\
   "eyesdetailed": 2.951,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 14.739,\
   "happy": 0.01,\
   "neutral": 83.354,\
@@ -1368,7 +1368,7 @@ var data = '[{\
   "yaw": "21.520.157",\
   "eyes": "open",\
   "eyesdetailed": 99.994,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 45,\
   "happy": 2.51,\
   "neutral": 85.343,\
@@ -1393,7 +1393,7 @@ var data = '[{\
   "yaw": "4.785.442",\
   "eyes": "closed",\
   "eyesdetailed": 4.306,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.06,\
   "neutral": 98.828,\
@@ -1418,7 +1418,7 @@ var data = '[{\
   "yaw": "19.252.981",\
   "eyes": "open",\
   "eyesdetailed": 99.993,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 5,\
   "happy": 12,\
   "neutral": 99.568,\
@@ -1443,7 +1443,7 @@ var data = '[{\
   "yaw": "-19.218.105",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 0,\
   "neutral": 99.997,\
@@ -1468,7 +1468,7 @@ var data = '[{\
   "yaw": "17.534.601",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 97.095,\
   "happy": 8.737,\
   "neutral": 84.055,\
@@ -1493,7 +1493,7 @@ var data = '[{\
   "yaw": "-56.663.156",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 27,\
   "neutral": 96.887,\
@@ -1518,7 +1518,7 @@ var data = '[{\
   "yaw": "30.358.591",\
   "eyes": "open",\
   "eyesdetailed": 98.85,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 95,\
   "neutral": 96.916,\
@@ -1543,7 +1543,7 @@ var data = '[{\
   "yaw": "5.228.762",\
   "eyes": "open",\
   "eyesdetailed": 96.693,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 3,\
   "happy": 81.884,\
   "neutral": 14.87,\
@@ -1568,7 +1568,7 @@ var data = '[{\
   "yaw": "-12.165.686",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0.05,\
   "neutral": 658,\
@@ -1593,7 +1593,7 @@ var data = '[{\
   "yaw": 503.692,\
   "eyes": "open",\
   "eyesdetailed": 99.841,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 6.447,\
   "neutral": 93.501,\
@@ -1618,7 +1618,7 @@ var data = '[{\
   "yaw": "29.876.532",\
   "eyes": "open",\
   "eyesdetailed": 99.668,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 89.269,\
   "happy": 2.869,\
   "neutral": 86.711,\
@@ -1643,7 +1643,7 @@ var data = '[{\
   "yaw": "12.863.357",\
   "eyes": "open",\
   "eyesdetailed": 96.694,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 911,\
   "happy": 69.955,\
   "neutral": 30.028,\
@@ -1668,7 +1668,7 @@ var data = '[{\
   "yaw": "18.189.938",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 45,\
   "happy": 4,\
   "neutral": 95.843,\
@@ -1693,7 +1693,7 @@ var data = '[{\
   "yaw": "13.816.487",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 7,\
   "neutral": 95.232,\
@@ -1718,7 +1718,7 @@ var data = '[{\
   "yaw": "21.009.727",\
   "eyes": "open",\
   "eyesdetailed": 99.714,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.39,\
   "happy": 173,\
   "neutral": 96.37,\
@@ -1743,7 +1743,7 @@ var data = '[{\
   "yaw": "-33.593.918",\
   "eyes": "closed",\
   "eyesdetailed": 40.643,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 5.334,\
   "neutral": 63.254,\
@@ -1768,7 +1768,7 @@ var data = '[{\
   "yaw": "1.102.053",\
   "eyes": "open",\
   "eyesdetailed": 99.073,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 3,\
   "neutral": 99.771,\
@@ -1793,7 +1793,7 @@ var data = '[{\
   "yaw": "53.202.505",\
   "eyes": "closed",\
   "eyesdetailed": 6.682,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 7.266,\
   "happy": 14,\
   "neutral": 99.383,\
@@ -1818,7 +1818,7 @@ var data = '[{\
   "yaw": "19.850.996",\
   "eyes": "open",\
   "eyesdetailed": 99.989,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 16,\
   "happy": 612,\
   "neutral": 98.904,\
@@ -1843,7 +1843,7 @@ var data = '[{\
   "yaw": "-13.134.574",\
   "eyes": "open",\
   "eyesdetailed": 99.954,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 202,\
   "neutral": 99.76,\
@@ -1868,7 +1868,7 @@ var data = '[{\
   "yaw": "-1.462.686",\
   "eyes": "open",\
   "eyesdetailed": 99.99,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 3.797,\
   "neutral": 31.157,\
@@ -1893,7 +1893,7 @@ var data = '[{\
   "yaw": "-28.723.816",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 25.403,\
   "happy": 1.932,\
   "neutral": 46.072,\
@@ -1918,7 +1918,7 @@ var data = '[{\
   "yaw": "1.792.543",\
   "eyes": "open",\
   "eyesdetailed": 99.998,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 5,\
   "happy": 2,\
   "neutral": 99.21,\
@@ -1943,7 +1943,7 @@ var data = '[{\
   "yaw": "3.684.229",\
   "eyes": "open",\
   "eyesdetailed": 99.883,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 84,\
   "neutral": 99.808,\
@@ -1968,7 +1968,7 @@ var data = '[{\
   "yaw": "14.446.977",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 3,\
   "happy": 0,\
   "neutral": 99.666,\
@@ -1993,7 +1993,7 @@ var data = '[{\
   "yaw": "3.254.108",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.01,\
   "happy": 0.01,\
   "neutral": 99.972,\
@@ -2018,7 +2018,7 @@ var data = '[{\
   "yaw": "68.383.846",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 100,\
   "happy": 98.956,\
   "neutral": 113,\
@@ -2043,7 +2043,7 @@ var data = '[{\
   "yaw": "18.481.323",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 41,\
   "happy": 3.052,\
   "neutral": 95.317,\
@@ -2068,7 +2068,7 @@ var data = '[{\
   "yaw": "4.303.248",\
   "eyes": "open",\
   "eyesdetailed": 99.951,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 25,\
   "neutral": 99.961,\
@@ -2093,7 +2093,7 @@ var data = '[{\
   "yaw": "47.069.252",\
   "eyes": "open",\
   "eyesdetailed": 98.127,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 27.951,\
   "happy": 61.953,\
   "neutral": 25.604,\
@@ -2118,7 +2118,7 @@ var data = '[{\
   "yaw": "4.525.161",\
   "eyes": "open",\
   "eyesdetailed": 99.794,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 414,\
   "happy": 267,\
   "neutral": 8.383,\
@@ -2143,7 +2143,7 @@ var data = '[{\
   "yaw": "40.611.263",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 5.775,\
   "neutral": 93.543,\
@@ -2168,7 +2168,7 @@ var data = '[{\
   "yaw": "-8.503.266",\
   "eyes": "closed",\
   "eyesdetailed": 8,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 115,\
   "neutral": 57.51,\
@@ -2193,7 +2193,7 @@ var data = '[{\
   "yaw": -606.178,\
   "eyes": "open",\
   "eyesdetailed": 83.308,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 85.954,\
   "neutral": 22,\
@@ -2218,7 +2218,7 @@ var data = '[{\
   "yaw": "-25.877.188",\
   "eyes": "open",\
   "eyesdetailed": 99.811,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 45,\
   "happy": 2.709,\
   "neutral": 94.972,\
@@ -2243,7 +2243,7 @@ var data = '[{\
   "yaw": "130.082.445",\
   "eyes": "open",\
   "eyesdetailed": 99.991,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0,\
   "neutral": 99.995,\
@@ -2268,7 +2268,7 @@ var data = '[{\
   "yaw": "24.391.506",\
   "eyes": "open",\
   "eyesdetailed": 99.986,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.01,\
   "happy": 27.611,\
   "neutral": 69.079,\
@@ -2293,7 +2293,7 @@ var data = '[{\
   "yaw": "-51.495.007",\
   "eyes": "open",\
   "eyesdetailed": 97.635,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 5,\
   "happy": 3.325,\
   "neutral": 96.641,\
@@ -2318,7 +2318,7 @@ var data = '[{\
   "yaw": "-37.245.792",\
   "eyes": "open",\
   "eyesdetailed": 96.044,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 16,\
   "neutral": 98.265,\
@@ -2343,7 +2343,7 @@ var data = '[{\
   "yaw": "-24.381.306",\
   "eyes": "open",\
   "eyesdetailed": 99.908,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 126,\
   "neutral": 99.572,\
@@ -2368,7 +2368,7 @@ var data = '[{\
   "yaw": "42.711.673",\
   "eyes": "open",\
   "eyesdetailed": 99.57,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 2.305,\
   "neutral": 88.917,\
@@ -2393,7 +2393,7 @@ var data = '[{\
   "yaw": "17.493.578",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 597,\
   "neutral": 99.213,\
@@ -2418,7 +2418,7 @@ var data = '[{\
   "yaw": "43.251.812",\
   "eyes": "closed",\
   "eyesdetailed": 1.241,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 99.789,\
   "happy": 22,\
   "neutral": 81.581,\
@@ -2443,7 +2443,7 @@ var data = '[{\
   "yaw": "14.338.173",\
   "eyes": "open",\
   "eyesdetailed": 96.059,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 8.847,\
   "neutral": 90.981,\
@@ -2468,7 +2468,7 @@ var data = '[{\
   "yaw": "1.607.551",\
   "eyes": "open",\
   "eyesdetailed": 99.996,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 61.369,\
   "neutral": 2.349,\
@@ -2493,7 +2493,7 @@ var data = '[{\
   "yaw": "-5.636.987",\
   "eyes": "open",\
   "eyesdetailed": 99.881,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 9.3,\
   "neutral": 90.395,\
@@ -2518,7 +2518,7 @@ var data = '[{\
   "yaw": "37.821.476",\
   "eyes": "open",\
   "eyesdetailed": 99.951,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 22.785,\
   "neutral": 77.19,\
@@ -2543,7 +2543,7 @@ var data = '[{\
   "yaw": "29.841.387",\
   "eyes": "open",\
   "eyesdetailed": 99.571,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 96.369,\
   "happy": 4.559,\
   "neutral": 79.671,\
@@ -2568,7 +2568,7 @@ var data = '[{\
   "yaw": "-36.673.086",\
   "eyes": "open",\
   "eyesdetailed": 99.266,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.01,\
   "happy": 68,\
   "neutral": 99.867,\
@@ -2593,7 +2593,7 @@ var data = '[{\
   "yaw": "5.184.029",\
   "eyes": "open",\
   "eyesdetailed": 99.858,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 346,\
   "neutral": 99.343,\
@@ -2618,7 +2618,7 @@ var data = '[{\
   "yaw": "-30.047.028",\
   "eyes": "open",\
   "eyesdetailed": 84.324,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 28,\
   "neutral": 114,\
@@ -2643,7 +2643,7 @@ var data = '[{\
   "yaw": "-22.115.654",\
   "eyes": "open",\
   "eyesdetailed": 99.434,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 56.701,\
   "happy": 83.004,\
   "neutral": 16.301,\
@@ -2668,7 +2668,7 @@ var data = '[{\
   "yaw": "12.832.253",\
   "eyes": "open",\
   "eyesdetailed": 99.389,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 87.8,\
   "neutral": 11.43,\
@@ -2693,7 +2693,7 @@ var data = '[{\
   "yaw": 358.768,\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 314,\
   "neutral": 99.6,\
@@ -2718,7 +2718,7 @@ var data = '[{\
   "yaw": "-22.993.975",\
   "eyes": "open",\
   "eyesdetailed": 99.984,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 2.628,\
   "neutral": 95.29,\
@@ -2743,7 +2743,7 @@ var data = '[{\
   "yaw": "14.732.847",\
   "eyes": "open",\
   "eyesdetailed": 99.914,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 655,\
   "happy": 76.764,\
   "neutral": 23.184,\
@@ -2768,7 +2768,7 @@ var data = '[{\
   "yaw": "-2.107.601",\
   "eyes": "open",\
   "eyesdetailed": 99.996,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 2.663,\
   "neutral": 97.231,\
@@ -2793,7 +2793,7 @@ var data = '[{\
   "yaw": "13.458.755",\
   "eyes": "open",\
   "eyesdetailed": 99.963,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 3.663,\
   "neutral": 96.261,\
@@ -2818,7 +2818,7 @@ var data = '[{\
   "yaw": "9.663.105",\
   "eyes": "open",\
   "eyesdetailed": 94.772,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1.584,\
   "happy": 102,\
   "neutral": 99.894,\
@@ -2843,7 +2843,7 @@ var data = '[{\
   "yaw": "-11.887.629",\
   "eyes": "open",\
   "eyesdetailed": 98.817,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 55.017,\
   "neutral": 44.334,\
@@ -2868,7 +2868,7 @@ var data = '[{\
   "yaw": "-1.924.806",\
   "eyes": "open",\
   "eyesdetailed": 99.893,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 46.304,\
   "neutral": 52.27,\
@@ -2893,7 +2893,7 @@ var data = '[{\
   "yaw": "41.353.676",\
   "eyes": "open",\
   "eyesdetailed": 64.405,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 4,\
   "happy": 64,\
   "neutral": 14.435,\
@@ -2918,7 +2918,7 @@ var data = '[{\
   "yaw": "16.026.052",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 22,\
   "happy": 63.453,\
   "neutral": 34.611,\
@@ -2943,7 +2943,7 @@ var data = '[{\
   "yaw": "-22.290.981",\
   "eyes": "open",\
   "eyesdetailed": 99.912,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 741,\
   "neutral": 95.603,\
@@ -2968,7 +2968,7 @@ var data = '[{\
   "yaw": "3.814.316",\
   "eyes": "open",\
   "eyesdetailed": 99.874,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 383,\
   "neutral": 99.613,\
@@ -2993,7 +2993,7 @@ var data = '[{\
   "yaw": "5.315.729",\
   "eyes": "open",\
   "eyesdetailed": 99.996,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 3,\
   "happy": 99.308,\
   "neutral": 427,\
@@ -3018,7 +3018,7 @@ var data = '[{\
   "yaw": "24.352.488",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 14.978,\
   "neutral": 49.672,\
@@ -3043,7 +3043,7 @@ var data = '[{\
   "yaw": "-1.855.045",\
   "eyes": "open",\
   "eyesdetailed": 99.951,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 569,\
   "neutral": 99.411,\
@@ -3068,7 +3068,7 @@ var data = '[{\
   "yaw": "20.754.631",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 79.894,\
   "neutral": 16.472,\
@@ -3093,7 +3093,7 @@ var data = '[{\
   "yaw": "22.706.955",\
   "eyes": "open",\
   "eyesdetailed": 94.471,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 189,\
   "neutral": 99.518,\
@@ -3118,7 +3118,7 @@ var data = '[{\
   "yaw": "-1.807.042",\
   "eyes": "open",\
   "eyesdetailed": 99.58,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1.007,\
   "happy": 0.62,\
   "neutral": 99.294,\
@@ -3143,7 +3143,7 @@ var data = '[{\
   "yaw": "-17.308.249",\
   "eyes": "open",\
   "eyesdetailed": 99.341,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1,\
   "neutral": 99.879,\
@@ -3168,7 +3168,7 @@ var data = '[{\
   "yaw": "1.068.935",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 16.507,\
   "neutral": 80.249,\
@@ -3193,7 +3193,7 @@ var data = '[{\
   "yaw": "-15.331.434",\
   "eyes": "open",\
   "eyesdetailed": 99.996,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 159,\
   "happy": 1.926,\
   "neutral": 92.372,\
@@ -3218,7 +3218,7 @@ var data = '[{\
   "yaw": "11.804.332",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 11.282,\
   "neutral": 83.412,\
@@ -3243,7 +3243,7 @@ var data = '[{\
   "yaw": "9.397.067",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 237,\
   "happy": 20.883,\
   "neutral": 76.514,\
@@ -3268,7 +3268,7 @@ var data = '[{\
   "yaw": "15.458.183",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 95.459,\
   "neutral": 0.3,\
@@ -3293,7 +3293,7 @@ var data = '[{\
   "yaw": "-37.339.885",\
   "eyes": "open",\
   "eyesdetailed": 99.804,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 61,\
   "happy": 5.589,\
   "neutral": 94.379,\
@@ -3318,7 +3318,7 @@ var data = '[{\
   "yaw": "15.670.031",\
   "eyes": "open",\
   "eyesdetailed": 99.988,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 87,\
   "happy": 491,\
   "neutral": 99.164,\
@@ -3343,7 +3343,7 @@ var data = '[{\
   "yaw": "17.204.712",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 22.086,\
   "happy": 76.547,\
   "neutral": 993,\
@@ -3368,7 +3368,7 @@ var data = '[{\
   "yaw": "-49.426.254",\
   "eyes": "closed",\
   "eyesdetailed": 3.267,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 91.443,\
   "neutral": 5.352,\
@@ -3393,7 +3393,7 @@ var data = '[{\
   "yaw": "14.478.087",\
   "eyes": "open",\
   "eyesdetailed": 99.717,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 3,\
   "neutral": 99.986,\
@@ -3418,7 +3418,7 @@ var data = '[{\
   "yaw": "-37.447.784",\
   "eyes": "open",\
   "eyesdetailed": 99.276,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.01,\
   "happy": 64,\
   "neutral": 99.871,\
@@ -3443,7 +3443,7 @@ var data = '[{\
   "yaw": "-47.993.855",\
   "eyes": "closed",\
   "eyesdetailed": 1.591,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 79.849,\
   "happy": 5.836,\
   "neutral": 44.864,\
@@ -3468,7 +3468,7 @@ var data = '[{\
   "yaw": "9.169.021",\
   "eyes": "closed",\
   "eyesdetailed": 0,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 4,\
   "happy": 1.904,\
   "neutral": 95.532,\
@@ -3493,7 +3493,7 @@ var data = '[{\
   "yaw": "-17.914.913",\
   "eyes": "open",\
   "eyesdetailed": 99.974,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 622,\
   "neutral": 98.848,\
@@ -3518,7 +3518,7 @@ var data = '[{\
   "yaw": "13.415.312",\
   "eyes": "open",\
   "eyesdetailed": 99.993,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 2,\
   "happy": 98.663,\
   "neutral": 1.331,\
@@ -3543,7 +3543,7 @@ var data = '[{\
   "yaw": "27.397.848",\
   "eyes": "open",\
   "eyesdetailed": 99.998,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 4,\
   "happy": 3,\
   "neutral": 99.036,\
@@ -3568,7 +3568,7 @@ var data = '[{\
   "yaw": "2.069.632",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 78.43,\
   "happy": 91,\
   "neutral": 93.648,\
@@ -3593,7 +3593,7 @@ var data = '[{\
   "yaw": "21.413.532",\
   "eyes": "open",\
   "eyesdetailed": 99.942,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 82.537,\
   "happy": 913,\
   "neutral": 97.853,\
@@ -3618,7 +3618,7 @@ var data = '[{\
   "yaw": "-14.445.996",\
   "eyes": "open",\
   "eyesdetailed": 42.236,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 2.12,\
   "happy": 11.429,\
   "neutral": 79.145,\
@@ -3643,7 +3643,7 @@ var data = '[{\
   "yaw": "29.451.752",\
   "eyes": "open",\
   "eyesdetailed": 51.191,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 21,\
   "happy": 1.008,\
   "neutral": 59.21,\
@@ -3668,7 +3668,7 @@ var data = '[{\
   "yaw": "-23.465.384",\
   "eyes": "open",\
   "eyesdetailed": 99.994,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 4.459,\
   "neutral": 95.271,\
@@ -3693,7 +3693,7 @@ var data = '[{\
   "yaw": "26.966.848",\
   "eyes": "open",\
   "eyesdetailed": 99.1,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 879,\
   "happy": 97.835,\
   "neutral": 2.08,\
@@ -3718,7 +3718,7 @@ var data = '[{\
   "yaw": "-5.550.248",\
   "eyes": "open",\
   "eyesdetailed": 99.936,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0,\
   "neutral": 100,\
@@ -3743,7 +3743,7 @@ var data = '[{\
   "yaw": -801.471,\
   "eyes": "open",\
   "eyesdetailed": 99.984,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 3.886,\
   "happy": 4.066,\
   "neutral": 40.529,\
@@ -3768,7 +3768,7 @@ var data = '[{\
   "yaw": "2.311.449",\
   "eyes": "open",\
   "eyesdetailed": 98.724,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 99.973,\
   "happy": 11,\
   "neutral": 98.557,\
@@ -3793,7 +3793,7 @@ var data = '[{\
   "yaw": "-15.346.649",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 20.343,\
   "neutral": 62.339,\
@@ -3818,7 +3818,7 @@ var data = '[{\
   "yaw": "42.626.762",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 28.421,\
   "neutral": 53.205,\
@@ -3843,7 +3843,7 @@ var data = '[{\
   "yaw": "-62.839.384",\
   "eyes": "open",\
   "eyesdetailed": 98.044,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 96.069,\
   "neutral": 3.041,\
@@ -3868,7 +3868,7 @@ var data = '[{\
   "yaw": "-15.577.601",\
   "eyes": "open",\
   "eyesdetailed": 99.908,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 3,\
   "happy": 2.356,\
   "neutral": 95.652,\
@@ -3893,7 +3893,7 @@ var data = '[{\
   "yaw": "2.327.431",\
   "eyes": "open",\
   "eyesdetailed": 61.691,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 465,\
   "happy": 6,\
   "neutral": 99.447,\
@@ -3918,7 +3918,7 @@ var data = '[{\
   "yaw": "21.076.027",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 32,\
   "happy": 6,\
   "neutral": 99.993,\
@@ -3943,7 +3943,7 @@ var data = '[{\
   "yaw": "-21.362.871",\
   "eyes": "open",\
   "eyesdetailed": 99.404,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.11,\
   "neutral": 97.729,\
@@ -3968,7 +3968,7 @@ var data = '[{\
   "yaw": 545.209,\
   "eyes": "closed",\
   "eyesdetailed": 23.653,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1.183,\
   "happy": 28,\
   "neutral": 99.499,\
@@ -3993,7 +3993,7 @@ var data = '[{\
   "yaw": "25.627.548",\
   "eyes": "open",\
   "eyesdetailed": 99.969,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 517,\
   "neutral": 98.937,\
@@ -4018,7 +4018,7 @@ var data = '[{\
   "yaw": "14.184.588",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 2,\
   "happy": 4.557,\
   "neutral": 95.321,\
@@ -4043,7 +4043,7 @@ var data = '[{\
   "yaw": "9.010.399",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 4,\
   "happy": 20.432,\
   "neutral": 32.659,\
@@ -4068,7 +4068,7 @@ var data = '[{\
   "yaw": "19.471.977",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 412,\
   "neutral": 99.394,\
@@ -4093,7 +4093,7 @@ var data = '[{\
   "yaw": "25.736.658",\
   "eyes": "open",\
   "eyesdetailed": 99.923,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 6,\
   "happy": 0.14,\
   "neutral": 99.436,\
@@ -4118,7 +4118,7 @@ var data = '[{\
   "yaw": "19.750.616",\
   "eyes": "open",\
   "eyesdetailed": 99.843,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 5,\
   "happy": 2.597,\
   "neutral": 97.398,\
@@ -4143,7 +4143,7 @@ var data = '[{\
   "yaw": "-19.325.686",\
   "eyes": "open",\
   "eyesdetailed": 98.681,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1.813,\
   "happy": 1.749,\
   "neutral": 98.251,\
@@ -4168,7 +4168,7 @@ var data = '[{\
   "yaw": "-33.767.868",\
   "eyes": "open",\
   "eyesdetailed": 99.98,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 3.609,\
   "happy": 61,\
   "neutral": 99.914,\
@@ -4193,7 +4193,7 @@ var data = '[{\
   "yaw": "-9.411.427",\
   "eyes": "open",\
   "eyesdetailed": 99.888,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 30.502,\
   "neutral": 58.119,\
@@ -4218,7 +4218,7 @@ var data = '[{\
   "yaw": "-2.766.108",\
   "eyes": "open",\
   "eyesdetailed": 99.959,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 121,\
   "happy": 2,\
   "neutral": 99.93,\
@@ -4243,7 +4243,7 @@ var data = '[{\
   "yaw": 546.345,\
   "eyes": "open",\
   "eyesdetailed": 80.339,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 61,\
   "happy": 9.086,\
   "neutral": 82.951,\
@@ -4268,7 +4268,7 @@ var data = '[{\
   "yaw": "-9.676.282",\
   "eyes": "open",\
   "eyesdetailed": 99.66,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 76,\
   "happy": 29,\
   "neutral": 99.746,\
@@ -4293,7 +4293,7 @@ var data = '[{\
   "yaw": "31.996.279",\
   "eyes": "open",\
   "eyesdetailed": 80.452,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 99.992,\
   "happy": 99.97,\
   "neutral": 26,\
@@ -4318,7 +4318,7 @@ var data = '[{\
   "yaw": "-28.160.605",\
   "eyes": "open",\
   "eyesdetailed": 99.997,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 18.733,\
   "happy": 569,\
   "neutral": 72.547,\
@@ -4343,7 +4343,7 @@ var data = '[{\
   "yaw": "34.993.576",\
   "eyes": "open",\
   "eyesdetailed": 99.82,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 7,\
   "neutral": 99.889,\
@@ -4368,7 +4368,7 @@ var data = '[{\
   "yaw": "3.643.249",\
   "eyes": "open",\
   "eyesdetailed": 99.996,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1.851,\
   "happy": 423,\
   "neutral": 91.116,\
@@ -4393,7 +4393,7 @@ var data = '[{\
   "yaw": "-5.918.459",\
   "eyes": "open",\
   "eyesdetailed": 99.892,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 6.67,\
   "neutral": 80.093,\
@@ -4418,7 +4418,7 @@ var data = '[{\
   "yaw": "-13.082.902",\
   "eyes": "open",\
   "eyesdetailed": 95.815,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 21,\
   "happy": 19,\
   "neutral": 97.751,\
@@ -4443,7 +4443,7 @@ var data = '[{\
   "yaw": "-44.116.585",\
   "eyes": "open",\
   "eyesdetailed": 99.898,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.296,\
   "neutral": 98.685,\
@@ -4468,7 +4468,7 @@ var data = '[{\
   "yaw": "16.696.598",\
   "eyes": "open",\
   "eyesdetailed": 99.501,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 4.03,\
   "happy": 7,\
   "neutral": 76.188,\
@@ -4493,7 +4493,7 @@ var data = '[{\
   "yaw": "14.522.519",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 41.801,\
   "happy": 99.638,\
   "neutral": 157,\
@@ -4518,7 +4518,7 @@ var data = '[{\
   "yaw": "18.185.505",\
   "eyes": "open",\
   "eyesdetailed": 99.919,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 5.045,\
   "neutral": 6,\
@@ -4543,7 +4543,7 @@ var data = '[{\
   "yaw": "16.969.841",\
   "eyes": "open",\
   "eyesdetailed": 98.654,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 99.192,\
   "happy": 95.395,\
   "neutral": 135,\
@@ -4568,7 +4568,7 @@ var data = '[{\
   "yaw": "6.457.305",\
   "eyes": "closed",\
   "eyesdetailed": 0.23,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 96.948,\
   "happy": 25,\
   "neutral": 99.853,\
@@ -4593,7 +4593,7 @@ var data = '[{\
   "yaw": "26.398.577",\
   "eyes": "closed",\
   "eyesdetailed": 39,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 20.205,\
   "happy": 8,\
   "neutral": 54,\
@@ -4618,7 +4618,7 @@ var data = '[{\
   "yaw": "-9.015.575",\
   "eyes": "open",\
   "eyesdetailed": 99.274,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 97.798,\
   "happy": 99.976,\
   "neutral": 4,\
@@ -4643,7 +4643,7 @@ var data = '[{\
   "yaw": "-10.424.069",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 17,\
   "happy": 227,\
   "neutral": 98.145,\
@@ -4668,7 +4668,7 @@ var data = '[{\
   "yaw": "33.515.938",\
   "eyes": "open",\
   "eyesdetailed": 99.835,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0,\
   "neutral": 99.997,\
@@ -4693,7 +4693,7 @@ var data = '[{\
   "yaw": "-24.074.066",\
   "eyes": "open",\
   "eyesdetailed": 93.634,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 57,\
   "neutral": 99.807,\
@@ -4718,7 +4718,7 @@ var data = '[{\
   "yaw": "16.515.709",\
   "eyes": "open",\
   "eyesdetailed": 99.992,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 90.703,\
   "happy": 0.01,\
   "neutral": 99.943,\
@@ -4743,7 +4743,7 @@ var data = '[{\
   "yaw": "-21.103.905",\
   "eyes": "open",\
   "eyesdetailed": 70.404,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 95.553,\
   "happy": 15.847,\
   "neutral": 66.179,\
@@ -4768,7 +4768,7 @@ var data = '[{\
   "yaw": "-2.914.662",\
   "eyes": "open",\
   "eyesdetailed": 99.924,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 79.006,\
   "happy": 1,\
   "neutral": 99.09,\
@@ -4793,7 +4793,7 @@ var data = '[{\
   "yaw": "5.782.875",\
   "eyes": "closed",\
   "eyesdetailed": 14.628,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 498,\
   "happy": 9.85,\
   "neutral": 89.065,\
@@ -4818,7 +4818,7 @@ var data = '[{\
   "yaw": "16.251.755",\
   "eyes": "open",\
   "eyesdetailed": 98.058,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 97.111,\
   "happy": 484,\
   "neutral": 99.443,\
@@ -4843,7 +4843,7 @@ var data = '[{\
   "yaw": "17.347.431",\
   "eyes": "open",\
   "eyesdetailed": 65.376,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0.97,\
   "happy": 451,\
   "neutral": 99.434,\
@@ -4868,7 +4868,7 @@ var data = '[{\
   "yaw": "-3.469.808",\
   "eyes": "closed",\
   "eyesdetailed": 4.359,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 99.642,\
   "neutral": 21,\
@@ -4893,7 +4893,7 @@ var data = '[{\
   "yaw": "25.532.349",\
   "eyes": "open",\
   "eyesdetailed": 99.911,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 99.627,\
   "happy": 31.996,\
   "neutral": 62.712,\
@@ -4918,7 +4918,7 @@ var data = '[{\
   "yaw": "-28.962.236",\
   "eyes": "open",\
   "eyesdetailed": 97.359,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 273,\
   "neutral": 2.974,\
@@ -4943,7 +4943,7 @@ var data = '[{\
   "yaw": "21.350.029",\
   "eyes": "open",\
   "eyesdetailed": 99.88,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 14,\
   "happy": 1,\
   "neutral": 99.998,\
@@ -4968,7 +4968,7 @@ var data = '[{\
   "yaw": "5.177.386",\
   "eyes": "open",\
   "eyesdetailed": 99.61,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 846,\
   "happy": 8.244,\
   "neutral": 5.745,\
@@ -4993,7 +4993,7 @@ var data = '[{\
   "yaw": "-37.899.372",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 171,\
   "happy": 29,\
   "neutral": 13.025,\
@@ -5018,7 +5018,7 @@ var data = '[{\
   "yaw": "-4.607.565",\
   "eyes": "open",\
   "eyesdetailed": 99.867,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 2.819,\
   "neutral": 69.714,\
@@ -5043,7 +5043,7 @@ var data = '[{\
   "yaw": "74.793.755",\
   "eyes": "closed",\
   "eyesdetailed": 8.745,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 508,\
   "happy": 3.768,\
   "neutral": 84.236,\
@@ -5068,7 +5068,7 @@ var data = '[{\
   "yaw": "23.553.734",\
   "eyes": "open",\
   "eyesdetailed": 95.443,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 34.45,\
   "happy": 2.771,\
   "neutral": 86.728,\
@@ -5093,7 +5093,7 @@ var data = '[{\
   "yaw": "2.212.148",\
   "eyes": "open",\
   "eyesdetailed": 99.795,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 654,\
   "happy": 113,\
   "neutral": 58.803,\
@@ -5118,7 +5118,7 @@ var data = '[{\
   "yaw": "-23.512.041",\
   "eyes": "open",\
   "eyesdetailed": 94.888,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 951,\
   "neutral": 97.483,\
@@ -5143,7 +5143,7 @@ var data = '[{\
   "yaw": "26.606.508",\
   "eyes": "open",\
   "eyesdetailed": 99.999,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 19.551,\
   "neutral": 78.106,\
@@ -5168,7 +5168,7 @@ var data = '[{\
   "yaw": "15.038.631",\
   "eyes": "open",\
   "eyesdetailed": 98.421,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 5,\
   "neutral": 99.991,\
@@ -5193,7 +5193,7 @@ var data = '[{\
   "yaw": "-17.852.795",\
   "eyes": "open",\
   "eyesdetailed": 99.994,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 419,\
   "neutral": 87.671,\
@@ -5218,7 +5218,7 @@ var data = '[{\
   "yaw": "-28.591.904",\
   "eyes": "open",\
   "eyesdetailed": 99.989,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 0,\
   "neutral": 100,\
@@ -5243,7 +5243,7 @@ var data = '[{\
   "yaw": "-27.053.682",\
   "eyes": "open",\
   "eyesdetailed": 98.959,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0,\
   "neutral": 99.999,\
@@ -5268,7 +5268,7 @@ var data = '[{\
   "yaw": "2.943.492",\
   "eyes": "open",\
   "eyesdetailed": 99.985,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 2,\
   "neutral": 41.051,\
@@ -5293,7 +5293,7 @@ var data = '[{\
   "yaw": "22.893.837",\
   "eyes": "open",\
   "eyesdetailed": 99.986,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 67.525,\
   "neutral": 31.766,\
@@ -5318,7 +5318,7 @@ var data = '[{\
   "yaw": "-23.103.728",\
   "eyes": "open",\
   "eyesdetailed": 99.856,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1.637,\
   "happy": 179,\
   "neutral": 26.596,\
@@ -5343,7 +5343,7 @@ var data = '[{\
   "yaw": "3.515.609",\
   "eyes": "open",\
   "eyesdetailed": 99.949,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 612,\
   "neutral": 98.777,\
@@ -5368,7 +5368,7 @@ var data = '[{\
   "yaw": "2.186.806",\
   "eyes": "open",\
   "eyesdetailed": 99.865,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.82,\
   "neutral": 97.496,\
@@ -5393,7 +5393,7 @@ var data = '[{\
   "yaw": "14.959.858",\
   "eyes": "open",\
   "eyesdetailed": 97.74,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 99.721,\
   "happy": 99,\
   "neutral": 45.3,\
@@ -5418,7 +5418,7 @@ var data = '[{\
   "yaw": "-31.810.001",\
   "eyes": "open",\
   "eyesdetailed": 97.273,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 17,\
   "neutral": 99.949,\
@@ -5443,7 +5443,7 @@ var data = '[{\
   "yaw": 0,\
   "eyes": "open",\
   "eyesdetailed": 0,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 100,\
   "neutral": 0,\
@@ -5468,7 +5468,7 @@ var data = '[{\
   "yaw": "-40.162.395",\
   "eyes": "open",\
   "eyesdetailed": 99.173,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 185,\
   "happy": 1,\
   "neutral": 73.212,\
@@ -5493,7 +5493,7 @@ var data = '[{\
   "yaw": "26.638.737",\
   "eyes": "open",\
   "eyesdetailed": 99.988,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 89,\
   "neutral": 99.47,\
@@ -5518,7 +5518,7 @@ var data = '[{\
   "yaw": "-47.657.017",\
   "eyes": "open",\
   "eyesdetailed": 97.296,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 1,\
   "neutral": 99.743,\
@@ -5543,7 +5543,7 @@ var data = '[{\
   "yaw": "37.988.182",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.038,\
   "neutral": 77.428,\
@@ -5568,7 +5568,7 @@ var data = '[{\
   "yaw": "25.463.768",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 58.761,\
   "neutral": 40.255,\
@@ -5593,7 +5593,7 @@ var data = '[{\
   "yaw": "26.976.095",\
   "eyes": "open",\
   "eyesdetailed": 83.601,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 25,\
   "happy": 23,\
   "neutral": 99.974,\
@@ -5618,7 +5618,7 @@ var data = '[{\
   "yaw": "5.217.456",\
   "eyes": "closed",\
   "eyesdetailed": 165,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 95.598,\
   "neutral": 1.678,\
@@ -5643,7 +5643,7 @@ var data = '[{\
   "yaw": "-2.810.831",\
   "eyes": "open",\
   "eyesdetailed": 99.97,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 42,\
   "happy": 1,\
   "neutral": 99.991,\
@@ -5668,7 +5668,7 @@ var data = '[{\
   "yaw": "37.688.713",\
   "eyes": "open",\
   "eyesdetailed": 99.811,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0,\
   "neutral": 99.638,\
@@ -5693,7 +5693,7 @@ var data = '[{\
   "yaw": "-7.055.661",\
   "eyes": "open",\
   "eyesdetailed": 99.713,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 0.43,\
   "neutral": 33.434,\
@@ -5718,7 +5718,7 @@ var data = '[{\
   "yaw": "-18.761.768",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.967,\
   "neutral": 98.015,\
@@ -5743,7 +5743,7 @@ var data = '[{\
   "yaw": "8.228.741",\
   "eyes": "closed",\
   "eyesdetailed": 259,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 134,\
   "neutral": 191,\
@@ -5768,7 +5768,7 @@ var data = '[{\
   "yaw": "7.175.809",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 6,\
   "happy": 5.841,\
   "neutral": 70.197,\
@@ -5793,7 +5793,7 @@ var data = '[{\
   "yaw": "17.717.949",\
   "eyes": "open",\
   "eyesdetailed": 99.614,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 78,\
   "neutral": 99.471,\
@@ -5818,7 +5818,7 @@ var data = '[{\
   "yaw": "-37.946.774",\
   "eyes": "open",\
   "eyesdetailed": 99.989,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 692,\
   "happy": 19,\
   "neutral": 99.447,\
@@ -5843,7 +5843,7 @@ var data = '[{\
   "yaw": "-4.736.163",\
   "eyes": "open",\
   "eyesdetailed": 99.995,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 744,\
   "neutral": 69.873,\
@@ -5868,7 +5868,7 @@ var data = '[{\
   "yaw": "-3.421.659",\
   "eyes": "open",\
   "eyesdetailed": 99.92,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1.169,\
   "happy": 3,\
   "neutral": 93.235,\
@@ -5893,7 +5893,7 @@ var data = '[{\
   "yaw": "4.314.857",\
   "eyes": "open",\
   "eyesdetailed": 99.165,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 271,\
   "happy": 9.173,\
   "neutral": 90.411,\
@@ -5918,7 +5918,7 @@ var data = '[{\
   "yaw": "37.547.356",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 5,\
   "happy": 535,\
   "neutral": 81.012,\
@@ -5943,7 +5943,7 @@ var data = '[{\
   "yaw": "-20.909.348",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 901,\
   "neutral": 27.757,\
@@ -5968,7 +5968,7 @@ var data = '[{\
   "yaw": "14.105.151",\
   "eyes": "open",\
   "eyesdetailed": 99.952,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 6,\
   "happy": 1,\
   "neutral": 99.937,\
@@ -5993,7 +5993,7 @@ var data = '[{\
   "yaw": "1.989.075",\
   "eyes": "open",\
   "eyesdetailed": 99.888,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.61,\
   "neutral": 92.433,\
@@ -6018,7 +6018,7 @@ var data = '[{\
   "yaw": "-23.770.748",\
   "eyes": "open",\
   "eyesdetailed": 99.878,\
-  "mouth": "open",\
+  "mouth": "openm",\
   "mouthdetailed": 244,\
   "happy": 853,\
   "neutral": 98.875,\
@@ -6043,7 +6043,7 @@ var data = '[{\
   "yaw": "25.568.981",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1,\
   "neutral": 25.885,\
@@ -6068,7 +6068,7 @@ var data = '[{\
   "yaw": 836.621,\
   "eyes": "closed",\
   "eyesdetailed": 193,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 799,\
   "neutral": 84.898,\
@@ -6093,7 +6093,7 @@ var data = '[{\
   "yaw": "2.664.356",\
   "eyes": "open",\
   "eyesdetailed": 99.998,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 363,\
   "neutral": 99.456,\
@@ -6118,7 +6118,7 @@ var data = '[{\
   "yaw": "34.858.044",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 85,\
   "neutral": 96.751,\
@@ -6143,7 +6143,7 @@ var data = '[{\
   "yaw": "-47.900.208",\
   "eyes": "open",\
   "eyesdetailed": 93.22,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 73,\
   "happy": 0,\
   "neutral": 99.989,\
@@ -6168,7 +6168,7 @@ var data = '[{\
   "yaw": "87.605.446",\
   "eyes": "closed",\
   "eyesdetailed": 17,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 34.022,\
   "neutral": 34.427,\
@@ -6193,7 +6193,7 @@ var data = '[{\
   "yaw": "3.443.904",\
   "eyes": "open",\
   "eyesdetailed": 99.988,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 2.907,\
   "neutral": 10.771,\
@@ -6218,7 +6218,7 @@ var data = '[{\
   "yaw": "33.625.195",\
   "eyes": "open",\
   "eyesdetailed": 99.992,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 43,\
   "happy": 0,\
   "neutral": 99.997,\
@@ -6243,7 +6243,7 @@ var data = '[{\
   "yaw": "-27.447.535",\
   "eyes": "open",\
   "eyesdetailed": 99.99,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1,\
   "happy": 2.39,\
   "neutral": 88.498,\
@@ -6268,7 +6268,7 @@ var data = '[{\
   "yaw": "-23.585.022",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 1.438,\
   "happy": 0,\
   "neutral": 100,\
@@ -6293,7 +6293,7 @@ var data = '[{\
   "yaw": "-30.550.234",\
   "eyes": "open",\
   "eyesdetailed": 100,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 7,\
   "neutral": 80.74,\
@@ -6318,7 +6318,7 @@ var data = '[{\
   "yaw": "-36.152.824",\
   "eyes": "closed",\
   "eyesdetailed": 34.136,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 19.367,\
   "happy": 37,\
   "neutral": 11.134,\
@@ -6343,7 +6343,7 @@ var data = '[{\
   "yaw": "22.968.197",\
   "eyes": "open",\
   "eyesdetailed": 89.873,\
-  "mouth": "closed",\
+  "mouth": "closedm",\
   "mouthdetailed": 0,\
   "happy": 1.065,\
   "neutral": 97.19,\
