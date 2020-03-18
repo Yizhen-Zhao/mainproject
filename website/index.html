@@ -181,7 +181,7 @@
             <div id = "paintingNumber">
                 <span id="selectedPaintings"></span> of <span id="totalPaintings"></span> paintings.
                 <label for="xAxis">Choose x-axis:</label>
-                    <select id="xAxis">
+                    <select id="xAxis" onchange = "showAll()">
                         <option value="Year" selected='selected'>Year</option>
                         <option value="age">Age</option>
                         <option value="pitch">Pitch</option>
@@ -192,7 +192,7 @@
                         <option value="sadness">Sadness</option>
                     </select>
                     <label for="yAxis">Choose y-axis:</label>
-                    <select id="yAxis">
+                    <select id="yAxis" onchange = "showAll()">
                         <option value="Year">Year</option>
                         <option value="age" >Age</option>
                         <option value="pitch">Pitch</option>
