@@ -214,7 +214,7 @@ function updateDiagram(diagramData,firstCall){
     for (var i = 0; i < xNodeNumber;i++){
         showArea.append("text")
         .attr('class','axis_text')
-        .attr('x',25+i*boxWidth*4)
+        .attr('x',45+i*boxWidth*4)
         .attr('y',showAreaHeight+65)
         .text(Math.ceil(xMin + i*xStepSize))  
     }
@@ -292,7 +292,7 @@ if(firstCall){
                     .attr("Title", painting.Title)
                     .attr("stroke", "transparent")
                     .attr("stroke-width", "2px")
-                    .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(boxWidth*(hBoxCount-4))+40)
+                    .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(boxWidth*(hBoxCount-4))+65)
                     .attr('cy',((yMax-(1.0*painting[yValue]))/yAxisLength)*(boxHeight*(vBoxCount-3))+20)
                     .attr("fill", function(d,j){
                         return 'url(#painting-'+painting.ID+')'
@@ -358,7 +358,7 @@ if(firstCall){
                 showArea.select('#'+circleId)
                 .transition(t)
                 .attr('r',20)
-                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(boxWidth*(hBoxCount-4))+40)
+                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(boxWidth*(hBoxCount-4))+65)
                 .attr('cy',((yMax-(1.0*painting[yValue]))/yAxisLength)*(boxHeight*(vBoxCount-3))+20);
             }
         }
