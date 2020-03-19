@@ -184,10 +184,29 @@ function updateDiagram(diagramData){
     dictExistSvgCircle['painting-circle-'+diagramData[i].ID] = {'flag_remove': false,'props': diagramData[i]};
 
     }
-    var xAxisLength = xMax-xMin+20;
-    var yAxisLength = yMax-yMin+20;
+    var xAxisLength = xMax-xMin+60;
+    var yAxisLength = yMax-yMin+60;
     var showAreaWidth = showArea.node().getBoundingClientRect().width;
     var showAreaHeight = showArea.node().getBoundingClientRect().height;
+
+    //x-axis text
+    for (var i = 0; i < Math.ceil(showAreaWidth/80);i++){
+        showArea.append("text")
+        .attr('x',1+i*80)
+        .attr('y',showAreaHeight-120)
+        .text(Math.ceil(xMin + i*((xMax - xMin)/Math.ceil(showAreaWidth/80))))
+        console.log(Math.ceil(xMin + i*((xMax - xMin)/Math.ceil(showAreaWidth/80))))    
+    }
+    //y-axis text
+    for (var i = 0; i < Math.ceil(showAreaWidth/80);i++){
+        showArea.append("text")
+        .attr('x',1)
+        .attr('y',40+i*40)
+        .text('test')
+        
+        //console.log(Math.ceil(xMin + i*((xMax - xMin)/Math.ceil(showAreaWidth/80))))    
+    }
+
     var t = d3.transition().duration(1000);
     for(var circleId in dictExistSvgCircle){
 
@@ -195,50 +214,74 @@ function updateDiagram(diagramData){
             var painting = dictExistSvgCircle[circleId].props;
             if(document.getElementById('painting-'+painting.ID) ==null){
                 showArea.append('pattern')
-                .attr('class','svgPics')
-                .attr("id", 'painting-'+painting.ID)
-                .attr("width", 1)
-                .attr("height", 1)
-                .append("svg:image")
-                .attr("xlink:href",'asset/imgs/'+painting.ID+'.jpg')
-                .attr("width", 100)
-                .attr("height", 100)
-                .attr("y", -20)
-                .attr("x", -20);
+                    .attr('class','svgPics')
+                    .attr("id", 'painting-'+painting.ID)
+                    .attr("width", 1)
+                    .attr("height", 1)
+                    .append("svg:image")
+                        .attr("xlink:href",'asset/imgs/'+painting.ID+'.jpg')
+                        .attr("width", 100)
+                        .attr("height", 100)
+                        .attr("y", -40)
+                        .attr("x", -40);
                 
                 showArea.append('circle')
-                .transition(t)
-                .attr('class','svgPics svgCircle')
-                .attr("r", 20)
-                .attr("id", 'painting-circle-'+painting.ID)
-                .attr("artist", painting.Artist)
-                .attr("year", painting.Year)
-                .attr("age", painting.age)
-                .attr("link",'asset/imgs/'+painting.ID+'.jpg')
-                .attr("area", painting.area)
-                .attr("gender", painting.gender)
-                .attr("url", painting.url)
-                .attr("paintingUrl", painting.painting_info_url)
-                .attr("Title", painting.Title)
-                .attr("stroke", "transparent")
-                .attr("stroke-width", "2px")
-                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*showAreaWidth+20)
-                .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*showAreaHeight+20)
-                .attr("fill", function(d,j){
-                return 'url(#painting-'+painting.ID+')'
-                });
+                    .transition(t)
+                    .attr('class','svgPics svgCircle')
+                    .attr("r", 20)
+                    .attr("id", 'painting-circle-'+painting.ID)
+                    .attr("artist", painting.Artist)
+                    .attr("year", painting.Year)
+                    .attr("age", painting.age)
+                    .attr("link",'asset/imgs/'+painting.ID+'.jpg')
+                    .attr("area", painting.area)
+                    .attr("gender", painting.gender)
+                    .attr("url", painting.url)
+                    .attr("paintingUrl", painting.painting_info_url)
+                    .attr("Title", painting.Title)
+                    .attr("stroke", "transparent")
+                    .attr("stroke-width", "2px")
+                    .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*showAreaWidth+60)
+                    .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*showAreaHeight+40)
+                    .attr("fill", function(d,j){
+                        return 'url(#painting-'+painting.ID+')'
+                    });                                         
 
-                //try to add grid
+//add grid
+                //x-axis
+                for(var i = 0 ;i<Math.ceil(showAreaHeight/20)-6;i++){
+                    showArea.append("line")
+                        .attr('x1',1)
+                        .attr('y1',20*i+1)
+                        .attr('x2',showAreaWidth+40)
+                        .attr('y2',20*i+1)
+                        .attr("stroke-width", "0.1px")
+                        .attr("stroke", "rgba(140, 150, 150, 0.7)");
+                }
+                
+                //y-axis
+                for (var i = 0; i< Math.ceil(showAreaWidth/20)+1; i++){
+
+                    showArea.append("line")
+                    .attr('x1',20*i+1)
+                    .attr('y1',0)
+                    .attr('x2',20*i+1)
+                    .attr('y2',showAreaHeight-140)
+                    .attr("stroke-width", "0.1px")
+                    .attr("stroke", "rgba(140, 150, 150, 0.7)");
+                }
                 showArea.append("line")
-                .attr('x1',0)
-                .attr('y1',0)
-                .attr('x2',showAreaWidth)
-                .attr('y2',0)
-                .attr("stroke-width", 0.5)
-                .attr("stroke-dasharray", "4 7")
-                .attr("stroke", "grey");
-
-                // Click on img to get original pic
+                    .attr('x1',showAreaWidth-1)
+                    .attr('y1',0)
+                    .attr('x2',showAreaWidth-1)
+                    .attr('y2',showAreaHeight-140)
+                    .attr("stroke-width", "0.1px")
+                    .attr("stroke", "rgba(140, 150, 150, 0.7)");
+                
+                
+                // end of grid
+        
+                // Click on img to get painting information page
                 $('circle').click(function(){window.open($(this).attr('paintingUrl'),'_blank');});
 
                 //add tooltip to pic circles
