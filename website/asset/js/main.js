@@ -197,18 +197,15 @@ function updateDiagram(diagramData){
     for (var i = 0; i < Math.ceil(showAreaWidth/80);i++){
         showArea.append("text")
         .attr('x',1+i*80)
-        .attr('y',showAreaHeight-120)
-        .text(Math.ceil(xMin + i*((xMax - xMin)/Math.ceil(showAreaWidth/80))))
-        console.log(Math.ceil(xMin + i*((xMax - xMin)/Math.ceil(showAreaWidth/80))))    
+        .attr('y',showAreaHeight-20)
+        .text(Math.ceil(xMin + i*((xMax - xMin)/Math.ceil(showAreaWidth/80))))  
     }
     //y-axis text
-    for (var i = 0; i < Math.ceil(showAreaWidth/80);i++){
+    for (var i = 0; i < Math.ceil(showAreaHeight/40)-2;i++){
         showArea.append("text")
         .attr('x',1)
         .attr('y',40+i*40)
-        .text('test')
-        
-        //console.log(Math.ceil(xMin + i*((xMax - xMin)/Math.ceil(showAreaWidth/80))))    
+        .text(Math.ceil(yMin + i*((yMax - yMin)/Math.ceil(showAreaHeight/80))))
     }
 
     var t = d3.transition().duration(1000);
@@ -226,8 +223,8 @@ function updateDiagram(diagramData){
                         .attr("xlink:href",'asset/imgs/'+painting.ID+'.jpg')
                         .attr("width", 100)
                         .attr("height", 100)
-                        .attr("y", -40)
-                        .attr("x", -40);
+                        .attr("y", -20)
+                        .attr("x", -20);
                 
                 showArea.append('circle')
                     .transition(t)
@@ -245,15 +242,15 @@ function updateDiagram(diagramData){
                     .attr("Title", painting.Title)
                     .attr("stroke", "transparent")
                     .attr("stroke-width", "2px")
-                    .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*showAreaWidth+60)
-                    .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*showAreaHeight+40)
+                    .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*showAreaWidth+50)
+                    .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*showAreaHeight+30)
                     .attr("fill", function(d,j){
                         return 'url(#painting-'+painting.ID+')'
                     });                                         
 
 //add grid
                 //x-axis
-                for(var i = 0 ;i<Math.ceil(showAreaHeight/20)-6;i++){
+                for(var i = 0 ;i<Math.ceil(showAreaHeight/20)-1;i++){
                     showArea.append("line")
                         .attr('x1',1)
                         .attr('y1',20*i+1)
@@ -270,7 +267,7 @@ function updateDiagram(diagramData){
                     .attr('x1',20*i+1)
                     .attr('y1',0)
                     .attr('x2',20*i+1)
-                    .attr('y2',showAreaHeight-140)
+                    .attr('y2',showAreaHeight-20)
                     .attr("stroke-width", "0.1px")
                     .attr("stroke", "rgba(140, 150, 150, 0.7)");
                 }
