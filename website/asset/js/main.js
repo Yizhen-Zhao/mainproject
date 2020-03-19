@@ -287,6 +287,7 @@ if(firstCall){
                     .attr("area", painting.area)
                     .attr("gender", painting.gender)
                     .attr("url", painting.url)
+                    .attr("artistUrl",painting.artist_info_url)
                     .attr("paintingUrl", painting.painting_info_url)
                     .attr("Title", painting.Title)
                     .attr("stroke", "transparent")
@@ -297,10 +298,8 @@ if(firstCall){
                         return 'url(#painting-'+painting.ID+')'
                     });                                         
 
+                    $('circle').click(function(){window.open($(this).attr('paintingUrl'),'_blank');});
 
-        
-                // Click on img to get painting information page
-                $('circle').click(function(){window.open($(this).attr('paintingUrl'),'_blank');});
 
                 //add tooltip to pic circles
                 $(document).ready(function(){
