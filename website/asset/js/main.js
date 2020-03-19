@@ -787,7 +787,7 @@ function drawYawLine(){
     points = getYawPoints();
     //console.log(getYawPoints());
     for(var i = 0; i < points.length; i++){
-        points[i][1] = 100 - points[i][1];
+        points[i][1] = 120 - points[i][1];
     }
     //console.log(points);
     //console.log(points);
@@ -906,7 +906,7 @@ function drawPitchLine(){
     //console.log(getPitchPoints());
     for(var i = 0; i < points.length; i++){
         //need to change with large data
-        points[i][1] = 100 - points[i][1];
+        points[i][1] = 120 - points[i][1];
     }
     //console.log(points);
     //console.log(points);
@@ -1029,7 +1029,7 @@ function drawRollLine(){
     points = getRollPoints();
     //console.log(getRollPoints());
     for(var i = 0; i < points.length; i++){
-        points[i][1] = 100 - points[i][1];
+        points[i][1] = 120 - points[i][1];
     }
     //console.log(points);
     //console.log(points);
@@ -1148,7 +1148,7 @@ function drawHappyLine(){
     points = getHappyPoints();
     for(var i = 0; i < points.length; i++){
         //need to change with large data
-        points[i][1] = 100 - points[i][1];
+        points[i][1] = 120 - points[i][1];
     }
     //console.log(points);
     var lineGenerator = d3.line()
@@ -1188,7 +1188,7 @@ function getHappyPoints(){
         var tmpsadness = selectedDict['sadness'].includes(sadness.toString());
         if(tmparea && tmpgender && tmpage && tmpyaw && tmproll && tmppitch && tmpeyes && tmpmouth && tmpsmile && tmpneutral && tmpsadness){
             //need to change with large data
-            points[happy / 10][1] = points[happy / 10][1] + 1;
+            points[happy / 10][1] = points[happy / 10][1] + 0.7;
         }        
     }
     return points;
@@ -1264,7 +1264,7 @@ function drawNeutralLine(){
     points = getNeutralPoints();
     for(var i = 0; i < points.length; i++){
         //need to change with large data
-        points[i][1] = 100 - points[i][1];
+        points[i][1] = 120 - points[i][1];
     }
     //console.log(points);
     //console.log(points);
@@ -1305,7 +1305,7 @@ function getNeutralPoints(){
         var tmpsadness = selectedDict['sadness'].includes(sadness.toString());
         if(tmparea && tmpgender && tmpage && tmpyaw && tmproll && tmppitch && tmpeyes && tmpmouth && tmpsmile && tmphappy && tmpsadness){
             //need to change with large data
-            points[neutral / 10][1] = points[neutral / 10][1] + 1;
+            points[neutral / 10][1] = points[neutral / 10][1] + 0.7;
         }        
     }
     return points;
@@ -1382,7 +1382,7 @@ function drawSadnessLine(){
     points = getSadnessPoints();
     for(var i = 0; i < points.length; i++){
         //need to change with large data
-        points[i][1] = 100 - points[i][1];
+        points[i][1] = 120 - points[i][1];
     }
     //console.log(points);
     //console.log(points);
@@ -1422,7 +1422,7 @@ function getSadnessPoints(){
         var sadness = Math.floor(parseInt(data[i]['sadness'])/10)*10;
         if(tmparea && tmpgender && tmpage && tmpyaw && tmproll && tmppitch && tmpeyes && tmpmouth && tmpsmile && tmphappy && tmpneutral){
             //need to change with large data
-            points[sadness / 10][1] = points[sadness / 10][1] + 1;
+            points[sadness / 10][1] = points[sadness / 10][1] + 0.7;
         }        
     }
     return points;
