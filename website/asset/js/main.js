@@ -195,28 +195,65 @@ function updateDiagram(diagramData){
     dictExistSvgCircle['painting-circle-'+diagramData[i].ID] = {'flag_remove': false,'props': diagramData[i]};
 
     }
-    var xAxisLength = xMax-xMin+60;
-    var yAxisLength = yMax-yMin+60;
-    var showAreaWidth = showArea.node().getBoundingClientRect().width;
-    var showAreaHeight = showArea.node().getBoundingClientRect().height;
+    var xAxisLength = xMax-xMin;
+    var yAxisLength = yMax-yMin;
+    var showAreaWidth = showArea.node().getBoundingClientRect().width-50-20;
+    var showAreaHeight = showArea.node().getBoundingClientRect().height-30-40;
+    var hBoxCount = Math.floor(showArea.node().getBoundingClientRect().width/20);
+    var boxWidth = showArea.node().getBoundingClientRect().width / hBoxCount;
+    var vBoxCount = Math.floor(showArea.node().getBoundingClientRect().height/20);
+    var boxHeight = showArea.node().getBoundingClientRect().height / vBoxCount;
+    
+    //console.log(boxWidth,boxHeight);
 
     //x-axis text
-    for (var i = 0; i < Math.ceil(showAreaWidth/80);i++){
+    var xNodeNumber = Math.ceil(showAreaWidth/boxWidth/4);
+    var yNodeNumber = Math.ceil(showAreaHeight/boxHeight/2);
+    var xStepSize = xAxisLength / (xNodeNumber-1);
+
+    for (var i = 0; i < xNodeNumber;i++){
         showArea.append("text")
         .attr('class','axis_text')
-        .attr('x',1+i*80)
-        .attr('y',showAreaHeight-20)
-        .text(Math.ceil(xMin + i*((xMax - xMin)/Math.ceil(showAreaWidth/80))))  
+        .attr('x',25+i*boxWidth*4)
+        .attr('y',showAreaHeight+65)
+        .text(Math.ceil(xMin + i*xStepSize))  
     }
     //y-axis text
-    for (var i = 0; i < Math.ceil(showAreaHeight/40)-2;i++){
+    for (var i = 0; i <= yNodeNumber;i++){
         showArea.append("text")
         .attr('class','axis_text')
         .attr('x',1)
-        .attr('y',40+i*40)
-        .text(Math.ceil(yMin + i*((yMax - yMin)/Math.ceil(showAreaHeight/80))))
+        .attr('y',25+2*(i*boxHeight))
+        .text(Math.ceil(yMax - i*(yAxisLength/yNodeNumber)))
     }
+//add grid
+                //x-axis
+                for(var i = 0 ;i<vBoxCount-1;i++){
+                    showArea.append("line")
+                        .attr('class','axis_text')
+                        .attr('x1',40)
+                        .attr('y1',i*boxHeight+20)
+                        .attr('x2',40+boxWidth*hBoxCount)
+                        .attr('y2',i*boxHeight+20)
+                        .attr("stroke-width", "1px")
+                        .attr("stroke", "rgb(140, 150, 150)");
+                }
+                
+                //y-axis
+                for (var i = 0; i< hBoxCount; i++){
 
+                    showArea.append("line")
+                    .attr('class','axis_text')
+                    .attr('x1',i*boxWidth+40)
+                    .attr('y1',20)
+                    .attr('x2',i*boxWidth+40)
+                    .attr('y2',boxHeight*vBoxCount-20)
+                    .attr("stroke-width", "1px")
+                    .attr("stroke", "rgb(140, 150, 150)");
+                }
+                
+                
+                // end of grid
     var t = d3.transition().duration(1000);
     for(var circleId in dictExistSvgCircle){
 
@@ -251,45 +288,13 @@ function updateDiagram(diagramData){
                     .attr("Title", painting.Title)
                     .attr("stroke", "transparent")
                     .attr("stroke-width", "2px")
-                    .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*showAreaWidth+50)
-                    .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*showAreaHeight+30)
+                    .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(boxWidth*(hBoxCount-4))+40)
+                    .attr('cy',((yMax-(1.0*painting[yValue]))/yAxisLength)*(boxHeight*(vBoxCount-3))+20)
                     .attr("fill", function(d,j){
                         return 'url(#painting-'+painting.ID+')'
                     });                                         
 
-//add grid
-                //x-axis
-                for(var i = 0 ;i<Math.ceil(showAreaHeight/20)-1;i++){
-                    showArea.append("line")
-                        .attr('x1',1)
-                        .attr('y1',20*i+1)
-                        .attr('x2',showAreaWidth+40)
-                        .attr('y2',20*i+1)
-                        .attr("stroke-width", "0.1px")
-                        .attr("stroke", "rgba(140, 150, 150, 0.7)");
-                }
-                
-                //y-axis
-                for (var i = 0; i< Math.ceil(showAreaWidth/20)+1; i++){
 
-                    showArea.append("line")
-                    .attr('x1',20*i+1)
-                    .attr('y1',0)
-                    .attr('x2',20*i+1)
-                    .attr('y2',showAreaHeight-35)
-                    .attr("stroke-width", "0.1px")
-                    .attr("stroke", "rgba(140, 150, 150, 0.7)");
-                }
-                showArea.append("line")
-                    .attr('x1',showAreaWidth-1)
-                    .attr('y1',0)
-                    .attr('x2',showAreaWidth-1)
-                    .attr('y2',showAreaHeight-35)
-                    .attr("stroke-width", "0.1px")
-                    .attr("stroke", "rgba(140, 150, 150, 0.7)");
-                
-                
-                // end of grid
         
                 // Click on img to get painting information page
                 $('circle').click(function(){window.open($(this).attr('paintingUrl'),'_blank');});
@@ -351,8 +356,8 @@ function updateDiagram(diagramData){
                 showArea.select('#'+circleId)
                 .transition(t)
                 .attr('r',20)
-                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(showArea.node().getBoundingClientRect().width)+20)
-                .attr('cy',(((1.0*painting[yValue])-yMin)/yAxisLength)*(showArea.node().getBoundingClientRect().height)+20);
+                .attr('cx',(((1.0*painting[xValue])-xMin)/xAxisLength)*(boxWidth*(hBoxCount-4))+40)
+                .attr('cy',((yMax-(1.0*painting[yValue]))/yAxisLength)*(boxHeight*(vBoxCount-3))+20);
             }
         }
         else{
