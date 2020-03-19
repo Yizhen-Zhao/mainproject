@@ -143,6 +143,7 @@ function showSelected(selectedDict){
            // else{ console.log({"smile":data[i].ID,"tmparea": tmparea, "tmpgender": tmpgender, "tmpage": tmpage, "tmpyaw": tmpyaw, "tmppitch": tmppitch, "tmproll": tmproll, "tmpeyes": tmpeyes, "tmpmouth": tmpmouth, "tmpsmile": tmpsmile, "tmphappy": tmphappy, "tmpneutral": tmpneutral, "tmpsadnes": tmpsadness});}
                
     }
+    $('.axis_text').remove();
     updateDiagram(selectedPics);
     document.getElementById('selectedPaintings').textContent = number;
 }
@@ -275,7 +276,7 @@ function updateDiagram(diagramData){
                     .attr('x1',20*i+1)
                     .attr('y1',0)
                     .attr('x2',20*i+1)
-                    .attr('y2',showAreaHeight-20)
+                    .attr('y2',showAreaHeight-35)
                     .attr("stroke-width", "0.1px")
                     .attr("stroke", "rgba(140, 150, 150, 0.7)");
                 }
@@ -283,7 +284,7 @@ function updateDiagram(diagramData){
                     .attr('x1',showAreaWidth-1)
                     .attr('y1',0)
                     .attr('x2',showAreaWidth-1)
-                    .attr('y2',showAreaHeight-140)
+                    .attr('y2',showAreaHeight-35)
                     .attr("stroke-width", "0.1px")
                     .attr("stroke", "rgba(140, 150, 150, 0.7)");
                 
