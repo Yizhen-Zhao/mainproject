@@ -667,7 +667,7 @@ function drawAgeLine(){
     points = getAgePoints();
     for(var i = 0; i < points.length; i++){
         //need to change with large data
-        points[i][1] = 100 - points[i][1];
+        points[i][1] = 120 - points[i][1];
     }
     //console.log(points);
     //console.log(points);
