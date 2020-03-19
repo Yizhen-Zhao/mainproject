@@ -3,6 +3,9 @@
 data =JSON.parse(data);
 
 for(var i = 0; i < data.length; i++){
+    data[i]['pitch'] = parseInt(data[i]['pitch']).toFixed(3);
+    data[i]['roll'] = parseInt(data[i]['roll']).toFixed(3);
+    data[i]['yaw'] = parseInt(data[i]['yaw']).toFixed(3);
     if(parseInt(data[i]['pitch']) >=30){
         data[i]['pitch'] = '29';
     } 
@@ -36,6 +39,7 @@ for(var i = 0; i < data.length; i++){
     data[i]['sadness'].toString();
     data[i]['neutral'].toString();
 }
+console.log(data[2]['pitch']);
 
 var showArea = d3.select('#showArea').append('svg');
 var painting = document.getElementById("painting");
