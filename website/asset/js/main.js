@@ -144,7 +144,7 @@ function showSelected(selectedDict){
                
     }
     $('.axis_text').remove();
-    updateDiagram(selectedPics);
+    updateDiagram(selectedPics,false);
     document.getElementById('selectedPaintings').textContent = number;
 }
 //function to show all painting in show area
@@ -157,16 +157,16 @@ function showAll(){
     drawHappyLine();
     drawNeutralLine();
     drawSadnessLine();
-    updateDiagram(data);
+    updateDiagram(data,true);
 }
 
 function selectionChange(){
     //document.getElementsByClassName('axis_text').remove();
     $('.axis_text').remove();
-    showAll();
+    showSelected(selectedDict);
 }
 
-function updateDiagram(diagramData){
+function updateDiagram(diagramData,firstCall){
     var dictExistSvgCircle = {};
     showArea.selectAll('.svgCircle').each(function(d,i) { 
         dictExistSvgCircle[this.getAttribute("id")] = {'flag_remove': true,'props': null};
@@ -226,34 +226,37 @@ function updateDiagram(diagramData){
         .attr('y',25+2*(i*boxHeight))
         .text(Math.ceil(yMax - i*(yAxisLength/yNodeNumber)))
     }
-//add grid
-                //x-axis
-                for(var i = 0 ;i<vBoxCount-1;i++){
-                    showArea.append("line")
-                        .attr('class','axis_text')
-                        .attr('x1',40)
-                        .attr('y1',i*boxHeight+20)
-                        .attr('x2',40+boxWidth*hBoxCount)
-                        .attr('y2',i*boxHeight+20)
-                        .attr("stroke-width", "1px")
-                        .attr("stroke", "rgb(140, 150, 150)");
-                }
-                
-                //y-axis
-                for (var i = 0; i< hBoxCount; i++){
+if(firstCall){
 
-                    showArea.append("line")
-                    .attr('class','axis_text')
-                    .attr('x1',i*boxWidth+40)
-                    .attr('y1',20)
-                    .attr('x2',i*boxWidth+40)
-                    .attr('y2',boxHeight*vBoxCount-20)
-                    .attr("stroke-width", "1px")
-                    .attr("stroke", "rgb(140, 150, 150)");
-                }
-                
-                
+    //add grid
+    //x-axis
+    for(var i = 0 ;i<vBoxCount-1;i++){
+        showArea.append("line")
+            .attr('class','axis_line')
+            .attr('x1',40)
+            .attr('y1',i*boxHeight+20)
+            .attr('x2',40+boxWidth*hBoxCount)
+            .attr('y2',i*boxHeight+20)
+            .attr("stroke-width", "1px")
+            .attr("stroke", "rgba(140, 150, 150,0.5)");
+    }
+    
+    //y-axis
+    for (var i = 0; i< hBoxCount; i++){
+
+        showArea.append("line")
+        .attr('class','axis_line')
+        .attr('x1',i*boxWidth+40)
+        .attr('y1',20)
+        .attr('x2',i*boxWidth+40)
+        .attr('y2',boxHeight*vBoxCount-20)
+        .attr("stroke-width", "1px")
+        .attr("stroke", "rgba(140, 150, 150,0.5)");
+    }
+            
+            
                 // end of grid
+}
     var t = d3.transition().duration(1000);
     for(var circleId in dictExistSvgCircle){
 
